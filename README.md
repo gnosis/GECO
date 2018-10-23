@@ -1,12 +1,14 @@
 # Gnosis-Ecosystem-Fund
+**_Creating an environment where ambitious teams can expand and shape the blockchain ecosystem towards a redistributed future._**
 
-The Gnosis Ecosystem Fund empowers teams that aims to drive global adoption of decentralized applications and to leverage the full potential of Gnosis' products and protocols. Our mission is to create a collaborative environment where ambitious teams can expand and shape the Gnosis ecosystem. 
+The Gnosis Ecosystem Fund empowers teams to drive the global adoption of decentralized applications by leveraging the full potential of Gnosis' products and protocols. Our mission is to create a collaborative environment where ambitious projects can expand and shape the Ethereum ecosystem. 
 
-We provide selected applicants with funding, mentoring, and outreach support to help them activate and engage with the community around their project. Our team also offers resources to onboard students and developers new to decentralized technologies. Whether you are enthusiastic about building modules and integrations for our products or enhancing their user experience, or are passionate about new market mechanisms and governance, this is your opportunity to #BUIDL!
+We provide select applicants with funding, mentoring, and marketing resources to help them activate and engage with the community around their project. Our team also offers resources to onboard students and developers new to decentralized technologies. To us, developing the community means investing in diverse talent with a variety of interests and backgrounds. Are you enthusiastic about building modules and integrations for our products, enhancing user experience, or passionate about new market mechanisms and governance? Well, this is your opportunity to #BUIDL!
 
-We welcome you to explore a diverse range of topics, such as tooling, infrastructure, and research, that fall in line with the products we're building at Gnosis. Our accomplished team of developers, product managers, and  communication specialists will provide ongoing support and guidance. 
+We welcome you to explore a diverse range of topics such as tooling, infrastructure, and research, that fall in line with the products we're building at Gnosis. Our accomplished team of developers, product managers, and communication specialists will provide ongoing support and guidance. 
 
-To reach our goal of a decentralized future, it is imperative that we support developers who want to build on distributed platforms like Gnosis’. We believe that the Gnosis Ecosystem Fund will bring us one step closer to a redistributed future. 
+To reach our goal of a decentralized future, it is imperative that we support developers who want to build on distributed platforms.We believe that the Gnosis Ecosystem Fund will bring us one step closer to the redistributed future we’re imagining!  
+ 
 
 
 ### What kind of projects are we looking for? 
