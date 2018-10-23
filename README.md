@@ -20,9 +20,9 @@ Proposals should focus on:
   
 Our platforms and potential buidl ideas include:
 
-- DutchX: Buyer interface, Token BuyBacks, Deposit and withdraw widget. 
-- Gnosis Safe: Recovery modules, Safe integration into Dapps
-- PM: Prediction market use cases, Oracle integrations, wallet integrations, futarchy interface
+- DutchX: buyer interface, token BuyBacks, deposit or withdraw widget. 
+- Gnosis Safe: recovery modules, transfer limits or Gnosis Safe integration into Dapps
+- PM: prediction market use cases, oracle integrations, wallet integrations or a futarchy interface
 
 Furthermore, we will also consider projects involved in research and education related to:
 - Decentralized exchanges
