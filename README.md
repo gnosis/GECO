@@ -60,6 +60,7 @@ For the remainder of 2018, grant proposals can be submitted at any time. Then, s
 * Brief description of your team
 * Why you think you should receive funds
 * Whether you’ve applied for other sources of funding and, if so, which ones
+
 Check out our template here
 
 ### Others: 
