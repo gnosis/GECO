@@ -61,7 +61,7 @@ For the remainder of 2018, grant proposals can be submitted at any time. Then, s
 * Why you think you should receive funds
 * Whether you’ve applied for other sources of funding and, if so, which ones
 
-Check out our template here
+Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/Proposals/ProposalGuideline.md)!
 
 ### Others: 
 The Intellectual Property of your projects will be owned by you, and you are responsible for hosting, maintaining and the compliance of your project. 
