@@ -5,5 +5,5 @@
 * Outline your proposal in that file
 * Create a Pull Request to merge your submission into the our repository 
 
-Check out our proposal template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/Proposals/ProposalGuideline.md)!
+Check out our proposal template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/Proposals/ProposalTemplate.md)!
 
