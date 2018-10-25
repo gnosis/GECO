@@ -48,7 +48,7 @@ If you become part of the Gnosis ecosystem, you will be offered more than just f
 
 **Community/ Outreach**
 
-Teams will have the option of working at Full Node, our co-working space in Berlin. The Gnosis Communications team will provide branding and outreach support to encourage engagement with the larger blockchain community. Bigger projects have the opportunity present their work at DappCon. 
+Teams will have the option of working at [Full Node](https://www.fullnode.berlin/), our co-working space in Berlin. The Gnosis Communications team will provide branding and outreach support to encourage engagement with the larger blockchain community. Bigger projects have the opportunity present their work at [DappCon](https://dappcon.io/). 
 
 ### How to apply for a grant:
 For the remainder of 2018, grant proposals can be submitted at any time and will be evaluated by the Gnosis team. 
