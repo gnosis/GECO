@@ -63,11 +63,12 @@ Then, starting in 2019, we will introduce set application deadlines, advisors an
 * Why you think you should receive funds
 * Whether you’ve applied for other sources of funding and, if so, which ones
 
+Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/Proposals/ProposalTemplate.md)!
+
 ### How to submit your proposal 
 * Fork the [Gnosis Ecosystem Fund GitHub repository](https://github.com/gnosis/Gnosis-Ecosystem-Fund)
 * Create a new file with your project’s name 
 * Outline your proposal in that file. 
-* Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/Proposals/ProposalGuideline.md)!
 * Create a Pull Request to merge your submission into the our repository. 
 
 ### Others: 
