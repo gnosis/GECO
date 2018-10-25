@@ -12,7 +12,7 @@ Well, this is your opportunity to #BUIDL!
 
 We welcome you to explore a diverse range of topics such as tooling, infrastructure, and research, that fall in line with the products we're building at Gnosis. Our accomplished team of developers, product managers, and communication specialists will provide ongoing support and guidance. 
 
-To reach our goal of a decentralized future, it is imperative that we support developers who want to build on distributed platforms.We believe that the Gnosis Ecosystem Fund will bring us one step closer to the redistributed future we’re imagining!  
+To reach our goal of a decentralized future, it is imperative that we support developers who want to build on distributed platforms. We believe that the Gnosis Ecosystem Fund will bring us one step closer to the redistributed future we’re imagining!  
 ### What kind of projects are we looking for? 
 
 The main focus of the grant is to support projects that further the Gnosis ecosystem and our core mission to redistribute the future. Your proposed project should be directly connected to our products and vision. 
