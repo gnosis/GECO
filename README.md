@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="350px" src="https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/GEF_logo_text%20(2).png" />
+  <img width="400px" src="https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/GEF_logo_text%20(2).png" />
 </p>
 
 **_Creating an environment where ambitious teams can expand and shape the blockchain ecosystem towards a redistributed future._**
@@ -48,7 +48,7 @@ If you become part of the Gnosis ecosystem, you will be offered more than just f
 
 **Community/ Outreach**
 
-Funded projects will also have the option of working at and organizing meetups in our co-working space Full Node in Berlin. Bigger projects also will have the possibility to speak at DappCon. 
+Teams will have the option of working at Full Node, our co-working space in Berlin. The Gnosis Communications team will provide branding and outreach support to encourage engagement with the larger blockchain community. Bigger projects have the opportunity present their work at DappCon. 
 
 ### How to apply for a grant:
 For the remainder of 2018, grant proposals can be submitted at any time and will be evaluated by the Gnosis team. 
@@ -78,5 +78,6 @@ Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/bl
 The Intellectual Property of your projects will be owned by you, and you are responsible for hosting, maintaining and the compliance of your project. 
 
 ### Additional Information
-- Reach out to our Devs and Product Managers via [Gitter](https://gitter.im/gnosis)
-- We noticed that people are keen on building on top of us but sometimes they lack of ideas. We put together different  bounties for tools/modules/ extension which help improve our products. Check them out [here](https://gitcoin.co/explorer?keywords=gnosis&order_by=-web3_created)
+* Reach out to our Devs and Product Managers via [Gitter](https://gitter.im/gnosis)
+* We put together different  bounties for tools/modules/ extension which help improve our products. Check them out [here](https://gitcoin.co/explorer?keywords=gnosis&order_by=-web3_created)
+* Documentation of our [Prediction markets](https://gnosis-apollo.readthedocs.io/en/latest/), [DutchX](https://dutchx.readthedocs.io/en/latest/) and the [Gnosis Safe](https://gnosis-safe.readthedocs.io/en/latest/) protocols
