@@ -6,7 +6,7 @@
 
 The Gnosis Ecosystem Fund empowers teams to drive the global adoption of decentralized applications by leveraging the full potential of Gnosis' products and protocols. Our mission is to create a collaborative environment where ambitious projects can expand and shape the Ethereum ecosystem. 
 
-We provide select applicants with funding, mentoring, and marketing resources to help them activate and engage with the community around their project. Our team also offers resources to onboard students and developers new to decentralized technologies. To us, developing the community means investing in diverse talent with a variety of interests and backgrounds. Are you enthusiastic about building modules and integrations for our products, enhancing user experience, or passionate about new market mechanisms and governance? 
+We provide selected applicants with funding, mentoring, and outreach support to help them activate and engage with the community around their project. Our team also offers resources to onboard students and developers new to decentralized technologies. To us, developing the community means investing in diverse talent with a variety of interests and backgrounds. Are you enthusiastic about building modules and integrations for our products, enhancing user experience, or passionate about new market mechanisms and governance? 
 
 Well, this is your opportunity to #BUIDL!
 
@@ -40,7 +40,7 @@ Furthermore, we will also consider projects involved in research and education r
 
 **Funding**
 
-We want to support a wide range of projects in both topic and scale. For this reason, we are offering grants of between $5.000 and $100.000, which will be paid out in GNO tokens. If approved, you will be allocated a sum that reflects the scope and ambition of your proposal. To get a sense of how much funding to request for your proposal, check out our bounties and current projects for an estimation. 
+We want to support a wide range of projects in both topic and scale. For this reason, we are offering grants of between $5.000 and $100.000, which will be paid out in GNO tokens. If approved, you will be allocated a sum that reflects the scope and ambition of your proposal. To get a sense of how much funding to request for your proposal, check out our [bounties](https://gitcoin.co/profile/GnosisEcosystemFund) and current projects for an estimation. 
 
 **Mentoring**
 
