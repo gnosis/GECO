@@ -1,4 +1,7 @@
-# Gnosis-Ecosystem-Fund
+<p align="center">
+  <img width="350px" src="https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/GEF_logo_text%20(2).png" />
+</p>
+
 **_Creating an environment where ambitious teams can expand and shape the blockchain ecosystem towards a redistributed future._**
 
 The Gnosis Ecosystem Fund empowers teams to drive the global adoption of decentralized applications by leveraging the full potential of Gnosis' products and protocols. Our mission is to create a collaborative environment where ambitious projects can expand and shape the Ethereum ecosystem. 
