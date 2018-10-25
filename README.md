@@ -8,11 +8,11 @@ The Gnosis Ecosystem Fund empowers teams to drive the global adoption of decentr
 
 We provide selected applicants with funding, mentoring, and outreach support to help them activate and engage with the community around their project. Our team also offers resources to onboard students and developers new to decentralized technologies. To us, developing the community means investing in diverse talent with a variety of interests and backgrounds. 
 
-We welcome you to explore a diverse range of topics, such as tooling, infrastructure, and research, that fall in line with the products we're building at Gnosis. Are you enthusiastic about building modules and integrations for our products, enhancing user experience, or passionate about new market mechanisms and governance
+We welcome you to explore a diverse range of topics, such as tooling, infrastructure, and research, that fall in line with the products we're building at Gnosis. Are you enthusiastic about building modules and integrations for our products, enhancing user experience, or passionate about new market mechanisms and governance.
 
 Well, this is your opportunity to #BUIDL!
 
-To reach our goal of a decentralized future, it is imperative that we support developers who want to build on distributed platforms. Our accomplished team of developers, product managers, and communication specialists will provide ongoing support and guidance. We believe that the Gnosis Ecosystem Fund will bring us one step closer to the redistributed future we’re imagining!  
+To reach our goal of a decentralized future, it is imperative that we support developers who want to build on distributed platforms. We believe that the Gnosis Ecosystem Fund will bring us one step closer to the redistributed future we’re imagining!  
 ### What kind of projects are we looking for? 
 
 The main focus of the grant is to support projects that further the Gnosis ecosystem and our core mission to redistribute the future. Your proposed project should be directly connected to our products and vision. 
@@ -48,7 +48,7 @@ If you become part of the Gnosis ecosystem, you will be offered more than just f
 
 **Community/ Outreach**
 
-Teams will have the option of working at [Full Node](https://www.fullnode.berlin/), our co-working space in Berlin. The Gnosis Communications team will provide branding and outreach support to encourage engagement with the larger blockchain community. Bigger projects have the opportunity present their work at [DappCon](https://dappcon.io/). 
+Teams will have the option of working at [Full Node](https://www.fullnode.berlin/), our co-working space in Berlin. The Gnosis Communications team will provide branding and outreach support to encourage engagement with the larger blockchain community. Bigger projects will have the opportunity present their work at [DappCon](https://dappcon.io/). 
 
 ### How to apply for a grant:
 For the remainder of 2018, grant proposals can be submitted at any time and will be evaluated by the Gnosis team. 
@@ -80,4 +80,4 @@ The Intellectual Property of your projects will be owned by you, and you are res
 ### Additional Information
 * Reach out to our Devs and Product Managers via [Gitter](https://gitter.im/gnosis)
 * We put together different  bounties for tools/modules/ extension which help improve our products. Check them out [here](https://gitcoin.co/explorer?keywords=gnosis&order_by=-web3_created)
-* Documentation of our [Prediction markets](https://gnosis-apollo.readthedocs.io/en/latest/), [DutchX](https://dutchx.readthedocs.io/en/latest/) and the [Gnosis Safe](https://gnosis-safe.readthedocs.io/en/latest/) protocols
+* Chek out the documentation of our [Prediction markets](https://gnosis-apollo.readthedocs.io/en/latest/), [DutchX](https://dutchx.readthedocs.io/en/latest/) and the [Gnosis Safe](https://gnosis-safe.readthedocs.io/en/latest/) protocols
