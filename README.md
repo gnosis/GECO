@@ -3,14 +3,13 @@
 
 The Gnosis Ecosystem Fund empowers teams to drive the global adoption of decentralized applications by leveraging the full potential of Gnosis' products and protocols. Our mission is to create a collaborative environment where ambitious projects can expand and shape the Ethereum ecosystem. 
 
-We provide select applicants with funding, mentoring, and marketing resources to help them activate and engage with the community around their project. Our team also offers resources to onboard students and developers new to decentralized technologies. To us, developing the community means investing in diverse talent with a variety of interests and backgrounds. Are you enthusiastic about building modules and integrations for our products, enhancing user experience, or passionate about new market mechanisms and governance? Well, this is your opportunity to #BUIDL!
+We provide select applicants with funding, mentoring, and marketing resources to help them activate and engage with the community around their project. Our team also offers resources to onboard students and developers new to decentralized technologies. To us, developing the community means investing in diverse talent with a variety of interests and backgrounds. Are you enthusiastic about building modules and integrations for our products, enhancing user experience, or passionate about new market mechanisms and governance? 
+
+Well, this is your opportunity to #BUIDL!
 
 We welcome you to explore a diverse range of topics such as tooling, infrastructure, and research, that fall in line with the products we're building at Gnosis. Our accomplished team of developers, product managers, and communication specialists will provide ongoing support and guidance. 
 
 To reach our goal of a decentralized future, it is imperative that we support developers who want to build on distributed platforms.We believe that the Gnosis Ecosystem Fund will bring us one step closer to the redistributed future we’re imagining!  
- 
-
-
 ### What kind of projects are we looking for? 
 
 The main focus of the grant is to support projects that further the Gnosis ecosystem and our core mission to redistribute the future. Your proposed project should be directly connected to our products and vision. 
@@ -49,7 +48,8 @@ If you become part of the Gnosis ecosystem, you will be offered more than just f
 Funded projects will also have the option of working at and organizing meetups in our co-working space Full Node in Berlin. Bigger projects also will have the possibility to speak at DappCon. 
 
 ### How to apply for a grant:
-For the remainder of 2018, grant proposals can be submitted at any time. Then, starting in 2019, we will introduce set application deadlines. 
+For the remainder of 2018, grant proposals can be submitted at any time and will be evaluated by the Gnosis team. 
+Then, starting in 2019, we will introduce set application deadlines, advisors and, mechanism to include the community in the grant approval process. 
 
 ### Your proposal should include: 
 * What you want to build
@@ -63,7 +63,12 @@ For the remainder of 2018, grant proposals can be submitted at any time. Then, s
 * Why you think you should receive funds
 * Whether you’ve applied for other sources of funding and, if so, which ones
 
-Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/Proposals/ProposalGuideline.md)!
+### How to submit your proposal 
+* Fork the [Gnosis Ecosystem Fund GitHub repository](https://github.com/gnosis/Gnosis-Ecosystem-Fund)
+* Create a new file with your project’s name 
+* Outline your proposal in that file. 
+* Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/Proposals/ProposalGuideline.md)!
+* Create a Pull Request to merge your submission into the our repository. 
 
 ### Others: 
 The Intellectual Property of your projects will be owned by you, and you are responsible for hosting, maintaining and the compliance of your project. 
