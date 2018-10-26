@@ -40,44 +40,43 @@ Furthermore, we will also consider projects involved in research and education r
 
 **Funding**
 
-We want to support a wide range of projects in both topic and scale. For this reason, we are offering grants of between $5.000 and $100.000, which will be paid out in GNO tokens. If approved, you will be allocated a sum that reflects the scope and ambition of your proposal. To get a sense of how much funding to request for your proposal, check out our [bounties](https://gitcoin.co/profile/GnosisEcosystemFund) and current projects for an estimation. 
+We want to support a wide range of projects in both topic and scale. For this reason, we are offering grants of between $5.000 and $100.000, which will be paid out in GNO tokens. The allocated funding will reflect the scope and ambition of your proposal.  To get a sense of how much funding to request for your proposal, check out our [bounties](https://gitcoin.co/profile/GnosisEcosystemFund) and current projects for an estimation. 
 
 **Mentoring**
 
-If you become part of the Gnosis ecosystem, you will be offered more than just financial support. You will also be assigned and receive support from a Gnosis developer who will act as your project mentor. Furthermore, we can connect you to experts in the field and to experienced legal, admin, and financial advisors as needed. As our ecosystem continues to develop, we hope to foster a supportive community where past projects are willing to support and mentor new projects. 
+The Gnosis Ecosystem Fund provides ore than just financial support. You will also be assigned and receive support from a Gnosis developer who will act as your project mentor. Furthermore, we can connect you to experts in the field and to experienced legal, admin, and financial advisors as needed. As our ecosystem continues to develop, we hope to foster a supportive community where past projects are willing to support and mentor new projects. 
 
 **Community/ Outreach**
 
-Teams will have the option of working at [Full Node](https://www.fullnode.berlin/), our co-working space in Berlin. The Gnosis Communications team will provide branding and outreach support to encourage engagement with the larger blockchain community. Bigger projects will have the opportunity present their work at [DappCon](https://dappcon.io/). 
+Teams will have the option of working at [Full Node](https://www.fullnode.berlin/), our co-working space in Berlin. The Gnosis Communications team will provide branding and outreach support to encourage engagement with the larger blockchain community. Bigger projects will have the opportunity to present their work at [DappCon](https://dappcon.io/). 
 
 ### How to apply for a grant:
 For the remainder of 2018, grant proposals can be submitted at any time and will be evaluated by the Gnosis team. 
-Then, starting in 2019, we will introduce set application deadlines, advisors and, mechanism to include the community in the grant approval process. 
+In 2019, we will introduce set application deadlines, advisors and, mechanism to include the community in the grant approval process. 
 
 ### Your proposal should include: 
 * What you want to build
 * Why you want to build it
-* What is your overall project goal 
-* A detailed description of the technical realization
-* A schedule incl. milestones and overall timeframe
+* The overall goal of your project
+* A detailed technical description of your project
+* A schedule including milestones and overall timeframe
 * How much funding you’d like to request
 * Your programming portfolio
-* Brief description of your team
-* Why you think you should receive funds
-* Whether you’ve applied for other sources of funding and, if so, which ones
+* A brief description of your team
+* Where you've applied for other sources of funding if applicable
 
 Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/Proposals/ProposalTemplate.md)!
 
 ### How to submit your proposal 
 * Fork the [Gnosis Ecosystem Fund GitHub repository](https://github.com/gnosis/Gnosis-Ecosystem-Fund)
 * Create a new file with your project’s name 
-* Outline your proposal in that file. 
-* Create a Pull Request to merge your submission into the our repository. 
+* Outline your proposal in that file 
+* Create a Pull Request to merge your submission into the our repository 
 
 ### Others: 
-The Intellectual Property of your projects will be owned by you, and you are responsible for hosting, maintaining and the compliance of your project. 
+The Intellectual Property of your projects will be owned by you, and you are responsible for hosting, maintaining and, the compliance of your project. 
 
 ### Additional Information
 * Reach out to our Devs and Product Managers via [Gitter](https://gitter.im/gnosis)
 * We put together different  bounties for tools/modules/ extension which help improve our products. Check them out [here](https://gitcoin.co/explorer?keywords=gnosis&order_by=-web3_created)
-* Chek out the documentation of our [Prediction markets](https://gnosis-apollo.readthedocs.io/en/latest/), [DutchX](https://dutchx.readthedocs.io/en/latest/) and the [Gnosis Safe](https://gnosis-safe.readthedocs.io/en/latest/) protocols
+* Check out the documentation of our [Prediction markets](https://gnosis-apollo.readthedocs.io/en/latest/), [DutchX](https://dutchx.readthedocs.io/en/latest/) and the [Gnosis Safe](https://gnosis-safe.readthedocs.io/en/latest/) protocols
