@@ -4,7 +4,7 @@ _This is a guideline on how to best structure your proposal._
 ## Project Overview
 
 ### Project name
-> Name of your project
+> Tenzorum Project
 ### Team members 
 > Name your team members
 ### What project are you building 
