@@ -1,4 +1,4 @@
-# Proposal Guideline 
+# Tenzorum Project | Gnosis Ecosystem Fund
 _This is a guideline on how to best structure your proposal._
 
 ## Project Overview
