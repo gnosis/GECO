@@ -13,11 +13,11 @@ Peter - Product manager
 
 ### What project are you building 
 
-A meta-transaction relay server that accepts tokens as payment for conducting the meta-transaction. The relay server will be able to convert the payment tokens to ETH or any other chosen choice of reward using DutchX as an liquidity provider.
+A meta-transaction relay server that accepts tokens as payments for conducting the meta-transactions. The relay server will be able to convert the payment tokens to ETH or any other chosen choice of reward using DutchX as a liquidity provider.
 
 ### Why did you decide to build it 
 
-We decided to build it to enable users who are using dapps to conduct transactions using tokens when they do not have ETH. When new users are onboarded to web3 products, many of them do not have cryptocurrency but have the ability to earn tokens. They cannot use or transfer these tokens without ETH. The usual route in acquiring ETH is through KYC and exchanges which provide an high level of friction for the first time web3 users.
+We decided to build it to enable users who are using dapps to conduct transactions using tokens when they do not have ETH. When new users are onboarded to web3 products, many of them do not have cryptocurrency but have the ability to earn tokens. They cannot use or transfer these tokens without ETH. The usual route in acquiring ETH is through KYC and exchanges which provide a high level of friction for the first time web3 users.
 
 ### How long will it take 
 
@@ -32,7 +32,7 @@ $120,000
 Stefan!
 
 ## Your Proposal 
-### Project describtion
+### Project description
 
 We are building a service node network which allows dapps to conduct meta transactions in a p2p resilient manner. Meta-transactions are user signed transactions which are sent to a server which then takes the transaction to then execute through a smart contract. This allows dapps to completely abstract gas away from the user and cover the cost of gas for users. For wallets such as gnosis safe, meta-transactions allow users to spend funds they have in a separate wallet without needing to export keys or move funds. Part of the roadmap is the design and release of a single server implementation 
 
