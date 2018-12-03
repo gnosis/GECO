@@ -50,13 +50,13 @@ The project is composed of the following elements:
 
 2. An open SDK to allow developers to seamlessly deploy and use:
   
-  a. Ephemeral Keys
+      a. Ephemeral Keys
   
-  b. A personal multi-sig (GNOSIS SAFE)
+      b. A personal multi-sig (GNOSIS SAFE)
   
-  c. Personal ENS Domains (TENZ-ID)
+      c. Personal ENS Domains (TENZ-ID)
   
-  d. Meta-Transactions (Relayers)
+      d. Meta-Transactions (Relayers)
   
 3. A decentralized relayer network to support meta-transactions with token rewards connected to DutchX as a liquidity provider.
 
