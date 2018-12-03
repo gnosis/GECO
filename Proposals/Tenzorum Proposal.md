@@ -1,5 +1,5 @@
 # Tenzorum Project | Gnosis Ecosystem Fund
-_This is a guideline on how to best structure your proposal._
+_A gasless onboarding experience to support seamless UX ._
 
 ## Project Overview
 
