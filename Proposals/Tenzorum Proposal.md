@@ -46,20 +46,20 @@ Met Stefan at DEVCON and found a lot of synergies in our vision. 🏄
 ### Project description
 
 The project is composed of the following elements:
-1.A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions being built as a progressive web-app, where we want users to be onboarded and then deploy a Gnosis Safe after successful tasks.
+1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions being built as a progressive web-app, where we want users to be onboarded and then deploy a Gnosis Safe after successful tasks.
 
-2.An open SDK to allow developers to seamless deploy and use:
+2. An open SDK to allow developers to seamless deploy and use:
   a.Ephemeral Keys
   b.A personal multi-sig (GNOSIS SAFE)
   c.Personal ENS Domains (TENZ-ID)
   d.Meta-Transactions (Relayers)
   
-3.A decentralized relayer network to support meta-transactions with token rewards connected to DutchX as a liquidity provider.
+3. A decentralized relayer network to support meta-transactions with token rewards connected to DutchX as a liquidity provider.
 
 
 TO EXPLORE RESEARCH AND COLLABORATION:
-1.Private Transactions using relayers and SDK with Zero-Knowledge transactions.
-2.Social Recovery Modules.
+1. Private Transactions using relayers and SDK with Zero-Knowledge transactions.
+2. Social Recovery Modules.
 
 
 ### Features
