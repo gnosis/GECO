@@ -8,9 +8,13 @@ _This is a guideline on how to best structure your proposal._
 ### Team members 
 
 All Tenzorum team members can be found here: https://tenzorum.org/team/
+
 Moritz Neto - General Manager and UX Lead
+
 Radek Ostrowski - CTO 
+
 Mark Pereira - Fullstack developer 
+
 Peter Pan - Product manager
 
 ### What project are you building 
