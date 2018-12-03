@@ -48,11 +48,11 @@ Met Stefan at DEVCON and found a lot of synergies in our vision. 🏄
 The project is composed of the following elements:
 1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions being built as a progressive web-app, where we want users to be onboarded and then deploy a Gnosis Safe after successful tasks.
 
-2. An open SDK to allow developers to seamless deploy and use:
-  a.Ephemeral Keys
-  b.A personal multi-sig (GNOSIS SAFE)
-  c.Personal ENS Domains (TENZ-ID)
-  d.Meta-Transactions (Relayers)
+2. An open SDK to allow developers to seamlessly deploy and use:
+  a. Ephemeral Keys
+  b. A personal multi-sig (GNOSIS SAFE)
+  c. Personal ENS Domains (TENZ-ID)
+  d. Meta-Transactions (Relayers)
   
 3. A decentralized relayer network to support meta-transactions with token rewards connected to DutchX as a liquidity provider.
 
@@ -76,22 +76,22 @@ TO EXPLORE RESEARCH AND COLLABORATION:
 
 - All the work and achievements will be broadcasted as tutorials and development guides.
 
-### Team description
+### Associated Team Members Description
 
 **Moritz Neto**: Cofounder of Tenzorum Project, Product designer and Growth Manager. Have directly educated more than 300k people about smart contracts and Blockchain Technology with his content.
 
 Linkedin: https://www.linkedin.com/in/moritzneto/
 
 
-**Radek Ostrowski**: CTO with 15 years of big data and systems infrastructure experience. Transitioned into blockchain engineering 2 years ago.
+**Radek Ostrowski**: CTO with 15 years of experience in big data systems and infrastructure. Transitioned into blockchain engineering 2 years ago.
 
 Linkedin: https://www.linkedin.com/in/radekostrowski/
 
-**Mark Pereira**: Fullstack developer with experience building dapps and web3 architecture. Before the web3 space, he was an web developer at a variety of agencies.
+**Mark Pereira**: Fullstack developer with experience building and architecting web and mobile dapps. Before the web3 space, he was a web developer at a variety of dev agencies.
 
 Linkedin: https://www.linkedin.com/in/markspereira/
 
-**Peter (Pet3rpan)**: Product manager with a user experience design background. Led product design for venture funded startups before transitioning into the web3 space.
+**Peter (Pet3rpan)**: Product manager with a user experience design background. Has led product design for venture funded startups before transitioning into the web3 space.
 
 Linkedin: https://www.linkedin.com/in/peter-pan/
 
@@ -109,8 +109,3 @@ Seamless meta-transaction from Tenzorum SDK.
 Permissionless and easy deployment of relayers.
 Meta-transactions fee payable in tokens or ETH.
 Backend integration with DutchX to allow relayers to convert their fee tokens.
-
-#### Phase III
-Further collaboration on research and implementation of proof of concepts on private transactions and the recovery modules.
-
-
