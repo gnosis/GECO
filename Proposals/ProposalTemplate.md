@@ -15,7 +15,7 @@ _This is a guideline on how to best structure your proposal._
 > Estimation of how long you will need to finalize the project
 ### How much funding are you requesting  
 > How much money do will you need to finalize the project
-### How did you hear about the GEF
+### How did you hear about the GECO
 > Website, Twitter, Conference and others
 
 ## Your Proposal 
