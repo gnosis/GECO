@@ -95,9 +95,9 @@ Linkedin: https://www.linkedin.com/in/radekostrowski/
 
 Linkedin: https://www.linkedin.com/in/markspereira/
 
-**Peter (Pet3rpan)**: Product manager with a user experience design background. Has led product design for venture funded startups before transitioning into the web3 space.
+**Daniel Bar**: CEO and Project Manager. Daniel has experience working as an R&D Engineer in the semiconductor industry and nanoelectronics. Deeply rooted in the Chinese cryptocommunity and leading the bitfwd community in APAC region. 
 
-Linkedin: https://www.linkedin.com/in/peter-pan/
+Linkedin: https://www.linkedin.com/in/dtbar/
 
 ### Timeline, Milestones and Deliverables
 
