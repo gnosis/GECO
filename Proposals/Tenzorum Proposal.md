@@ -54,7 +54,7 @@ Met Stefan, Gnosis CTO at DEVCON and found a lot of synergies in our vision. üè
   
       b. A personal multi-sig (GNOSIS SAFE) - A wallet contract that connects between the various devices users interact with and serves as the stable keychain for users' relevant longer term assets holding as well as access recovery.
   
-      c. Personal ENS Domains (TENZ-ID) - a 1 click ENS subdomain factory that allows users, programs and developers to interact with human readable Ethereum addresses. The initial mainnet implementation can be found on [](tenzorum.org/tenz_id) .
+      c. Personal ENS Domains (TENZ-ID) - a 1 click ENS subdomain factory that allows users, programs and developers to interact with human readable Ethereum addresses. The initial mainnet implementation can be found on [tenzorum.org/tenz_id](tenzorum.org/tenz_id) .
   
       d. Meta-Transactions (Relayers) - Transaction that are signed off-chain and are relayed to the network via a proxy node that pays the gas fees.    
   
