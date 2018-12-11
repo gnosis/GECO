@@ -11,11 +11,11 @@ All Tenzorum team members can be found here: https://tenzorum.org/team/
 
 Moritz Neto - General Manager and UX Lead
 
-Radek Ostrowski - CTO 
+Radek Ostrowski - CTO and Tech lead 
 
-Mark Pereira - Fullstack developer 
+Mark Pereira - Fullstack developer and Product Design
 
-Peter Pan - Product manager
+Daniel Bar - CEO and Project Manager
 
 ### What project are you building 
 
@@ -40,30 +40,30 @@ $200,000
 
 ### How did you hear about the GEF
 
-Met Stefan at DEVCON and found a lot of synergies in our vision. 🏄
+Met Stefan, Gnosis CTO at DEVCON and found a lot of synergies in our vision. 🏄
 
 ## Your Proposal 
 ### Project description
 
-The project is composed of the following elements:
-1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions being built as a progressive web-app, where we want users to be onboarded and then deploy a Gnosis Safe after successful tasks.
+####Project elements:
+1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions (Relayed tx) being built as a progressive web-app, where users are interactively onboarded and deploy a Gnosis Safe as part of after the process. We see the integration of Gnosis Safe as an integral piece of web3 security, particularly with recovery configuration and the ability to remove trusted party recovery methods. 
 
 2. An open SDK to allow developers to seamlessly deploy and use:
   
-      a. Ephemeral Keys
+      a. Ephemeral Keys - Key that are used and get discarded or replaced with a stable key in the process of applicaiotn onboarding
   
-      b. A personal multi-sig (GNOSIS SAFE)
+      b. A personal multi-sig (GNOSIS SAFE) - A wallet contract that connects between the various devices users interact with and serves as the stable keychain for users' relevant longer term assets holding as well as access recovery.
   
-      c. Personal ENS Domains (TENZ-ID)
+      c. Personal ENS Domains (TENZ-ID) - a 1 click ENS subdomain factory that allows users, programs and developers to interact with human readable Ethereum addresses. The initial mainnet implementation can be found on [](tenzorum.org/tenz_id) .
   
-      d. Meta-Transactions (Relayers)
+      d. Meta-Transactions (Relayers) - Transaction that are signed off-chain and are relayed to the network via a proxy node that pays the gas fees.    
   
-3. A decentralized relayer network to support meta-transactions with token rewards connected to DutchX as a liquidity provider.
+3. Tenzorum Service Node Network - A decentralized relayer network to support meta-transactions with token rewards connected to DutchX as a liquidity provider. An initial test implementation currently runs in single node mode. Research of the cryptoeconomic models to expand and build a relayer node network in order to create a market for a permissionless layer 2 economies.
 
 
 TO EXPLORE RESEARCH AND COLLABORATION:
-1. Private Transactions using relayers and SDK with Zero-Knowledge transactions.
-2. Social Recovery Modules.
+1. Private Transactions using relayers and Tenzorum SDK with Zero-Knowledge transactions.
+2. Social Recovery to complement the personal Gnosis Safe Multisig.
 
 
 ### Features
