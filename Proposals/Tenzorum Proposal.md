@@ -102,12 +102,22 @@ Linkedin: https://www.linkedin.com/in/dtbar/
 ### Timeline, Milestones and Deliverables
 
 #### Phase I
+
+**Prep work and design**:
+**Integration**
+**Testing**
+
 To deploy and interact with GNOSIS SAFE from Tenzorum SDK.
 Perform all the wallet operations - Checking balances, sending ETH, sending Tokens, etc.
 User experience work guaranteeing that developers can seamless explore all the functionalities of the SAFE and other Tenzorum functions.
 To integrate GNOSIS SAFE into Meta-Connect as a second stage of interaction after a user is already onboarded into the application i.e. continuous exposure of Gnosis product to Tenzorum current and future audience.
 
 #### Phase II
+
+**Prep work and design**:
+**Integration**
+**Testing**
+
 Deploy the network of relayers with the following features:
 Seamless meta-transaction from Tenzorum SDK.
 Permissionless and easy deployment of relayers.
