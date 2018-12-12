@@ -99,27 +99,27 @@ Linkedin: https://www.linkedin.com/in/markspereira/
 
 Linkedin: https://www.linkedin.com/in/dtbar/
 
-### Timeline, Milestones and Deliverables
+## Timeline, Milestones and Deliverables
 
-#### Phase I
+## Phase I
 
-**Prep work and design**:
-**Integration**
-**Testing**
-
-To deploy and interact with GNOSIS SAFE from Tenzorum SDK.
+###Deployment of Gnosis SAFE compatible Tenzorum SDK component.
 Perform all the wallet operations - Checking balances, sending ETH, sending Tokens, etc.
-User experience work guaranteeing that developers can seamless explore all the functionalities of the SAFE and other Tenzorum functions.
-To integrate GNOSIS SAFE into Meta-Connect as a second stage of interaction after a user is already onboarded into the application i.e. continuous exposure of Gnosis product to Tenzorum current and future audience.
 
-#### Phase II
+###User experience work 
+Prepare documentation and interfacing guidlines for developers to explore all the functionalities of the Gnosis SAFE through various Tenzorum functions.
 
-**Prep work and design**:
-**Integration**
-**Testing**
+###Integration of Gnosis SAFE into [MetaConnect](Metaconnect.org) 
+Advanced user interaction after onboarding into the application i.e. continuous exposure of Gnosis product to Tenzorum current and future audience.
 
-Deploy the network of relayers with the following features:
+## Phase II
+
+### Relayer Network deployment 
 Seamless meta-transaction from Tenzorum SDK.
-Permissionless and easy deployment of relayers.
+### Testing of permissionless Test Network  
+Permissionless p2p communication and deployment of new relayers.
+### Meta-transaction conversions
 Meta-transactions fee payable in tokens or ETH.
+
+### Liquidity reserves integrations
 Backend integration with DutchX to allow relayers to convert their fee tokens.
