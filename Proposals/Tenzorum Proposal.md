@@ -47,7 +47,7 @@ Met Stefan, Gnosis CTO at DEVCON and found a lot of synergies in our vision. üè
 ### Project description
 
 #### Project elements:
-1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions (Relayed tx) being built as a progressive web-app, where users are interactively onboarded and deploy a Gnosis SAFE as part of after the process. We see the integration of Gnosis SAFE as an integral piece of web3 security, particularly with recovery configuration and the ability to remove trusted party recovery methods. 
+1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions (Relayed tx) being built as a progressive web-app, where users are interactively onboarded and deploy a Gnosis SAFE as part of the process. We see the integration of Gnosis SAFE as an integral piece of web3 security, particularly with recovery configuration and the ability to remove trusted party recovery methods. 
 
 2. An open SDK to allow developers to seamlessly deploy and use:
   
@@ -102,9 +102,9 @@ Linkedin: https://www.linkedin.com/in/dtbar/
 
 ## Timeline, Milestones and Deliverables
 
-Encourage Gnosis SAFE adoption. 
+Encourage Gnosis SAFE and DutchX Adoption. 
 
-Note, some of the below milestones will be achieved in parallel.
+Note, the below milestones can be achieved in parallel.
 
 ### Integration of Gnosis SAFE functionality into the SDK component ($25k - 2 months)
 Incorporate SAFE into the SDK (leveraging Universal Logins), thus providing anyone the possibility of integrating SAFE into their applications. This will include all the wallet operations - checking balances, sending ETH, sending tokens, etc. Existing SAFE functionality will be replicated and addapted and a developer friendly SDK interface to SAFE will be created. The ease of use of the SDK will be enforced by the work in sections below. The result of this will be an open sourced SDK including Tenzorum, Universal Logins and Gnosis SAFE functionality.
