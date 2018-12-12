@@ -5,6 +5,7 @@ _A gasless onboarding experience to support seamless UX ._
 
 ### Project name
 > Tenzorum Project
+
 ### Team members 
 
 All Tenzorum team members can be found here: https://tenzorum.org/team/
@@ -36,7 +37,7 @@ We believe that creating this system where new users don‚Äôt have to go after ET
 
 ### How much funding are you requesting  
 
-$200,000
+$120,000
 
 ### How did you hear about the GEF
 
@@ -45,8 +46,8 @@ Met Stefan, Gnosis CTO at DEVCON and found a lot of synergies in our vision. üè
 ## Your Proposal 
 ### Project description
 
-####Project elements:
-1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions (Relayed tx) being built as a progressive web-app, where users are interactively onboarded and deploy a Gnosis Safe as part of after the process. We see the integration of Gnosis Safe as an integral piece of web3 security, particularly with recovery configuration and the ability to remove trusted party recovery methods. 
+#### Project elements:
+1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions (Relayed tx) being built as a progressive web-app, where users are interactively onboarded and deploy a Gnosis SAFE as part of after the process. We see the integration of Gnosis SAFE as an integral piece of web3 security, particularly with recovery configuration and the ability to remove trusted party recovery methods. 
 
 2. An open SDK to allow developers to seamlessly deploy and use:
   
@@ -63,18 +64,18 @@ Met Stefan, Gnosis CTO at DEVCON and found a lot of synergies in our vision. üè
 
 TO EXPLORE RESEARCH AND COLLABORATION:
 1. Private Transactions using relayers and Tenzorum SDK with Zero-Knowledge transactions.
-2. Social Recovery to complement the personal Gnosis Safe Multisig.
+2. Social Recovery to complement the personal Gnosis SAFE.
 
 
 ### Features
 
 - EIP 1077 implementation - Universal Logins + Relayer Network
 
-- Gnosis Safe integration into Tenzorum SDK + Universal Logins SDK
+- Gnosis SAFE integration into Tenzorum SDK/Universal Logins SDK
 
-- User will be able to deploy a gnosis safe from MetaConnect app.
+- User will be able to deploy a Gnosis SAFE from MetaConnect app.
 
-- Developers will be able to integrate Gnosis Safe into their applications easily.
+- Developers will be able to integrate Gnosis SAFE into their applications easily.
 
 - Relayers will be able to convert the rewarded tokens using DutchX.
 
@@ -101,25 +102,36 @@ Linkedin: https://www.linkedin.com/in/dtbar/
 
 ## Timeline, Milestones and Deliverables
 
-## Phase I (3 months)
+Encourage Gnosis SAFE adoption. 
 
-### Integration of Gnosis SAFE compatible Tenzorum SDK component.
-Perform all the wallet operations - Checking balances, sending ETH, sending Tokens, etc.
+Note, some of the below milestones will be achieved in parallel.
 
-### User experience work 
-Prepare documentation and interfacing guidlines for developers to explore all the functionalities of the Gnosis SAFE through various Tenzorum functions.
+### Integration of Gnosis SAFE functionality into the SDK component ($25k - 2 months)
+Incorporate SAFE into the SDK (leveraging Universal Logins), thus providing anyone the possibility of integrating SAFE into their applications. This will include all the wallet operations - checking balances, sending ETH, sending tokens, etc. Existing SAFE functionality will be replicated and addapted and a developer friendly SDK interface to SAFE will be created. The ease of use of the SDK will be enforced by the work in sections below. The result of this will be an open sourced SDK including Tenzorum, Universal Logins and Gnosis SAFE functionality.
 
-### Integration of Gnosis SAFE into [MetaConnect](Metaconnect.org) 
-Advanced user interaction after onboarding into the application i.e. continuous exposure of Gnosis product to Tenzorum current and future audience.
+### User and developer experience work ($10k - 1 month)
+Prepare documentation and interfacing guidlines for users to be able to seamlessly use and understand Gnosis SAFE.
+Prepare documentation for developers explaining all the functionalities of the Gnosis SAFE through the SDK including
+code snippets and example implementations. The work of demonstrating the use of the SDK is described in the following section. 
+The result of this work will be several blog posts and developer documentation on SAFE and it's usage via the the SDK.
 
-## Phase II (3 months following Phase I)
+### Integration of Gnosis SAFE into [MetaConnect](Metaconnect.org) ($20k - 1.5 months)
+MetaConnect allows even non-blockchain aware users to be seamlessly onboarded to Ethereum. 
+Demonstrate the use of the SDK by integrating it into MetaConnect app. This will include an option to have SAFE created via sponsored meta transaction and the use of TENZ-ID to be associated with the SAFE instance. Additionally, all usual SAFE operation will be available as per SDK. We consider MetaConnect as a vehicle for constantly aquiring more users keeping them engaged. This will offer continuous exposure of Gnosis products to Tenzorum current and future audience. 
+The result of this work will be MetaConnect app offering the creation of Gnosis SAFE with an associated TENZ-ID and all SDK SAFE features.
 
-### Relayer Network deployment 
-Seamless meta-transaction from Tenzorum SDK.
-### Testing of permissionless Test Network  
-Permissionless p2p communication and deployment of new relayers.
-### Meta-transaction conversions
-Meta-transactions fee payable in tokens or ETH.
+### Leverage MetaConnect to feed Social Recovery module of Gnosis SAFE ($10k - 1 month)
+Currently, SAFE owner has to know the exact wallet address of their friends. This could be simplified by using TENZ-ID 
+of any of the existing connections and build out into the app. As a result, users of MetaConnect will be able to choose which of their connections could become their SAFE social recovery friends.
 
-### Liquidity reserves integrations
-Backend integration with DutchX to allow relayers to convert their fee tokens.
+### Relay Service Network deployment ($40k - 3 months)
+Build a relayer nework capable of executing meta transaction which are either sponsored or paid for in eth or ERC20 tokens. Relayers are coded in Node.js and can be easily run and deployed by anyone using ElectronJs App (currently it's available via Docker or NPM).
+As a result, users not holding any `eth` will be able to use their SAFE and pay for any operations in ERC20 tokens. Anyone can participate in the network as a relayer and earn meta transaction fees.
+
+### Liquidity reserves integrations with DutchX ($15k - 1 month)
+The relayers which are accepting ERC20 tokens as fee for their services and gas cost will be interested in converting them back to `eth`.
+Develop backend integration with DutchX to allow relayers to convert their fee tokens. This will result in extension of relayer code enabling the owners to convert their tokens into `eth` using fair price as provided by DutchX.
+
+
+
+
