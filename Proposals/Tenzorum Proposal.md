@@ -107,7 +107,7 @@ Encourage Gnosis SAFE and DutchX Adoption.
 Note, the below milestones can be achieved in parallel.
 
 ### Integration of Gnosis SAFE functionality into the SDK component ($25k - 2 months)
-Incorporate SAFE into the SDK (leveraging Universal Logins), thus providing anyone the possibility of integrating SAFE into their applications. This will include all the wallet operations - checking balances, sending ETH, sending tokens, etc. Existing SAFE functionality will be replicated and addapted and a developer friendly SDK interface to SAFE will be created. The ease of use of the SDK will be enforced by the work in sections below. The result of this will be an open sourced SDK including Tenzorum, Universal Logins and Gnosis SAFE functionality.
+Incorporate SAFE into the SDK (leveraging Universal Logins), thus providing anyone the possibility of integrating SAFE into their applications. This will include all the wallet operations - checking balances, sending ETH, sending tokens, etc. Existing SAFE functionality will be replicated and adapted and a developer friendly SDK interface to SAFE will be created. The ease of use of the SDK will be enforced by the work in sections below. The result of this will be an open sourced SDK including Tenzorum, Universal Logins and Gnosis SAFE functionality.
 
 ### User and developer experience work ($10k - 1 month)
 Prepare documentation and interfacing guidlines for users to be able to seamlessly use and understand Gnosis SAFE.
@@ -115,7 +115,7 @@ Prepare documentation for developers explaining all the functionalities of the G
 code snippets and example implementations. The work of demonstrating the use of the SDK is described in the following section. 
 The result of this work will be several blog posts and developer documentation on SAFE and it's usage via the the SDK.
 
-### Integration of Gnosis SAFE into [MetaConnect](Metaconnect.org) ($20k - 1.5 months)
+### Integration of Gnosis SAFE into [MetaConnect](https://www.metaconnect.org) ($20k - 1.5 months)
 MetaConnect allows even non-blockchain aware users to be seamlessly onboarded to Ethereum. 
 Demonstrate the use of the SDK by integrating it into MetaConnect app. This will include an option to have SAFE created via sponsored meta transaction and the use of TENZ-ID to be associated with the SAFE instance. Additionally, all usual SAFE operation will be available as per SDK. We consider MetaConnect as a vehicle for constantly aquiring more users keeping them engaged. This will offer continuous exposure of Gnosis products to Tenzorum current and future audience. 
 The result of this work will be MetaConnect app offering the creation of Gnosis SAFE with an associated TENZ-ID and all SDK SAFE features.
@@ -125,12 +125,12 @@ Currently, SAFE owner has to know the exact wallet address of their friends. Thi
 of any of the existing connections and build out into the app. As a result, users of MetaConnect will be able to choose which of their connections could become their SAFE social recovery friends.
 
 ### Relay Service Network deployment ($40k - 3 months)
-Build a relayer nework capable of executing meta transaction which are either sponsored or paid for in eth or ERC20 tokens. Relayers are coded in Node.js and can be easily run and deployed by anyone using ElectronJs App (currently it's available via Docker or NPM).
-As a result, users not holding any `eth` will be able to use their SAFE and pay for any operations in ERC20 tokens. Anyone can participate in the network as a relayer and earn meta transaction fees.
+Build a relayer nework capable of executing meta transaction which are either sponsored or paid for in ETH or ERC20 tokens. Relayers are coded in Node.js and can be easily run and deployed by anyone using ElectronJs App (currently it's available via Docker or NPM).
+As a result, users not holding any `ETH` will be able to use their SAFE and pay for any operations in ERC20 tokens. Anyone can participate in the network as a relayer and earn meta transaction fees.
 
 ### Liquidity reserves integrations with DutchX ($15k - 1 month)
-The relayers which are accepting ERC20 tokens as fee for their services and gas cost will be interested in converting them back to `eth`.
-Develop backend integration with DutchX to allow relayers to convert their fee tokens. This will result in extension of relayer code enabling the owners to convert their tokens into `eth` using fair price as provided by DutchX.
+The relayers which are accepting ERC20 tokens as fee for their services and gas cost will be interested in converting them back to `ETH`.
+Develop backend integration with DutchX to allow relayers to convert their fee tokens. This will result in extension of relayer code enabling the owners to convert their tokens into `ETH` using fair price as provided by DutchX.
 
 
 
