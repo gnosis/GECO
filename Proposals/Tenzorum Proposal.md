@@ -48,7 +48,7 @@ Met Stefan, Gnosis CTO at DEVCON and found a lot of synergies in our vision. üè
 #### Abstract
 We will be building a secure, easy-to-use user account for the Ethereum blockchain. A user's "blockchain account" will be a Gnosis Safe Multisig wallet located via a human readable ENS name much like a username. A user will deploy this account through a seamless onboarding solution powered by MetaConnect and our onboarding kit [tenzorum SDK](https://github.com/Tenzorum/tenzorum). 
 
-A user will then be able to interact with his "account" immediately without having required ETH because of the use of meta-transactions and our service node network in this architecture. This avoids the paind and complexity of a user having to acquire ETH to start using applications.
+A user will then be able to interact with his "account" immediately without having required ETH because of the use of meta-transactions and our service node network in this architecture. This avoids the pain and complexity of a user having to acquire ETH to start using applications.
 
 #### Project elements:
 1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions (Relayed tx) being built as a progressive web-app, where users are interactively onboarded and deploy a Gnosis SAFE multisig wallet as part of the process. We see the integration of Gnosis SAFE as an integral piece of web3 security, particularly with recovery configuration and the ability to remove trusted party recovery methods. 
