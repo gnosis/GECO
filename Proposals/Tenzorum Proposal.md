@@ -45,26 +45,27 @@ Met Stefan, Gnosis CTO at DEVCON and found a lot of synergies in our vision. üè
 
 ## Your Proposal 
 ### Project description
+#### Abstract
+We will be building a secure, easy-to-use user account for the Ethereum blockchain. A user's "blockchain account" will be a Gnosis Safe Multisig wallet located via a human readable ENS name much like a username. A user will deploy this account through a seamless onboarding solution powered by MetaConnect and our onboarding kit [tenzorum SDK](https://github.com/Tenzorum/tenzorum). A user will then be able to interact with his "account" immediately without having required ETH because of the use of meta-transactions and our service node network in this architecture. 
 
 #### Project elements:
-1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions (Relayed tx) being built as a progressive web-app, where users are interactively onboarded and deploy a Gnosis SAFE as part of the process. We see the integration of Gnosis SAFE as an integral piece of web3 security, particularly with recovery configuration and the ability to remove trusted party recovery methods. 
+1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions (Relayed tx) being built as a progressive web-app, where users are interactively onboarded and deploy a Gnosis SAFE multisig wallet as part of the process. We see the integration of Gnosis SAFE as an integral piece of web3 security, particularly with recovery configuration and the ability to remove trusted party recovery methods. 
 
 2. An open SDK to allow developers to seamlessly deploy and use:
   
-      a. Ephemeral Keys - Key that are used and get discarded or replaced with a stable key in the process of applicaiotn onboarding
+      a. Ephemeral Keys - Key that are used and get discarded or replaced with a stable key in the process of application onboarding.
   
       b. A personal multi-sig (GNOSIS SAFE) - A wallet contract that connects between the various devices users interact with and serves as the stable keychain for users' relevant longer term assets holding as well as access recovery.
   
-      c. Personal ENS Domains (TENZ-ID) - a 1 click ENS subdomain factory that allows users, programs and developers to interact with human readable Ethereum addresses. The initial mainnet implementation can be found on [tenzorum.org/tenz_id](tenzorum.org/tenz_id) .
+      c. Personal ENS Domains (TENZ-ID) - a 1 click ENS subdomain factory that allows users, programs and developers to interact with human readable Ethereum addresses. The initial mainnet implementation can be found on [tenzorum.org/tenz_id](https://www.tenzorum.org/tenz_id).
   
       d. Meta-Transactions (Relayers) - Transaction that are signed off-chain and are relayed to the network via a proxy node that pays the gas fees.    
   
 3. Tenzorum Service Node Network - A decentralized relayer network to support meta-transactions with token rewards connected to DutchX as a liquidity provider. An initial test implementation currently runs in single node mode. Research of the cryptoeconomic models to expand and build a relayer node network in order to create a market for a permissionless layer 2 economies.
 
 
-TO EXPLORE RESEARCH AND COLLABORATION:
-1. Private Transactions using relayers and Tenzorum SDK with Zero-Knowledge transactions.
-2. Social Recovery to complement the personal Gnosis SAFE.
+#### Further Research and Collaboration
+1. Social Recovery to complement the personal Gnosis SAFE, user friendliness and safety of user funds.
 
 
 ### Features
@@ -88,7 +89,7 @@ TO EXPLORE RESEARCH AND COLLABORATION:
 Linkedin: https://www.linkedin.com/in/moritzneto/
 
 
-**Radek Ostrowski**: CTO with 15 years of experience in big data systems and infrastructure. Transitioned into blockchain engineering 2 years ago.
+**Radek Ostrowski**: Blockchain Engineer particularly interested in Ethereum and Smart Contracts. In the fiat world, experienced in Big Data and Machine Learning projects. Triple winner in two different international IBM Apache Spark competitions and awarded a prize in ConsenSys hackathon. Co-creator of PlayStation 4 backend.
 
 Linkedin: https://www.linkedin.com/in/radekostrowski/
 
@@ -131,7 +132,3 @@ As a result, users not holding any `ETH` will be able to use their SAFE and pay 
 ### Liquidity reserves integrations with DutchX ($15k - 1 month)
 The relayers which are accepting ERC20 tokens as fee for their services and gas cost will be interested in converting them back to `ETH`.
 Develop backend integration with DutchX to allow relayers to convert their fee tokens. This will result in extension of relayer code enabling the owners to convert their tokens into `ETH` using fair price as provided by DutchX.
-
-
-
-
