@@ -19,7 +19,7 @@ _This is a guideline on how to best structure your proposal._
 > Website, Twitter, Conference and others
 
 ## Your Proposal 
-### Project describtion
+### Project description
 _Outline a detailed description of your project, why you chose to build this project, the overall goal and future outlook of your project and why we should fund you._
 ### Features
 _How do you plan to implement your project, which tools and framework will you use? Optional: Architecture, Mockups, etc._
