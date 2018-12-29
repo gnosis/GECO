@@ -16,11 +16,11 @@
 
 ### Why did you decide to build it
 
-> I (Paul) often feel frustrated that I can't use Ethereum dapps on my mobile phone the way I would with any "web 2" app. For instance, sometimes I want to add someone to the Aragon DAO for my meetup group on my phone when I meet them at a meetup, but instead I have to set a reminder to do it when I'm back at my computer at home. If I'm noticing this inconvenience as someone who's technical, the average potential user must feel that pain even more. The Ethereum community loses mainstream people from the onboarding funnel because of this.
+> I (Paul) often feel frustrated that I can't use Ethereum dapps on my mobile phone the way I would with any "web 2" app. For instance, sometimes I want to add someone to the Aragon DAO for my Meetup group on my phone while I'm talking to them at a meetup, but instead I have to set a reminder to do it when I'm back at my computer at home. I could do it within a dapp browser, but the UX of a webview inside of another app is clunky enough that I don't consider it as a realistic option. If I'm noticing this inconvenience as someone who's technical, the average potential Ethereum/dapp user surely feels that pain much more. The Ethereum community loses mainstream people from the onboarding funnel because of this.
 
-> Mobile is way more important than PCs for the younger generations and globally - so it feels very "centralized" of the community to focus primarily on web-based experiences on a laptop.
+> Young people use mobile devices way more than laptops, and the same is true in general for people worldwide - it feels very "centralized" of the Ethereum community to focus primarily on web-based dapp experiences on a laptop.
 
-> Initially I was interested in building an Ethereum dapp data explorer tool with simpler UX. Gradually, I realized that since my top priority is delighting mainstream users and introducing them to crypto and Ethereum (without necessarily knowing they’re using Ethereum), enabling developers to create mobile apps for using dapps would impact mainstream users far more than an exploratory tool.
+> About a year ago, I originally was interested in building an Ethereum dapp data explorer tool with simpler UX. Gradually, I realized that since my top priority is delighting mainstream users and introducing them to crypto and Ethereum (without them necessarily knowing that they’re using Ethereum), enabling developers to create mobile apps for using dapps would impact mainstream users far more than an exploratory tool. Talking to other people in the Ethereum community online and at conferences only strengthened this conviction and helped to refine the specifics of the idea.
 
 ### How long will it take
 
@@ -28,11 +28,11 @@
 
 ### How much funding are you requesting
 
-> \$34000 _(Please see the timeline section for a detailed breakdown of where this number comes from.)_
+> \$34000 _(Please see the timeline section for a detailed breakdown of the reasoning behind this number.)_
 
 ### How did you hear about the GECO
 
-> Talking with Gnosis software engineers at Devcon4
+> Talking with Gnosis software engineers at Devcon4 in Prague
 
 ## Your Proposal
 
@@ -40,7 +40,7 @@
 
 ##### A detailed description of your project
 
-One major reason most dapps don’t have standalone mobile apps today is because it’s harder for developers to build mobile Ethereum dapps than it is to build web-based dapps. There isn’t any good tooling for Ethereum in the React Native ecosystem. The Tasit SDK provides this. React Native is an especially great fit for mobile dapps since React is such a commonly used technology for web-based dapps - this allows for more code reuse. Moreover, many talented younger developers are opting to build their apps in React Native as opposed to Swift (for iOS) or Java (for Android) so that their app "automagically" works on both platforms.
+> One major reason most dapps don’t have standalone mobile apps today is because it’s harder for developers to build mobile Ethereum dapps than it is to build web-based dapps. There isn’t any good tooling for Ethereum in the React Native ecosystem. The Tasit SDK provides this. React Native is an especially great fit for mobile dapps since React is such a commonly used technology for web-based dapps - this allows for more code reuse. Moreover, many talented younger developers are opting to build their apps in React Native as opposed to Swift (for iOS) or Java (for Android) so that their app "automagically" works on both platforms.
 
 > The 3 main source of UX friction this SDK addresses are:
 > (A) Using a dapp within a web3-enabled browser dapp is an unacceptable UX. Almost all legitimate experiences on mobile today happen in standalone native apps.
@@ -49,7 +49,7 @@ One major reason most dapps don’t have standalone mobile apps today is because
 
 > These problems can be solved with a JavaScript SDK for writing mobile apps for Ethereum dapps in React Native with a few advanced onboarding features built in. This helps developers build new mobile dapps more quickly without reinventing the wheel for basic features.
 
-Features
+> Features
 
 - Account and private key generation
 - Reading and writing data and reacting to events
@@ -60,11 +60,11 @@ Features
 
 ##### The overall goal and future outlook of your project
 
-Once the Tasit SDK is around, more dapps will have dedicated mobile apps. This will remove a key barrier to mainstream adoption of Ethereum dapps.
+> Once the Tasit SDK is around, more dapps will have dedicated mobile apps. This will remove a key barrier to mainstream adoption of Ethereum dapps.
 
-Developers shouldn't need to reinvent the wheel for each new dapp: account and private key generation, linking to another wallet or adding meta-transaction support, etc. Let the Tasit SDK handle that bit and focus on the business logic for your dapp.
+> Developers shouldn't need to reinvent the wheel for each new dapp: account and private key generation, linking to another wallet or adding meta-transaction support, etc. Let the Tasit SDK handle that bit and focus on the business logic for your dapp.
 
-In the future, we'll support the following based on demand:
+> In the future, we'll support the following based on demand:
 
 - Serenity (eWASM, sharding, proof of stake)
 - The Graph protocol
@@ -78,17 +78,17 @@ In the future, we'll support the following based on demand:
 
 ##### Why we should fund you.
 
-I (Paul) have a unique eye for product. I've shipped production mobile apps and worked with a team on an evolving JavaScript code base. I'm experienced with React Native and Ethereum. I've vetted the idea at conferences like Dappcon, TruffleCon, and Devcon4. Plus, people enjoy working with me.
+> I (Paul) have a unique eye for product. I've shipped production mobile apps and worked with a team on an evolving JavaScript code base. I'm experienced with React Native and Ethereum. I've vetted the idea at conferences like Dappcon, TruffleCon, and Devcon4. Plus, people enjoy working with me.
 
-Tasit will serve as "proof of decentralization" for the dapps we support. Vitalik tweeted 'One simple litmus test for whether or not a blockchain project is truly decentralized: can a third party independently make a client for it, and do everything that the "official" client can?'. It's time for major decoupling of "back end" and front end. This decoupling provides users with "right to exit".
+> Tasit will serve as "proof of decentralization" for the dapps we support. Vitalik tweeted 'One simple litmus test for whether or not a blockchain project is truly decentralized: can a third party independently make a client for it, and do everything that the "official" client can?'. It's time for major decoupling of "back end" and front end. This decoupling provides users with "right to exit".
 
 ### Features
 
-_There are more specifics on the features in the deliverables sections below._
+> _Note: There are more specifics on the features in the deliverables sections below._
 
 ##### Tools and frameworks
 
-ethers.js, React Native, Expo, Jest, Truffle, Babel, Infura, Lerna, smart-contract-based wallets (Gnosis Safe in particular), meta-transactions, ERC721, ERC165, Fastlane, CircleCI
+> ethers.js, React Native, Expo, Jest, Truffle, Babel, Infura, Lerna, smart-contract-based wallets (Gnosis Safe in particular), meta-transactions, ERC721, ERC165, Fastlane, CircleCI
 
 ##### Architecture, mockups, etc.
 
@@ -110,25 +110,21 @@ ethers.js, React Native, Expo, Jest, Truffle, Babel, Infura, Lerna, smart-contra
 
 [LinkedIn](https://www.linkedin.com/in/pcowgill/) // [Twitter](https://twitter.com/paulcowgill) // [GitHub](https://twitter.com/paulcowgill)
 
-Paul recently worked on a smart contract audit for OpenZeppelin 2.0 with the team at Level K (plus a few other high-profile audits). For the past year and a half he has been working as a freelance software engineer specializing in Solidity, IPFS, Truffle, React, and React Native.
+> Paul recently worked on a smart contract audit for OpenZeppelin 2.0 with the team at Level K (plus a few other high-profile audits). For the past year and a half he has been working as a freelance software engineer specializing in Solidity, IPFS, Truffle, React, and React Native.
 
-He has a lot of experience working on native mobile apps, most recently including the Heatworks mobile app. Before that he was the first hire and CTO at the YC-backed IoT startup Edyn - he wrote the initial code for much of the tech stack (Node.js, AWS, mobile, etc.), and as CTO he led the growth of the software and data science teams to 12 people. The Edyn team shipped 10,000 units of their IoT products and continuously iterated on a production mobile app to use with them.
+> He has a lot of experience working on native mobile apps, most recently including the Heatworks mobile app. Before that he was the first hire and CTO at the YC-backed IoT startup Edyn - he wrote the initial code for much of the tech stack (Node.js, AWS, mobile, etc.), and as CTO he led the growth of the software and data science teams to 12 people. The Edyn team shipped 10,000 units of their IoT products and continuously iterated on a production mobile app to use with them.
 
-_Education_
-
-He received a BSE from Princeton in Electrical Engineering in 2008, and he received his Master's degree from Harvard in Systems Biology in 2014.
+> _Education:_ He received a BSE from Princeton in Electrical Engineering in 2008, and he received his Master's degree from Harvard in Systems Biology in 2014.
 
 ##### Marcelo Morgado
 
 [LinkedIn](https://www.linkedin.com/in/marcelo-morgado/) // [Medium](https://medium.com/@marcelomorgado) // [GitHub](https://github.com/marcelomorgado)
 
-Marcelo is a full-stack developer with >5 years of experience and a sysadmin with >10 years of experience. He has participated in and lead multiple software development projects. He is a cryptocurrencies, decentralization, and open-source enthusiast.
+> Marcelo is a full-stack developer with >5 years of experience and a sysadmin with >10 years of experience. He has participated in and lead multiple software development projects. He is a cryptocurrencies, decentralization, and open-source enthusiast.
 
-Marcelo has personally faced the problem that we're trying to solve. He participated in a Status Hackathon in September 2018. The web app he built works and received the 2nd place award at the hackathon. However, the associated React Native mobile project still only is a prototype, because he didn't have enough time to build an Ethereum wallet from scratch and then build a dapp during the hackathon. He has been following crypto technologies for 4 years now, and he thinks that one of the greatest barrier to the mass adoption of crypto and dapps is the friction with handling private keys, identity, and gas.
+> Marcelo has personally faced the problem that we're trying to solve. He participated in a Status Hackathon in September 2018. The web app he built works and received the 2nd place award at the hackathon. However, the associated React Native mobile project still only is a prototype, because he didn't have enough time to build an Ethereum wallet from scratch and then build a dapp during the hackathon. He has been following crypto technologies for 4 years now, and he thinks that one of the greatest barrier to the mass adoption of crypto and dapps is the friction with handling private keys, identity, and gas.
 
-_Education_
-
-He recently took a course on Digital Currencies (DFIN-511) at the University of Nicosia in Cyprus. In 2013, he received his bachelor's degree in Information Systems from PUC-RIO (the #1 Brazillian private university) in 2013.
+> _Education_: He recently took a course on Digital Currencies (DFIN-511) at the University of Nicosia in Cyprus. In 2013, he received his bachelor's degree in Information Systems from PUC-RIO (the #1 Brazillian private university) in 2013.
 
 ### Timeline, Milestones and Deliverables
 
@@ -148,7 +144,7 @@ He recently took a course on Digital Currencies (DFIN-511) at the University of 
 
 **Time and Price Estimate**
 
-1 month, \$16500 total
+> 1 month, \$16500 total
 
 - \$2000 design contract work
 
@@ -174,7 +170,7 @@ He recently took a course on Digital Currencies (DFIN-511) at the University of 
 
 **Time and Price Estimate**
 
-2 additional months, \$17500
+> 2 additional months, \$17500
 
 - \$2000 design contract work
 
@@ -183,7 +179,8 @@ He recently took a course on Digital Currencies (DFIN-511) at the University of 
 - \$2000 travel to conferences to speak about the project and attract other developers to use and/or contribute to the SDK.
 
 **Phase III**
-We have plans for phase III and beyond, but I'm intentionally keeping the scope of this initial grant request smaller.
+
+> We have plans for phase III and beyond, but I'm intentionally keeping the scope of this initial grant request smaller.
 
 ### Other
 
