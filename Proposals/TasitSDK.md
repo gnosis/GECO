@@ -80,9 +80,9 @@
 
 > Plus, I (Paul) have a unique eye for product. I've shipped production mobile apps and worked with a team on an evolving JavaScript code base. I'm experienced with React Native and Ethereum. I've vetted the idea at conferences like Dappcon, TruffleCon, and Devcon4.
 
-### Features
+> Marcelo is a very talented developer who's already proven himself over the past month by contributing to the open-source Tasit SDK and the Tasit demo mobile app.
 
-> Features
+### Features
 
 > - Ephemeral account and private key generation
 > - A high-level abstraction for reading and writing data and reacting to events that will be familiar to "traditional" mobile developers
@@ -128,7 +128,9 @@
 
 ### Timeline, Milestones and Deliverables
 
-**Phase I - v0.1.0**
+**Phase I**
+
+> **v0.1.0: proof of concept**
 
 **Deliverables**
 
@@ -140,14 +142,16 @@
 
 **Time and Price Estimate**
 
-> 1 month, \$16500 total
+> **1 month, \$16500 total**
 
 > - $13500 1 month of $6,750/month pay for 2 software engineers
 > - \$2000 design contract work
 > - \$500 SAAS costs, like an Apple Developer Program account to have a test implementation of an app using the SDK, etc.
 > - \$500 legal costs with Stripe Atlas
 
-**Phase II - v1.0.0**
+**Phase II**
+
+> **v1.0.0: a wider launch of the beta with a stable API for 1.x releases**
 
 **Deliverables**
 
@@ -159,7 +163,7 @@
 
 **Time and Price Estimate**
 
-> 2 additional months, \$17500
+> **2 additional months, \$17500**
 
 > - $13500 1 month of $6,750/month pay for 2 software engineers (salary for the 3rd month to be secured from elsewhere)
 > - \$2000 design contract work
