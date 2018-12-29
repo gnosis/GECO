@@ -52,14 +52,7 @@
 
 > These problems can be solved with a JavaScript SDK for writing mobile apps for Ethereum dapps in React Native with a few advanced onboarding features built in. This helps developers to build new mobile dapps faster without reinventing the wheel for basic features.
 
-> Features
-
-> - Ephemeral account and private key generation
-> - A high-level abstraction for reading and writing data and reacting to events that will be familiar to "traditional" mobile developers
-> - Advanced support for popular ERC standards
-> - Simple onboarding, especially for users of the Gnosis Safe
-> - Configurable JSON-RPC client
-> - Automatic app scaffolding using the Tasit CLI
+> The app also supports: ephemeral account and private key generation; a high-level abstraction for reading and writing data and reacting to events that will be familiar to "traditional" mobile developers; advanced support for popular ERC standards; simple onboarding, especially for users of the Gnosis Safe; and automatic app scaffolding using the Tasit CLI.
 
 ##### The overall goal and future outlook of your project
 
@@ -89,7 +82,14 @@
 
 ### Features
 
-> _Note: There are more specifics on the features in the deliverables sections below._
+> Features
+
+> - Ephemeral account and private key generation
+> - A high-level abstraction for reading and writing data and reacting to events that will be familiar to "traditional" mobile developers
+> - Advanced support for popular ERC standards
+> - Simple onboarding, especially for users of the Gnosis Safe
+> - Configurable JSON-RPC client
+> - Automatic app scaffolding using the Tasit CLI
 
 ##### Tools and frameworks
 
@@ -133,25 +133,18 @@
 **Deliverables**
 
 > - Ephemeral account and private key generation
-
 > - Higher-level abstraction for reading and writing data and reacting to events
-
 > - Advanced support for ERC721
-
-> - Onboarding using the Gnosis Safe for users with funds in there already
-
-> - Proof-of-concept app for Decentraland on TestFlight for iOS on a testnet
+> - A working demo of onboarding using the Gnosis Safe with a few things still hardcoded for users who already have funds stored in the Safe wallet
+> - Minimal proof-of-concept app for Decentraland on TestFlight for iOS using a testnet
 
 **Time and Price Estimate**
 
 > 1 month, \$16500 total
 
-> - \$2000 design contract work
-
 > - $13500 1 month of $6,750/month pay for 2 software engineers
-
+> - \$2000 design contract work
 > - \$500 SAAS costs, like an Apple Developer Program account to have a test implementation of an app using the SDK, etc.
-
 > - \$500 legal costs with Stripe Atlas
 
 **Phase II - v1.0.0**
@@ -168,20 +161,20 @@
 
 > 2 additional months, \$17500
 
-> - \$2000 design contract work
 > - $13500 1 month of $6,750/month pay for 2 software engineers (salary for the 3rd month to be secured from elsewhere)
+> - \$2000 design contract work
 > - \$2000 travel to conferences to speak about the project and attract other developers to use and/or contribute to the SDK.
 
 **Phase III**
 
-> We have plans for phase III and beyond, but I'm intentionally keeping the scope of this initial grant request smaller.
+> We have plans for phase III and beyond, but we're intentionally keeping the scope of this initial grant request smaller.
 
 ### Other
 
-> - [Website](https://tasit.io/)
-> - [Twitter](https://twitter.com/tasitlabs)
-> - [Project Kanban board](https://github.com/orgs/tasitlabs/projects/1)
+> - Our website is [tasit.io](https://tasit.io/)
+> - [@TasitLabs](https://twitter.com/tasitlabs) on Twitter
+> - [GitHub Kanban board](https://github.com/orgs/tasitlabs/projects/1) for the project
 > - [Telegram](https://t.me/tasitlabs)
-> - [Email](mailto:founders@tasit.io)
-> - [Feature requests](https://tasit.canny.io/feature-requests)
+> - Email us at [founders@tasit.io](mailto:founders@tasit.io)
+> - Create / upvote [feature requests](https://tasit.canny.io/feature-requests) for the SDK
 > - [Here's a video](https://youtu.be/PPbwf1-4Jpk) of Paul Cowgill pitching Tasit Labs (the company doing most of the initial work on the Tasit SDK).
