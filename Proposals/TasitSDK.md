@@ -42,21 +42,24 @@
 
 > One major reason most dapps don’t have standalone mobile apps today is because it’s harder for developers to build mobile Ethereum dapps than it is to build web-based dapps. There isn’t any good tooling for Ethereum in the React Native ecosystem. The Tasit SDK provides this. React Native is an especially great fit for mobile dapps since React is such a commonly used technology for web-based dapps - this allows for more code reuse. Moreover, many talented younger developers are opting to build their apps in React Native as opposed to Swift (for iOS) or Java (for Android) so that their app "automagically" works on both platforms.
 
-> The 3 main source of UX friction this SDK addresses are:
+> The three main source of UX friction this SDK addresses are:
+
 > (A) Using a dapp within a web3-enabled browser dapp is an unacceptable UX. Almost all legitimate experiences on mobile today happen in standalone native apps.
-> (B) As someone who already has ETH and tokens, needing to transfer some of these funds permanently from my preferred mobile wallet to another account in order to use a dapp is an unacceptable UX.
-> (C) Needing ETH or tokens in the first place to try a dapp is too much onboarding friction.
+
+> (B) As someone who already has ETH and tokens, needing to transfer some of these funds permanently from my preferred mobile wallet to another account in order to use a dapp is an awkward experience.
+
+> (C) Needing ETH or tokens in the first place to try a dapp presents too much onboarding friction.
 
 > These problems can be solved with a JavaScript SDK for writing mobile apps for Ethereum dapps in React Native with a few advanced onboarding features built in. This helps developers build new mobile dapps more quickly without reinventing the wheel for basic features.
 
 > Features
 
-- Account and private key generation
-- Reading and writing data and reacting to events
-- Advanced support for popular ERC standards
-- Onboarding
-- Configurable JSON-RPC client
-- Automatic scaffolding using the Tasit CLI
+> - Ephemeral account and private key generation
+> - A higher-level abstraction for reading and writing data and reacting to events
+> - Advanced support for popular ERC standards
+> - Simple onboarding
+> - Configurable JSON-RPC client
+> - Automatic app scaffolding using the Tasit CLI
 
 ##### The overall goal and future outlook of your project
 
