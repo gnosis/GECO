@@ -175,6 +175,7 @@
 
 ### Other
 
+> - Paul previously has spoken with the following people from the Gnosis team about this grant application: Richard, Dmitry, Anna, and Mareen
 > - Our website is [tasit.io](https://tasit.io/)
 > - [@TasitLabs](https://twitter.com/tasitlabs) on Twitter
 > - [GitHub Kanban board](https://github.com/orgs/tasitlabs/projects/1) for the project
