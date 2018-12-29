@@ -6,7 +6,7 @@ _This is a guideline on how to best structure your proposal._
 
 ### Project name
 
-> Tasit SDK
+> [Tasit SDK](https://github.com/tasitlabs/tasitsdk)
 
 ### Team members
 
@@ -16,7 +16,9 @@ _This is a guideline on how to best structure your proposal._
 
 > The Tasit SDK is a JavaScript SDK for making standalone native mobile Ethereum dapps using React Native.
 
-Here's a video of Paul Cowgill pitching Tasit Labs (the company doing most of the initial work on the Tasit SDK): https://youtu.be/PPbwf1-4Jpk
+> Here's a video of Paul Cowgill pitching Tasit Labs (the company doing most of the initial work on the Tasit SDK): https://youtu.be/PPbwf1-4Jpk
+
+[tasit.io](https://tasit.io)
 
 ### Why did you decide to build it
 
@@ -39,7 +41,7 @@ These problems can be solved with a JavaScript SDK for writing mobile apps for E
 
 ### How did you hear about the GECO
 
-> Devcon4
+> Talking with engineers from the Gnosis team at Devcon4
 
 ## Your Proposal
 
@@ -47,35 +49,32 @@ These problems can be solved with a JavaScript SDK for writing mobile apps for E
 
 ##### A detailed description of your project
 
+<!-- TODO: Add me -->
+
 ##### Why you chose to build this project
 
-See the section on why above. Also:
+See the "Why did you decide to build it" section above.
+
+Also:
 https://github.com/tasitlabs/TasitSDK/blob/develop/README.md#why
 
 ##### The overall goal and future outlook of your project
 
+<!-- TODO: Add me -->
+
 ##### Why we should fund you.
+
+<!-- TODO: Add more -->
 
 React Native is an especially great fit for mobile dapps since React is such a commonly used technology for web-based dapps - this allows for more code reuse.
 
 ### Features
 
+_There are more specifics on the features in the deliverables sections below._
+
 ##### Tools and frameworks
 
-ethers.js
-React Native
-Expo
-Jest
-Truffle
-Babel
-Infura
-Lerna
-Smart-contract-based identity (like Gnosis Safe)
-Meta-transactions
-ERC721
-ERC165
-Fastlane
-CircleCI
+ethers.js, React Native, Expo, Jest, Truffle, Babel, Infura, Lerna, smart-contract-based wallets (Gnosis Safe in particular), meta-transactions, ERC721, ERC165, Fastlane, CircleCI
 
 ##### Architecture, mockups, etc.
 
@@ -87,25 +86,47 @@ CircleCI
 
 - [Slides about the Tasit SDK](https://bit.ly/2018-12-04-chicago-ethereum-meetup)
 
-- [Example app onboarding flow](https://youtu.be/iJQtDPQrRsE) (interactive wireframes)
+- [Video with example app onboarding flow](https://youtu.be/iJQtDPQrRsE) (interactive wireframes)
+
+- [Demo app using the Tasit SDK](https://github.com/tasitlabs/tasit/tree/develop/demo)
 
 ### Team description
 
-_Who are your team members, what is your background and what you built before._
-Paul Cowgill
-I recently worked on a smart contract audit for OpenZeppelin 2.0 with the team at Level K (plus a few other high-profile audits). For the past year and a half I've been working as a freelance software engineer specializing in Solidity, IPFS, Truffle, React, and React Native.
+##### Paul Cowgill
 
-I have a lot of experience working on native mobile apps, most recently including the Heatworks mobile app. Before that I was first hire and CTO at the YC-backed IoT startup Edyn - I wrote the initial code for much of our tech stack (Node.js, AWS, mobile, etc.), and as CTO I led the growth of the software and data science teams to 12 people. We shipped 10,000 units of our IoT products and continuously iterated on a production mobile app to use with them.
+[LinkedIn](https://www.linkedin.com/in/pcowgill/)
+[Twitter](https://twitter.com/paulcowgill)
+[GitHub](https://twitter.com/paulcowgill)
 
-Education: I did my undergrad at Princeton in Electrical Engineering, and my masters at Harvard in Systems Biology.
+Paul recently worked on a smart contract audit for OpenZeppelin 2.0 with the team at Level K (plus a few other high-profile audits). For the past year and a half he has been working as a freelance software engineer specializing in Solidity, IPFS, Truffle, React, and React Native.
 
-Marcelo Morgado
+He has a lot of experience working on native mobile apps, most recently including the Heatworks mobile app. Before that he was the first hire and CTO at the YC-backed IoT startup Edyn - he wrote the initial code for much of the tech stack (Node.js, AWS, mobile, etc.), and as CTO he led the growth of the software and data science teams to 12 people. The Edyn team shipped 10,000 units of their IoT products and continuously iterated on a production mobile app to use with them.
 
-<!-- TODO: Add me -->
+Education: He did his undergrad at Princeton in Electrical Engineering, and his masters at Harvard in Systems Biology.
+
+##### Marcelo Morgado
+
+[LinkedIn](https://www.linkedin.com/in/marcelo-morgado/)
+[Medium](https://medium.com/@marcelomorgado)
+[GitHub](https://github.com/marcelomorgado)
+
+Marcelo is a full-stack developer with >5 years of experience and a sysadmin with >10 years of experience. He has participated in and lead several software development projects. Cryptocurrencies/decentralization and open-source enthusiast.
+
+Marcelo has personally faced the problem that we're trying to solve. He participated in a Status Hackathon in September 2018. The web app he built is functional but the React Native mobile project still only is a prototype, because he didn't have enough time to build an Ethereum wallet from scratch and then build a dapp during the hackathon. He has been following crypto technologies for 4 years now, and he thinks that one of the greatest barrier to the mass adoption of crypto and dapps is the friction with handling private keys, identity, and gas.
+
+Education:
+University of Nicosia
+DFIN-511 Digital Currencies
+2018 - 2018
+PUC-Rio
+#1 Brazillian private university - 2018
+Bachelor’s degree, Information
+Systems
+2006 - 2013
 
 ### Timeline, Milestones and Deliverables
 
-**Phase I** v0.1.0
+**Phase I - v0.1.0**
 
 **Deliverables**
 
@@ -115,37 +136,61 @@ Marcelo Morgado
 
 - Advanced support for ERC721
 
-- Onboarding using the Gnosis Safe
+- Onboarding using the Gnosis Safe for users with funds in there already
+
+- Proof-of-concept app for Decentraland on TestFlight for iOS on a testnet
 
 **Time and Price Estimate**
-1 month, $16500
-\$2000 design contract work
 
-$13500 1 month of $6,750/month pay for 2 software engineers
+1 month, \$16500 total
 
-\$500 SAAS costs, like an Apple Developer Program account to have a test implementation of an app using the SDK, etc.
+- \$2000 design contract work
 
-\$500 legal costs with Stripe Atlas
+- $13500 1 month of $6,750/month pay for 2 software engineers
 
-**Phase II** v1.0.0
-Advanced support for DAOs, TCRs, or two-sided marketplaces.
+- \$500 SAAS costs, like an Apple Developer Program account to have a test implementation of an app using the SDK, etc.
+
+- \$500 legal costs with Stripe Atlas
+
+**Phase II - v1.0.0**
 
 **Deliverables**
 
-<!-- TODO: Add me -->
+<!-- TODO: Add more -->
+
+- Advanced support for one of these: (A) DAOs, (B) TCRs, or (C) two-sided marketplaces.
+
+- "tasit init" scaffolds out a mobile dapp
+
+- Onboarding using the Gnosis Safe for users new to Ethereum
+
+- Configurable JSON-RPC client
+
+- Proof-of-concept app for Decentraland on TestFlight for iOS and Google Play beta track on mainnet
 
 **Time and Price Estimate**
+
 2 additional months, \$17500
 
-\$2000 design contract work
+- \$2000 design contract work
 
-$13500 1 month of $6,750/month pay for 2 software engineers (salary for the 3rd month to be secured from elsewhere)
+- $13500 1 month of $6,750/month pay for 2 software engineers (salary for the 3rd month to be secured from elsewhere)
 
-\$2000 travel to conferences to speak about the project and attract other developers to use and/or contribute to the SDK.
+- \$2000 travel to conferences to speak about the project and attract other developers to use and/or contribute to the SDK.
 
 **Phase III**
 We have plans for phase III and beyond, but I'm intentionally keeping the scope of this initial grant request smaller.
 
 ### Other
 
-n/a
+- [Website](https://tasit.io/)
+
+- [Twitter](https://twitter.com/tasitlabs)
+
+- [Project Kanban board](https://github.com/orgs/tasitlabs/projects/1)
+
+- [Telegram](https://t.me/tasitlabs)
+
+- [Email](mailto:founders@tasit.io)
+
+- [Feature requests](https://tasit.canny.io/feature-requests)
