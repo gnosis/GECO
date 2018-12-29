@@ -50,14 +50,14 @@
 
 > (C) Needing ETH or tokens in the first place to try a dapp presents too much onboarding friction.
 
-> These problems can be solved with a JavaScript SDK for writing mobile apps for Ethereum dapps in React Native with a few advanced onboarding features built in. This helps developers build new mobile dapps more quickly without reinventing the wheel for basic features.
+> These problems can be solved with a JavaScript SDK for writing mobile apps for Ethereum dapps in React Native with a few advanced onboarding features built in. This helps developers to build new mobile dapps faster without reinventing the wheel for basic features.
 
 > Features
 
 > - Ephemeral account and private key generation
-> - A higher-level abstraction for reading and writing data and reacting to events
+> - A high-level abstraction for reading and writing data and reacting to events that will be familiar to "traditional" mobile developers
 > - Advanced support for popular ERC standards
-> - Simple onboarding
+> - Simple onboarding, especially for users of the Gnosis Safe
 > - Configurable JSON-RPC client
 > - Automatic app scaffolding using the Tasit CLI
 
@@ -69,21 +69,23 @@
 
 > In the future, we'll support the following based on demand:
 
-- Serenity (eWASM, sharding, proof of stake)
-- The Graph protocol
-- State channels
-- Plasma
-- Future popular ERC standards
-- In-app and/or singleton-on-device light and ultralight clients with a simple abstraction around them
-- Use of upgradeable and nonupgradeable contracts
-- Tool for finding the current address of a popular smart contract
-- etc.
+> - Serenity (eWASM, sharding, proof of stake)
+> - State channels
+> - Plasma
+> - Future popular ERC standards
+> - In-app and/or singleton-on-device light and/or ultralight clients with a simple abstraction around them
+> - Use of upgradeable and nonupgradeable contracts
+> - The Graph protocol
+> - Tool for finding the current address of a popular smart contract
+> - etc.
 
 ##### Why we should fund you.
 
-> I (Paul) have a unique eye for product. I've shipped production mobile apps and worked with a team on an evolving JavaScript code base. I'm experienced with React Native and Ethereum. I've vetted the idea at conferences like Dappcon, TruffleCon, and Devcon4. Plus, people enjoy working with me.
+> Tasit will serve as "proof of decentralization" for the dapps we support. Vitalik tweeted 'One simple litmus test for whether or not a blockchain project is truly decentralized: can a third party independently make a client for it, and do everything that the "official" client can?'.
 
-> Tasit will serve as "proof of decentralization" for the dapps we support. Vitalik tweeted 'One simple litmus test for whether or not a blockchain project is truly decentralized: can a third party independently make a client for it, and do everything that the "official" client can?'. It's time for major decoupling of "back end" and front end. This decoupling provides users with "right to exit".
+> It's time for major decoupling of "back end" and front end. This decoupling provides users with "right to exit".
+
+> Plus, I (Paul) have a unique eye for product. I've shipped production mobile apps and worked with a team on an evolving JavaScript code base. I'm experienced with React Native and Ethereum. I've vetted the idea at conferences like Dappcon, TruffleCon, and Devcon4.
 
 ### Features
 
@@ -111,11 +113,11 @@
 
 ##### Paul Cowgill
 
-[LinkedIn](https://www.linkedin.com/in/pcowgill/) // [Twitter](https://twitter.com/paulcowgill) // [GitHub](https://twitter.com/paulcowgill)
+[LinkedIn](https://www.linkedin.com/in/pcowgill/) // [Twitter](https://twitter.com/paulcowgill) // [GitHub](https://github.com/pcowgill)
 
-> Paul recently worked on a smart contract audit for OpenZeppelin 2.0 with the team at Level K (plus a few other high-profile audits). For the past year and a half he has been working as a freelance software engineer specializing in Solidity, IPFS, Truffle, React, and React Native.
+> Paul recently worked on a smart contract audit for OpenZeppelin 2.0 with the team at Level K (plus a few other high-profile audits). For the past year and a half he has been working as a freelance software engineer specializing in Solidity, IPFS, Truffle, React, and React Native. He has a lot of experience working on native mobile apps, most recently including the Heatworks mobile app.
 
-> He has a lot of experience working on native mobile apps, most recently including the Heatworks mobile app. Before that he was the first hire and CTO at the YC-backed IoT startup Edyn - he wrote the initial code for much of the tech stack (Node.js, AWS, mobile, etc.), and as CTO he led the growth of the software and data science teams to 12 people. The Edyn team shipped 10,000 units of their IoT products and continuously iterated on a production mobile app to use with them.
+> Before that he was the first hire and CTO at the YC-backed IoT startup Edyn - he wrote the initial code for much of the tech stack (Node.js, AWS, mobile, etc.), and as CTO he led the growth of the software and data science teams to 12 people. The Edyn team shipped 10,000 units of their IoT products and continuously iterated on a production mobile app to use with them.
 
 > _Education:_ He received a BSE from Princeton in Electrical Engineering in 2008, and he received his Master's degree from Harvard in Systems Biology in 2014.
 
@@ -123,11 +125,11 @@
 
 [LinkedIn](https://www.linkedin.com/in/marcelo-morgado/) // [Medium](https://medium.com/@marcelomorgado) // [GitHub](https://github.com/marcelomorgado)
 
-> Marcelo is a full-stack developer with >5 years of experience and a sysadmin with >10 years of experience. He has participated in and lead multiple software development projects. He is a cryptocurrencies, decentralization, and open-source enthusiast.
+> Marcelo is a full-stack developer with >5 years of experience and a sysadmin with >10 years of experience. He has participated in and lead multiple software development projects. He is passionate about cryptocurrencies, decentralization, and open-source.
 
-> Marcelo has personally faced the problem that we're trying to solve. He participated in a Status Hackathon in September 2018. The web app he built works and received the 2nd place award at the hackathon. However, the associated React Native mobile project still only is a prototype, because he didn't have enough time to build an Ethereum wallet from scratch and then build a dapp during the hackathon. He has been following crypto technologies for 4 years now, and he thinks that one of the greatest barrier to the mass adoption of crypto and dapps is the friction with handling private keys, identity, and gas.
+> Marcelo has personally faced the problem that we're trying to solve. He participated in a Status Hackathon in September 2018. The web app he built works and received the 2nd place award at the hackathon. However, the associated React Native mobile project still is only a prototype, because he didn't have enough time to build an Ethereum wallet from scratch and then build a dapp during the hackathon. He has been following crypto technologies for 4 years now, and he thinks that one of the greatest barriers to the mass adoption of crypto and dapps is the friction with handling private keys, identity, and gas.
 
-> _Education_: He recently took a course on Digital Currencies (DFIN-511) at the University of Nicosia in Cyprus. In 2013, he received his bachelor's degree in Information Systems from PUC-RIO (the #1 Brazillian private university) in 2013.
+> _Education_: He recently took a course on Digital Currencies (DFIN-511) at the University of Nicosia in Cyprus. In 2013, he received his bachelor's degree in Information Systems from PUC-RIO (the #1 Brazillian private university).
 
 ### Timeline, Milestones and Deliverables
 
@@ -135,51 +137,51 @@
 
 **Deliverables**
 
-- Ephemeral account and private key generation
+> - Ephemeral account and private key generation
 
-- Higher-level abstraction for reading and writing data and reacting to events
+> - Higher-level abstraction for reading and writing data and reacting to events
 
-- Advanced support for ERC721
+> - Advanced support for ERC721
 
-- Onboarding using the Gnosis Safe for users with funds in there already
+> - Onboarding using the Gnosis Safe for users with funds in there already
 
-- Proof-of-concept app for Decentraland on TestFlight for iOS on a testnet
+> - Proof-of-concept app for Decentraland on TestFlight for iOS on a testnet
 
 **Time and Price Estimate**
 
 > 1 month, \$16500 total
 
-- \$2000 design contract work
+> - \$2000 design contract work
 
-- $13500 1 month of $6,750/month pay for 2 software engineers
+> - $13500 1 month of $6,750/month pay for 2 software engineers
 
-- \$500 SAAS costs, like an Apple Developer Program account to have a test implementation of an app using the SDK, etc.
+> - \$500 SAAS costs, like an Apple Developer Program account to have a test implementation of an app using the SDK, etc.
 
-- \$500 legal costs with Stripe Atlas
+> - \$500 legal costs with Stripe Atlas
 
 **Phase II - v1.0.0**
 
 **Deliverables**
 
-- Advanced support for one of these: (A) DAOs, (B) TCRs, or (C) two-sided marketplaces.
+> - Advanced support for one of these: (A) DAOs, (B) TCRs, or (C) two-sided marketplaces.
 
-- "tasit init" scaffolds out a mobile dapp
+> - "tasit init" scaffolds out a mobile dapp
 
-- Onboarding using the Gnosis Safe for users new to Ethereum
+> - Onboarding using the Gnosis Safe for users new to Ethereum
 
-- Configurable JSON-RPC client
+> - Configurable JSON-RPC client
 
-- Proof-of-concept app for Decentraland on TestFlight for iOS and Google Play beta track on mainnet
+> - Proof-of-concept app for Decentraland on TestFlight for iOS and Google Play beta track on mainnet
 
 **Time and Price Estimate**
 
 > 2 additional months, \$17500
 
-- \$2000 design contract work
+> - \$2000 design contract work
 
-- $13500 1 month of $6,750/month pay for 2 software engineers (salary for the 3rd month to be secured from elsewhere)
+> - $13500 1 month of $6,750/month pay for 2 software engineers (salary for the 3rd month to be secured from elsewhere)
 
-- \$2000 travel to conferences to speak about the project and attract other developers to use and/or contribute to the SDK.
+> - \$2000 travel to conferences to speak about the project and attract other developers to use and/or contribute to the SDK.
 
 **Phase III**
 
@@ -187,16 +189,16 @@
 
 ### Other
 
-- [Website](https://tasit.io/)
+> - [Website](https://tasit.io/)
 
-- [Twitter](https://twitter.com/tasitlabs)
+> - [Twitter](https://twitter.com/tasitlabs)
 
-- [Project Kanban board](https://github.com/orgs/tasitlabs/projects/1)
+> - [Project Kanban board](https://github.com/orgs/tasitlabs/projects/1)
 
-- [Telegram](https://t.me/tasitlabs)
+> - [Telegram](https://t.me/tasitlabs)
 
-- [Email](mailto:founders@tasit.io)
+> - [Email](mailto:founders@tasit.io)
 
-- [Feature requests](https://tasit.canny.io/feature-requests)
+> - [Feature requests](https://tasit.canny.io/feature-requests)
 
-- [Here's a video](https://youtu.be/PPbwf1-4Jpk) of Paul Cowgill pitching Tasit Labs (the company doing most of the initial work on the Tasit SDK).
+> - [Here's a video](https://youtu.be/PPbwf1-4Jpk) of Paul Cowgill pitching Tasit Labs (the company doing most of the initial work on the Tasit SDK).
