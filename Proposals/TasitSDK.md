@@ -1,6 +1,4 @@
-# Proposal Guideline
-
-_This is a guideline on how to best structure your proposal._
+# Tasit SDK
 
 ## Project Overview
 
@@ -18,18 +16,18 @@ _This is a guideline on how to best structure your proposal._
 
 > Here's a video of Paul Cowgill pitching Tasit Labs (the company doing most of the initial work on the Tasit SDK): https://youtu.be/PPbwf1-4Jpk
 
-[tasit.io](https://tasit.io)
+> [tasit.io](https://tasit.io)
 
 ### Why did you decide to build it
 
 > I often feel frustrated that I can't use Ethereum dapps on my mobile phone the way I would with any "web 2" app. For instance, sometimes I want to add someone to the Aragon DAO for my meetup group on my phone when I meet them at a meetup, but instead I have to set a reminder to do it when I'm back at my computer at home. If I'm noticing this inconvenience as someone who's technical, the average potential user must feel that pain even more. The Ethereum community loses mainstream people from the onboarding funnel because of this.
 
-The 3 main source of friction are:
-A) Using a dapp within a browser dapp is an unacceptable UX. Almost all legitimate experiences on mobile today happen in standalone native apps.
-B) As someone who already has ETH and tokens, needing to transfer some of these funds permanently from my preferred mobile wallet to another account in order to use a dapp is an unacceptable UX.
-C) Needing ETH or tokens in the first place to try a dapp is too much onboarding friction.
+> The 3 main source of friction are:
+> A) Using a dapp within a browser dapp is an unacceptable UX. Almost all legitimate experiences on mobile today happen in standalone native apps.
+> B) As someone who already has ETH and tokens, needing to transfer some of these funds permanently from my preferred mobile wallet to another account in order to use a dapp is an unacceptable UX.
+> C) Needing ETH or tokens in the first place to try a dapp is too much onboarding friction.
 
-These problems can be solved with a JavaScript SDK for writing mobile apps for Ethereum dapps in React Native with a few advanced onboarding features built in. This helps developers build new mobile dapps more quickly without reinventing the wheel for basic features.
+> These problems can be solved with a JavaScript SDK for writing mobile apps for Ethereum dapps in React Native with a few advanced onboarding features built in. This helps developers build new mobile dapps more quickly without reinventing the wheel for basic features.
 
 ### How long will it take
 
@@ -51,6 +49,8 @@ These problems can be solved with a JavaScript SDK for writing mobile apps for E
 
 <!-- TODO: Add me -->
 
+_{ Coming soon }_
+
 ##### Why you chose to build this project
 
 See the "Why did you decide to build it" section above.
@@ -62,9 +62,13 @@ https://github.com/tasitlabs/TasitSDK/blob/develop/README.md#why
 
 <!-- TODO: Add me -->
 
+_{ Coming soon }_
+
 ##### Why we should fund you.
 
 <!-- TODO: Add more -->
+
+_{ More coming soon }_
 
 React Native is an especially great fit for mobile dapps since React is such a commonly used technology for web-based dapps - this allows for more code reuse.
 
@@ -94,32 +98,31 @@ ethers.js, React Native, Expo, Jest, Truffle, Babel, Infura, Lerna, smart-contra
 
 ##### Paul Cowgill
 
-[LinkedIn](https://www.linkedin.com/in/pcowgill/)
-[Twitter](https://twitter.com/paulcowgill)
-[GitHub](https://twitter.com/paulcowgill)
+[LinkedIn](https://www.linkedin.com/in/pcowgill/) // [Twitter](https://twitter.com/paulcowgill) // [GitHub](https://twitter.com/paulcowgill)
 
 Paul recently worked on a smart contract audit for OpenZeppelin 2.0 with the team at Level K (plus a few other high-profile audits). For the past year and a half he has been working as a freelance software engineer specializing in Solidity, IPFS, Truffle, React, and React Native.
 
 He has a lot of experience working on native mobile apps, most recently including the Heatworks mobile app. Before that he was the first hire and CTO at the YC-backed IoT startup Edyn - he wrote the initial code for much of the tech stack (Node.js, AWS, mobile, etc.), and as CTO he led the growth of the software and data science teams to 12 people. The Edyn team shipped 10,000 units of their IoT products and continuously iterated on a production mobile app to use with them.
 
-Education: He did his undergrad at Princeton in Electrical Engineering, and his masters at Harvard in Systems Biology.
+_Education_
+
+He did his undergrad at Princeton in Electrical Engineering, and his masters at Harvard in Systems Biology.
 
 ##### Marcelo Morgado
 
-[LinkedIn](https://www.linkedin.com/in/marcelo-morgado/)
-[Medium](https://medium.com/@marcelomorgado)
-[GitHub](https://github.com/marcelomorgado)
+[LinkedIn](https://www.linkedin.com/in/marcelo-morgado/) // [Medium](https://medium.com/@marcelomorgado) // [GitHub](https://github.com/marcelomorgado)
 
 Marcelo is a full-stack developer with >5 years of experience and a sysadmin with >10 years of experience. He has participated in and lead several software development projects. Cryptocurrencies/decentralization and open-source enthusiast.
 
 Marcelo has personally faced the problem that we're trying to solve. He participated in a Status Hackathon in September 2018. The web app he built is functional but the React Native mobile project still only is a prototype, because he didn't have enough time to build an Ethereum wallet from scratch and then build a dapp during the hackathon. He has been following crypto technologies for 4 years now, and he thinks that one of the greatest barrier to the mass adoption of crypto and dapps is the friction with handling private keys, identity, and gas.
 
-Education:
-University of Nicosia
+_Education_
+
+**University of Nicosia**
 DFIN-511 Digital Currencies
 2018 - 2018
-PUC-Rio
-#1 Brazillian private university - 2018
+
+**PUC-Rio** (#1 Brazillian private university - 2018)
 Bachelor’s degree, Information
 Systems
 2006 - 2013
@@ -155,8 +158,6 @@ Systems
 **Phase II - v1.0.0**
 
 **Deliverables**
-
-<!-- TODO: Add more -->
 
 - Advanced support for one of these: (A) DAOs, (B) TCRs, or (C) two-sided marketplaces.
 
