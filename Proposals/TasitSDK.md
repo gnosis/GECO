@@ -97,17 +97,12 @@
 
 ##### Architecture, mockups, etc.
 
-- [Architecture](https://www.dropbox.com/s/gw88c5ua4ssthvg/TasitProjectStructure.png?dl=0)
-
-- A README with [more details on the Tasit SDK](https://github.com/tasitlabs/TasitSDK/blob/develop/README.md)
-
-- A README with [more details on the Tasit apps](https://github.com/tasitlabs/tasit/blob/develop/README.md) - all the mainstream-user-facing apps for popular web-based dapps (like Decentraland, Aragon, etc.) that will be built using the Tasit SDK
-
-- [Slides about the Tasit SDK](https://bit.ly/2018-12-04-chicago-ethereum-meetup)
-
-- [Video with example app onboarding flow](https://youtu.be/iJQtDPQrRsE) (interactive wireframes)
-
-- [Demo app using the Tasit SDK](https://github.com/tasitlabs/tasit/tree/develop/demo)
+> - [Architecture](https://www.dropbox.com/s/gw88c5ua4ssthvg/TasitProjectStructure.png?dl=0)
+> - A README with [more details on the Tasit SDK](https://github.com/tasitlabs/TasitSDK/blob/develop/README.md)
+> - A README with [more details on the Tasit apps](https://github.com/tasitlabs/tasit/blob/develop/README.md) - all the mainstream-user-facing apps for popular web-based dapps (like Decentraland, Aragon, etc.) that will be built using the Tasit SDK
+> - [Slides about the Tasit SDK](https://bit.ly/2018-12-04-chicago-ethereum-meetup)
+> - [Video with example app onboarding flow](https://youtu.be/iJQtDPQrRsE) (interactive wireframes)
+> - [Demo app using the Tasit SDK](https://github.com/tasitlabs/tasit/tree/develop/demo)
 
 ### Team description
 
@@ -164,13 +159,9 @@
 **Deliverables**
 
 > - Advanced support for one of these: (A) DAOs, (B) TCRs, or (C) two-sided marketplaces.
-
 > - "tasit init" scaffolds out a mobile dapp
-
 > - Onboarding using the Gnosis Safe for users new to Ethereum
-
 > - Configurable JSON-RPC client
-
 > - Proof-of-concept app for Decentraland on TestFlight for iOS and Google Play beta track on mainnet
 
 **Time and Price Estimate**
@@ -178,9 +169,7 @@
 > 2 additional months, \$17500
 
 > - \$2000 design contract work
-
 > - $13500 1 month of $6,750/month pay for 2 software engineers (salary for the 3rd month to be secured from elsewhere)
-
 > - \$2000 travel to conferences to speak about the project and attract other developers to use and/or contribute to the SDK.
 
 **Phase III**
@@ -190,15 +179,9 @@
 ### Other
 
 > - [Website](https://tasit.io/)
-
 > - [Twitter](https://twitter.com/tasitlabs)
-
 > - [Project Kanban board](https://github.com/orgs/tasitlabs/projects/1)
-
 > - [Telegram](https://t.me/tasitlabs)
-
 > - [Email](mailto:founders@tasit.io)
-
 > - [Feature requests](https://tasit.canny.io/feature-requests)
-
 > - [Here's a video](https://youtu.be/PPbwf1-4Jpk) of Paul Cowgill pitching Tasit Labs (the company doing most of the initial work on the Tasit SDK).
