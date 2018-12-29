@@ -12,7 +12,7 @@
 
 ### What project are you building
 
-> The Tasit SDK is a JavaScript SDK for making standalone native mobile Ethereum dapps using React Native.
+> The Tasit SDK is a JavaScript SDK for making standalone native mobile Ethereum dapps using React Native. It integrates seamlessly with the Gnosis Safe so that mobile dapps can use funds stored in the Safe wallet.
 
 ### Why did you decide to build it
 
