@@ -14,20 +14,13 @@
 
 > The Tasit SDK is a JavaScript SDK for making standalone native mobile Ethereum dapps using React Native.
 
-> Here's a video of Paul Cowgill pitching Tasit Labs (the company doing most of the initial work on the Tasit SDK): https://youtu.be/PPbwf1-4Jpk
-
-> [tasit.io](https://tasit.io)
-
 ### Why did you decide to build it
 
-> I often feel frustrated that I can't use Ethereum dapps on my mobile phone the way I would with any "web 2" app. For instance, sometimes I want to add someone to the Aragon DAO for my meetup group on my phone when I meet them at a meetup, but instead I have to set a reminder to do it when I'm back at my computer at home. If I'm noticing this inconvenience as someone who's technical, the average potential user must feel that pain even more. The Ethereum community loses mainstream people from the onboarding funnel because of this.
+> I (Paul) often feel frustrated that I can't use Ethereum dapps on my mobile phone the way I would with any "web 2" app. For instance, sometimes I want to add someone to the Aragon DAO for my meetup group on my phone when I meet them at a meetup, but instead I have to set a reminder to do it when I'm back at my computer at home. If I'm noticing this inconvenience as someone who's technical, the average potential user must feel that pain even more. The Ethereum community loses mainstream people from the onboarding funnel because of this.
 
-> The 3 main source of friction are:
-> A) Using a dapp within a browser dapp is an unacceptable UX. Almost all legitimate experiences on mobile today happen in standalone native apps.
-> B) As someone who already has ETH and tokens, needing to transfer some of these funds permanently from my preferred mobile wallet to another account in order to use a dapp is an unacceptable UX.
-> C) Needing ETH or tokens in the first place to try a dapp is too much onboarding friction.
+> Mobile is way more important than PCs for the younger generations and globally - so it feels very "centralized" of the community to focus primarily on web-based experiences on a laptop.
 
-> These problems can be solved with a JavaScript SDK for writing mobile apps for Ethereum dapps in React Native with a few advanced onboarding features built in. This helps developers build new mobile dapps more quickly without reinventing the wheel for basic features.
+> Initially I was interested in building an Ethereum dapp data explorer tool with simpler UX. Gradually, I realized that since my top priority is delighting mainstream users and introducing them to crypto and Ethereum (without necessarily knowing they’re using Ethereum), enabling developers to create mobile apps for using dapps would impact mainstream users far more than an exploratory tool.
 
 ### How long will it take
 
@@ -35,11 +28,11 @@
 
 ### How much funding are you requesting
 
-> \$34000
+> \$34000 _(Please see the timeline section for a detailed breakdown of where this number comes from.)_
 
 ### How did you hear about the GECO
 
-> Talking with engineers from the Gnosis team at Devcon4
+> Talking with Gnosis software engineers at Devcon4
 
 ## Your Proposal
 
@@ -47,30 +40,47 @@
 
 ##### A detailed description of your project
 
-<!-- TODO: Add me -->
+One major reason most dapps don’t have standalone mobile apps today is because it’s harder for developers to build mobile Ethereum dapps than it is to build web-based dapps. There isn’t any good tooling for Ethereum in the React Native ecosystem. The Tasit SDK provides this. React Native is an especially great fit for mobile dapps since React is such a commonly used technology for web-based dapps - this allows for more code reuse. Moreover, many talented younger developers are opting to build their apps in React Native as opposed to Swift (for iOS) or Java (for Android) so that their app "automagically" works on both platforms.
 
-_{ Coming soon }_
+> The 3 main source of UX friction this SDK addresses are:
+> (A) Using a dapp within a web3-enabled browser dapp is an unacceptable UX. Almost all legitimate experiences on mobile today happen in standalone native apps.
+> (B) As someone who already has ETH and tokens, needing to transfer some of these funds permanently from my preferred mobile wallet to another account in order to use a dapp is an unacceptable UX.
+> (C) Needing ETH or tokens in the first place to try a dapp is too much onboarding friction.
 
-##### Why you chose to build this project
+> These problems can be solved with a JavaScript SDK for writing mobile apps for Ethereum dapps in React Native with a few advanced onboarding features built in. This helps developers build new mobile dapps more quickly without reinventing the wheel for basic features.
 
-See the "Why did you decide to build it" section above.
+Features
 
-Also:
-https://github.com/tasitlabs/TasitSDK/blob/develop/README.md#why
+- Account and private key generation
+- Reading and writing data and reacting to events
+- Advanced support for popular ERC standards
+- Onboarding
+- Configurable JSON-RPC client
+- Automatic scaffolding using the Tasit CLI
 
 ##### The overall goal and future outlook of your project
 
-<!-- TODO: Add me -->
+Once the Tasit SDK is around, more dapps will have dedicated mobile apps. This will remove a key barrier to mainstream adoption of Ethereum dapps.
 
-_{ Coming soon }_
+Developers shouldn't need to reinvent the wheel for each new dapp: account and private key generation, linking to another wallet or adding meta-transaction support, etc. Let the Tasit SDK handle that bit and focus on the business logic for your dapp.
+
+In the future, we'll support the following based on demand:
+
+- Serenity (eWASM, sharding, proof of stake)
+- The Graph protocol
+- State channels
+- Plasma
+- Future popular ERC standards
+- In-app and/or singleton-on-device light and ultralight clients with a simple abstraction around them
+- Use of upgradeable and nonupgradeable contracts
+- Tool for finding the current address of a popular smart contract
+- etc.
 
 ##### Why we should fund you.
 
-<!-- TODO: Add more -->
+I (Paul) have a unique eye for product. I've shipped production mobile apps and worked with a team on an evolving JavaScript code base. I'm experienced with React Native and Ethereum. I've vetted the idea at conferences like Dappcon, TruffleCon, and Devcon4. Plus, people enjoy working with me.
 
-_{ More coming soon }_
-
-React Native is an especially great fit for mobile dapps since React is such a commonly used technology for web-based dapps - this allows for more code reuse.
+Tasit will serve as "proof of decentralization" for the dapps we support. Vitalik tweeted 'One simple litmus test for whether or not a blockchain project is truly decentralized: can a third party independently make a client for it, and do everything that the "official" client can?'. It's time for major decoupling of "back end" and front end. This decoupling provides users with "right to exit".
 
 ### Features
 
@@ -106,26 +116,19 @@ He has a lot of experience working on native mobile apps, most recently includin
 
 _Education_
 
-He did his undergrad at Princeton in Electrical Engineering, and his masters at Harvard in Systems Biology.
+He received a BSE from Princeton in Electrical Engineering in 2008, and he received his Master's degree from Harvard in Systems Biology in 2014.
 
 ##### Marcelo Morgado
 
 [LinkedIn](https://www.linkedin.com/in/marcelo-morgado/) // [Medium](https://medium.com/@marcelomorgado) // [GitHub](https://github.com/marcelomorgado)
 
-Marcelo is a full-stack developer with >5 years of experience and a sysadmin with >10 years of experience. He has participated in and lead several software development projects. Cryptocurrencies/decentralization and open-source enthusiast.
+Marcelo is a full-stack developer with >5 years of experience and a sysadmin with >10 years of experience. He has participated in and lead multiple software development projects. He is a cryptocurrencies, decentralization, and open-source enthusiast.
 
-Marcelo has personally faced the problem that we're trying to solve. He participated in a Status Hackathon in September 2018. The web app he built is functional but the React Native mobile project still only is a prototype, because he didn't have enough time to build an Ethereum wallet from scratch and then build a dapp during the hackathon. He has been following crypto technologies for 4 years now, and he thinks that one of the greatest barrier to the mass adoption of crypto and dapps is the friction with handling private keys, identity, and gas.
+Marcelo has personally faced the problem that we're trying to solve. He participated in a Status Hackathon in September 2018. The web app he built works and received the 2nd place award at the hackathon. However, the associated React Native mobile project still only is a prototype, because he didn't have enough time to build an Ethereum wallet from scratch and then build a dapp during the hackathon. He has been following crypto technologies for 4 years now, and he thinks that one of the greatest barrier to the mass adoption of crypto and dapps is the friction with handling private keys, identity, and gas.
 
 _Education_
 
-**University of Nicosia**
-DFIN-511 Digital Currencies
-2018 - 2018
-
-**PUC-Rio** (#1 Brazillian private university - 2018)
-Bachelor’s degree, Information
-Systems
-2006 - 2013
+He recently took a course on Digital Currencies (DFIN-511) at the University of Nicosia in Cyprus. In 2013, he received his bachelor's degree in Information Systems from PUC-RIO (the #1 Brazillian private university) in 2013.
 
 ### Timeline, Milestones and Deliverables
 
@@ -195,3 +198,5 @@ We have plans for phase III and beyond, but I'm intentionally keeping the scope 
 - [Email](mailto:founders@tasit.io)
 
 - [Feature requests](https://tasit.canny.io/feature-requests)
+
+- [Here's a video](https://youtu.be/PPbwf1-4Jpk) of Paul Cowgill pitching Tasit Labs (the company doing most of the initial work on the Tasit SDK).
