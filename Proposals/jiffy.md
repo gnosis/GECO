@@ -13,8 +13,7 @@ We have several things in the roadmap to make this happen:
     - Allowing users to watch a specific types of transactions using ethereum events.
     - Using predictive deployment to allow users to send tokens/ether to each other using URL's/QR
 
-UI/UX , usability being the primary motivation we aim to bring new users onboard as quickly as possible without knowing anything about blockchain.
-
+UI/UX , usability being the primary motivation we aim to bring new users onboard as quickly as possible without knowing anything about blockchain. This could also help in first experimenting with new contracts/dapps without building a front end and then when dapp gains enough traction you can build a custom UI?UX
 
 ## Grant size
 
@@ -56,3 +55,6 @@ The development timeline will be the following one in regards to each deliverabl
 2. Feb 28 2019 - Implementing meta tx and dagger support
 3. Mar 30 2019 - Implementing burner wallet support, git integration and finishing up.
 
+## Category 
+
+We would most probably lie on the `dapp usability` side . We will allow users to interact with multiple contracts without a custom frontend thus lowering the barrier to create a proper usable product , developers just have to write contracts now!  
