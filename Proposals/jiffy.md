@@ -90,3 +90,8 @@ The development timeline will be the following one in regards to each deliverabl
 ## Category 
 
 We would most probably lie on the `dapp usability` side . We will allow users to interact with multiple contracts without a custom frontend thus lowering the barrier to create a proper usable product , developers just have to write contracts now!  
+
+PS: We have started building 
+1. [FrontEnd](https://github.com/vaibhavchellani/jiffy)
+2. [BackEnd](https://github.com/vaibhavchellani/jiffy-backend)
+3. [Designs](https://drive.google.com/open?id=1t-Nl_II8Vs_z35HQuVCgk2fc_QvPvSnR)
