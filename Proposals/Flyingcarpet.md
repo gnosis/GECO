@@ -9,6 +9,8 @@ Leopold Joy - https://www.linkedin.com/in/leopoldjoy/
 
 Victor Faramond - https://www.linkedin.com/in/victorfaramond/
 
+Mike Onorato - https://www.linkedin.com/in/mikeonorato
+
 Satya Doraisamy - https://www.linkedin.com/in/satya-doraisamy-a51962104/
 ### What project are you building 
 At Flyingcarpet, we are building the decentralised geospatial layer for Earth observation. The Flyingcarpet Network incentivises data scientists to build a decentralised library of geospatial analytics-extraction models. Analytics are made continually available to paying organisations via our Analytics API, which will also function as an oracle that can be integrated directly into smart contracts. Models are tokenised so that anyone can invest in them and share in their future revenue.
