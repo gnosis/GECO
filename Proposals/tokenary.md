@@ -123,9 +123,9 @@ Once multisig participants are able to send transactions and configure everythin
 **Phase 4** — Polishing\
 **Deliverables** — Design & UX Improvements\
 Once everything is set up, we plan to start working with user feedback and analytics, improving our interface according to the user needs. Also, we see a potential need to integrate other smart contract interfaces in our app, i.e. allow users to seamlessly interact with ERC-721 tokens.\
-**Time and Price Estimate** — 1.5 months (15 000$)
+**Time and Price Estimate** — 1 month (10 000$)
 
 ### Others	 
 We are glad to receive your feedback on our beta release of Safari extension
 * https://youtu.be/Wk00fIOj2E8 — video
-* https://tokenary.io/beta/Tokenary.dmg — download 
+* https://tokenary.io/beta/Tokenary.dmg — download
