@@ -6,7 +6,7 @@
 ### Project name
 Flyingcarpet Network
 
-**Webiste:** https://www.flyingcarpet.network/
+**Website:** https://www.flyingcarpet.network/
 
 **Github:** https://github.com/flyingcarpet-network
 
