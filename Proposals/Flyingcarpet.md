@@ -1,7 +1,11 @@
 ## Project Overview
+<p align="center">
+  <img src="https://github.com/flyingcarpet-network/GECO/blob/master/Proposals/assets/Flyingcarpet/FLCA_logo.jpg" />
+</p>
 
 ### Project name
 Flyingcarpet Network
+
 ### Team members
 Julien Bouteloup - https://www.linkedin.com/in/jbouteloup/
 
