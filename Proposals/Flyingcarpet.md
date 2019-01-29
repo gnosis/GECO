@@ -6,6 +6,12 @@
 ### Project name
 Flyingcarpet Network
 
+**Webiste:** https://www.flyingcarpet.network/
+
+**Github:** https://github.com/flyingcarpet-network
+
+**Research:** https://github.com/flyingcarpet-network/Research/blob/master/Whitepaper_Flyingcarpet.pdf
+
 ### Team members
 Julien Bouteloup - https://www.linkedin.com/in/jbouteloup/
 
