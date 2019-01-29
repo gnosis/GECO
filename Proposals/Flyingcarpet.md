@@ -56,7 +56,9 @@ We envisage that the Flyingcarpet Predictions Dashboard will be popular with cor
 We anticipate that some models, such as those relating to climate change and the environment, will attract larger volumes of prediction market users. We are building a model in partnership with Ice Alive, for which we recently received a grant from Microsoft and National Geographic, that monitors glacial melt in the Arctic and a model for Reforestum that monitors biomass in order to measure CO2 reductions. In the case of the former, we anticipate that everyone from NGOs to researchers engaged in tackling Arctic ice melt will have an incentive to bet on the precise rate of glacial melt. Regarding the latter, individuals and organisations that purchase carbon offsets (an immense market) would have an incentive to bet that CO2 reductions are increasing.
 
 For both of the above climate-related use cases, we believe that corporations and high net worth individuals may use prediction markets to indicate in a transparent and cryptographically secure way to the public that they have serious “skin in the game” vis-à-vis the causes that they profess to champion.
-![Gnosis prediction] (../assets/Flyingcarpet/gnosis_prediction.png?raw=true)
+<p align="center">
+  <img src="https://github.com/flyingcarpet-network/GECO/blob/master/Proposals/assets/Flyingcarpet/gnosis_prediction.png" />
+</p>
 
 **The Model Viability Prediction Market Dashboard**
 The Flyingcarpet Network will source optimal models for particular use cases by incentivising data scientists with bounties. Optimal models are then stored decentrally and made available to analytics-hungry organisations.
@@ -80,9 +82,9 @@ The Flyingcarpet smart contracts only contain hashes (e.g. IPFS) corresponding t
 
 **Model Viability Prediction Market Dashboard**
 Predictions regarding the demand / profitability of future models will be used to gauge the interest of the Flyingcarpet community with regard to model creation options (e.g. a corn yield model vs a large cargo ship counting model). Since this application requires conditional market support (e.g. predictions of the format: “if x model is built and x model is arbitrarily profitable/in demand”), it is an ideal use case for Gnosis’ new v2.0 PM contracts which enable conditionals.
-
-![Model Viability Prediction Market Dashboard] (../assets/Flyingcarpet/Model_Viability_Prediction_Market_Dashboard.png?raw=true)
-
+<p align="center">
+  <img src="https://github.com/flyingcarpet-network/GECO/blob/master/Proposals/assets/Flyingcarpet/Model_Viability_Prediction_Market_Dashboard.png" />
+</p>
 
 **Additional Decentralized Financial Instruments**
 In addition to the aforementioned Flyingcarpet prediction markets, we plan to construct a number of other financial instruments on top of Gnosis, including:
