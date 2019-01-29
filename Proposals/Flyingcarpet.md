@@ -2,7 +2,7 @@
 
 ### Project name
 Flyingcarpet Network
-### Team members 
+### Team members
 Julien Bouteloup - https://www.linkedin.com/in/jbouteloup/
 
 Leopold Joy - https://www.linkedin.com/in/leopoldjoy/
@@ -12,67 +12,88 @@ Victor Faramond - https://www.linkedin.com/in/victorfaramond/
 Mike Onorato - https://www.linkedin.com/in/mikeonorato
 
 Satya Doraisamy - https://www.linkedin.com/in/satya-doraisamy-a51962104/
-### What project are you building 
-At Flyingcarpet, we are building the decentralised geospatial layer for Earth observation. The Flyingcarpet Network incentivises data scientists to build a decentralised library of geospatial analytics-extraction models. Analytics are made continually available to paying organisations via our Analytics API, which will also function as an oracle that can be integrated directly into smart contracts. Models are tokenised so that anyone can invest in them and share in their future revenue.
-### Why did you decide to build it 
+### What project are you building
+At Flyingcarpet, we are building a decentralised geospatial layer for Earth Observation. The Flyingcarpet Network incentivises data scientists to build an open library of geospatial analytics-extraction models. Analytics are made continually available to paying organisations via our Analytics API, which will also function as an oracle that can be integrated directly into smart contracts. Models are tokenised so that anyone can invest in them and share in their future revenue.
+
+As a component of the Flyingcarpet Network, we are creating two Flyingcarpet prediction markets on top of the Gnosis PM v2.0 smart contracts. The first, our Flyingcarpet Predictions Dashboard, will enable anybody in the world to make  predictions from Flyingcarpet model insights. The second, our Model Viability Prediction Market, will be a conditional prediction market, enabling Flyingcarpet users to bet on the future profitability/demand for models that haven’t been created yet.
+
+
+#### Flyingcarpet Network Workflow
+
+1. Model Viability Prediction Market (Gnosis Integration): A Gnosis PM v2.0 conditional prediction market crowdsources sentiment from Flyingcarpet Network participants to determine the prospects of future models (how the Flyingcarpet community predicts the future profitability/demand of, for example, a model that analyses Amazonian deforestation vs a model that analyses Arctic ice melt). See Model Viability Prediction Market section below.
+2. Model Sourcing: Data scientists produce optimal models for the paying organisation’s request. Effective models are stored decentrally with all computation taking place off-chain.
+
+3. Models Dashboard & Predictions Dashboard (Gnosis Integration): The Flyingcarpet Predictions Dashboard enables participants to make predictions on physical-world events with models acting as arbiters of truth. Analytics from Flyingcarpet models are made continually available to paying organisations via our Analytics API and smart contract oracles.
+4. Model Investments and Financial Instruments: Models are tokenised and converted into investible entities that can function as financial instruments (see Additional Decentralized Financial Instruments section below) so that anyone, anywhere can capture the value of Earth observation.
+
+### Why did you decide to build it
 Julien picked this idea because he had previously worked on building AI-powered IoT swarms. The increasing number of Earth observation satellites, combined with recent advances in both machine learning and blockchain led to a greater vision: using blockchain-based incentives to build a decentralised library of machine learning Earth observation models.
 
 Earth observation satellite imagery has such broad applications across all organisations and industries that it will be a key driver of economic growth in the next decade and beyond. However, since such analytics are currently provided by centralised and pricey firms, only organisations with considerable financial resources can access geospatial analytics. As a result, many organisations that would benefit the most from these analytics, such as SMEs, non-profits, NGOs and humanitarian efforts, are priced out.
 
-In a world where economic inequality is increasing and power is becoming increasingly centralised, we at Flyingcarpet are determined to ensure that Earth observation is open to everyone. We envisage that Flyingcarpet will massively increase organisational access to Earth observation analytics while also distributing value to data scientists in a fairer way.
-### How long will it take 
-We aim to be live and fully operational on the Ethereum testnet in Q3 2019 and mainnet in Q4. The first Flyingcarpet models will be used by paying customers in Q1 2019. 
+In a world where economic inequality is increasing and power is becoming increasingly centralised, we at Flyingcarpet are determined to ensure that the value of Earth observation is open to everyone. We envisage that Flyingcarpet will massively increase organisational access to Earth observation analytics—and predictions built on these insights—while also distributing value to data scientists in a fairer way.
+
+
+### How long will it take
+Eight months, split between two milestones (four months each).
+
 ### How much funding are you requesting  
-$100,000.
+**$80k total funding. Breakdown:**
+1. **$40k: Feb - May 2019** — Concurrent development of the Flyingcarpet Predictions Dashboard and the Flyingcarpet Model Viability PM Dashboard. This front-end development will entail creation of both web3-enabled Dapps.
+2. **$40k: June - Sept 2019** — Full integration of Predictions Dashboard with all existing and future Flyingcarpet models (e.g. coffee, ice melt, deforestation, catastrophes etc.) so that users can start making predictions on Gnosis PM with Flyingcarpet oracles as more come online. Also, back-end development of Model Viability PM Dashboard, including integration with both Gnosis and Flyingcarpet smart contracts, followed by a marketing push to drive our community of data scientists and paying organizations to participate in this Gnosis PM.
+
 ### How did you hear about the GECO
 Website
 
-## Your Proposal 
+## Your Proposal
 ### Project description
-We decided to build a decentralised library of Earth observation (EO) machine learning models for several reasons. Firstly, analytics derived from EO satellite imagery can potentially benefit organisations of all types and sizes. Secondly, these analytics are currently only available to organisations with considerable financial resources. Thirdly, in order to access high-quality work, skilled data scientists must work for siloed firms that capture most of the value that they create. Fourthly, if the machine learning models and datasets generating EO analytics can be trust-minimised so that the models can function as oracles, we can radically open up smart contract use cases.
+**The Flyingcarpet Predictions Dashboard**
 
-We decided to build Flyingcarpet to address these issues and to ensure a more egalitarian value distribution in the emerging EO space. We want to: (i) improve access to EO analytics (ii) bring down the cost of high-quality analytics by building a massively scalable, decentralised library of geospatial analytics models (iii) ensure that data scientists are able to capture the full value of their work and (iv) build an API that programmatically inserts analytics generated by models into smart contracts in near real-time. 
+A Flyingcarpet Predictions Dashboard will open up more uses for our decentralised Earth observation models. The Flyingcarpet Predictions Dashboard will enable anyone to bet on events relating to the physical world insofar as a Flyingcarpet model exists for a particular prediction. Flyingcarpet models will serve as oracles and provide a single source of truth for these predictions, thereby allowing bets relating to the physical world to be made in a trust-minimised manner and without a rent-seeker acting as an arbiter of truth.
 
-We believe that Gnosis would benefit from funding Flyingcarpet for several reasons. Firstly, we fully share Gnosis’ mission to distribute resources in new, more efficient ways by creating new assets and incentives across a network. Secondly, Flyingcarpet EO insights can be directly integrated into the Gnosis Predictions Dashboard to provide increased information to market participants. Finally, Flyingcarpet analytics can also be used to evaluate the outcome of geospatial market events.
+We envisage that the Flyingcarpet Predictions Dashboard will be popular with corporate entities that already plan to use Flyingcarpet for their operations as a way to hedge against unfavourable events. For example, one of our clients is a multinational coffee trader that is using a Flyingcarpet model to estimate crop yields in Brazil; the Flyingcarpet Predictions Dashboard will enable this specific client to hedge against a poor yield using analytics extracted by the same model. We believe that corporates will be some of the biggest users of secure prediction markets, since bets can often amount to disintermediated insurance; the Flyingcarpet Predictions Dashboard will aim to accelerate this future.
 
-Ultimately, we believe that Flyingcarpet models can provide Gnosis with the necessary infrastructure to enable trust-minimised physical world predictions. Flyingcarpet could enable prediction markets to form around any sort of physical world data, such as commodity price changes, glacial melt due to global warming or the rate of Amazonian deforestation. These analytics could be integrated directly into the Gnosis Predictions Dashboard.
+We anticipate that some models, such as those relating to climate change and the environment, will attract larger volumes of prediction market users. We are building a model in partnership with Ice Alive, for which we recently received a grant from Microsoft and National Geographic, that monitors glacial melt in the Arctic and a model for Reforestum that monitors biomass in order to measure CO2 reductions. In the case of the former, we anticipate that everyone from NGOs to researchers engaged in tackling Arctic ice melt will have an incentive to bet on the precise rate of glacial melt. Regarding the latter, individuals and organisations that purchase carbon offsets (an immense market) would have an incentive to bet that CO2 reductions are increasing.
 
-**Flyingcarpet Workflow:**
-1. **Model Creation Organization:** Flyingcarpet community stakeholders collectively organize a token-curated registry (TCR) of future model competitions based on requests from organisations seeking EO analytics. 
-2. **Annotation Portal:** Our satellite providers provide the relevant datasets, which are pushed to the Flyingcarpet Annotation Portal, where human classifiers annotate training datasets for model competitions. This is a Mechanical Turk-like interface that will provide economic opportunities for low-earners around the world. We are partnering with Gems.org (a leading decentralised Mechanical Turk platform) to build out this interface.
-3. **Model Creation Competition:** Data scientists compete in model creation competitions, not dissimilar to the ones run by Numerai, to produce optimal models for the paying organisation’s request.
-4. **Models Dashboard:** Successful models are stored decentrally with all computation taking place off-chain. Analytics from these models are made continually available to paying organisations via the Models Dashboard and are accessible via the Analytics API.
-5. **Model Investments:** Successful models are converted into investible entities that can function as financial instruments, enabling them to be used in prediction markets, such as Gnosis, as diversified investment vehicles, and more (please see our white paper for more information). The Flyingcarpet team will bootstrap development as far as possible by investing in these early models in order to generate income for the team.
+For both of the above climate-related use cases, we believe that corporations and high net worth individuals may use prediction markets to indicate in a transparent and cryptographically secure way to the public that they have serious “skin in the game” vis-à-vis the causes that they profess to champion.
+
+**The Model Viability Prediction Market Dashboard**
+The Flyingcarpet Network will source optimal models for particular use cases by incentivising data scientists with bounties. Optimal models are then stored decentrally and made available to analytics-hungry organisations.
+
+Flyingcarpet will integrate the Gnosis PM v2.0 smart contracts with our Model Viability PM Dashboard front-end in order to enable participants to make bets about the future demand for, and financial profitability of, potential models (e.g. predictions like “if a model for soybeans in the United States gets created, will it generate $100k of revenue in the first 6 months?”). All Flyingcarpet Network participants, including data scientists, satellite imagery providers and paying organisations, have a vested interest in what model use cases get created. Our initial models are being built based on direct relationships with clients, however since the Flyingcarpet Network will be fully decentralised, it needs an ongoing mechanism to crowdsource sentiment from network participants in a trustless manner; therefore, this is an ideal use case for a prediction market.
+
+Given the volume of Flyingcarpet participants that will have an incentive to participate in the Model Viability Prediction Market, we anticipate that this integration will bring substantial users to Gnosis’ platform. Once Flyingcarpet attracts large numbers of data scientists, network effects will kick in and we expect large businesses to participate in the Model Viability Prediction Market in order to leverage Flyingcarpet data scientists to suit their needs, which will further drive activity on Gnosis’ platform.
+
 ### Features
-The Flyingcarpet Network will be, at least initially, built on top of Ethereum. In the future, Flyingcarpet models will be interoperable with other blockchain ecosystems.
+Below we will expand on the technical features of our two Gnosis prediction markets and outline some additional financial instruments we intend to develop on top of Gnosis.
 
-The three main elements of the Flyingcarpet Network architecture are examined in the below high-level technical information.
+**The Flyingcarpet Predictions Dashboard**
+The Predictions Dashboard functions as a front-end interface where users can interact with Gnosis predictions that use analytics from Flyingcarpet models. This web3-enabled dashboard will be integrated with both the Gnosis PM and Flyingcarpet smart contracts.
+While the Flyingcarpet contracts will provide model information (e.g. what model oracles are available), the Gnosis PM contracts will function as the interface for all predictions based on Flyingcarpet insights, allowing prediction bets to be created and sending back event outcome information.
 
-![](https://www.lucidchart.com/publicSegments/view/f6204b60-74f9-4bf3-9bc5-c080725e22a5/image.png)
+The Flyingcarpet smart contracts only contain hashes (e.g. IPFS) corresponding to models and their extracted analytics, as models are both stored and executed off-chain. The Flyingcarpet smart contract will provide Gnosis PM smart contracts access to extracted model analytics (e.g. to determine event outcomes).
 
-**Option Planning (Choosing Model Competitions)**
 
-A token-curated registry (TCR) is used by the Flyingcarpet community to organize what model competitions are run. Future model competition options are added to the TCR and selected by community members by staking Nitrogen (NTN) token. When a new model competition is going to start, the top TCR listing is removed from the registry and the competition is run for that specific model need.
+**Model Viability Prediction Market Dashboard**
+Predictions regarding the demand / profitability of future models will be used to gauge the interest of the Flyingcarpet community with regard to model creation options (e.g. a corn yield model vs a large cargo ship counting model). Since this application requires conditional market support (e.g. predictions of the format: “if x model is built and x model is arbitrarily profitable/in demand”), it is an ideal use case for Gnosis’ new v2.0 PM contracts which enable conditionals.
 
-The Flyingcarpet model competition planning TCR is currently implemented as an Ethereum smart-contract (live on the Rinkeby testnet) and will have an accompanying React.js front-end where community members (token holders) will be able to view the TCR listings, add new listings and stake existing entries.
 
-**Model Creation**
-In this phase, a competition is run where data scientists compete to create the most effective machine learning models for specific use cases. Before a competition can be run, raw satellite data must first be sourced from our Flyingcarpet imagery partners. This imagery is fetched via direct API integrations with these partners and is stored decentrally (e.g. IPFS) with corresponding hashes stored inside Flyingcarpet’s Ethereum smart contracts.
+**Additional Decentralized Financial Instruments**
+In addition to the aforementioned Flyingcarpet prediction markets, we plan to construct a number of other financial instruments on top of Gnosis, including:
+1. Partial model ownership tokens (see Whitepaper) as collateral against loans and predictions on Flyingcarpet’s (Gnosis) Predictions Dashboard.
+2. Trading of partial model ownership assets on DutchX exchange contracts.
+3. Integration of Gnosis Safe for storing partial model ownership tokens and interacting with Flyingcarpet PMs and our future DutchX exchange integration.
 
-Next, our network of human classifiers annotate the raw satellite imagery to create both the training and testing datasets. Annotation occurs via our Flyingcarpet Annotation Portal, a Mechanical Turk-style React.js-based web3-enabled portal whereby human classifiers earn token (in-browser) for their work. The resulting JSON annotations are also stored decentrally with only hashes on-chain.
-
-Finally, the competition gets underway. Data scientists train their models using the (annotated) training dataset and submit them for evaluation. Data scientists may create models using their preferred machine learning libraries (e.g. TensorFlow) and model execution will occur off-chain (e.g. via iExec, Golem, etc.). After the competition ends, all submitted models are evaluated using the annotated, encrypted testing dataset and rewards are distributed to successful data scientists (for more information on the details and economics of this process, see our whitepaper).
-
-**Model Use**
-The most successful models from each competition are continually available for execution by analytics-hungry organizations. Analytics extraction requests (for existing models) are made through our Models Dashboard and are handled by the Flyingcarpet Analytics API. Organizations purchase analytics through our dashboard using our Nitrogen (NTN) token. On the smart-contract back-end, NTN is then converted to NitrogenX (Nx) token which has a dynamically controlled supply—determined by a preset bonding curve. Models are executed off-chain (as described above) and a hash (e.g. IPFS) to the resulting analytics output is provided back to requesting organizations.
 ### Team description
 **Julien Bouteloup, CEO**
 
-Julien holds a Master’s degree in electrical engineering from the USA and a Master’s degree in electrical engineering from France, where he specialised in artificial intelligence, decentralised systems and security back in 2009. He has built multiple tech businesses ranging from energy trading, high frequency trading, decentralised identity to autonomous transportation systems and won multiple competitions worldwide. He was first introduced into Bitcoin in 2010 and then Ethereum in 2015. He is a full-stack engineer and developer, a regular speaker at Ethereum and Blockchain conferences, including Devcon. He teaches blockchain in London (https://www.theblockchainconnector.com/meet-the-team), advises OECD (Organisation for Economic Co-operation and Development), ADB (Asian Development Bank) and BBA (British Blockchain Association). 
+Julien holds a Master’s degree in electrical engineering from the USA and a Master’s degree in electrical engineering from France, where he specialised in artificial intelligence, decentralised systems and security back in 2009. He has built multiple tech businesses ranging from energy trading, high frequency trading, decentralised identity to autonomous transportation systems and won multiple competitions worldwide. He was first introduced into Bitcoin in 2010 and then Ethereum in 2015. He is a full-stack engineer and developer, a regular speaker at Ethereum and Blockchain conferences, including Devcon. He teaches blockchain in London (https://www.theblockchainconnector.com/meet-the-team), advises OECD (Organisation for Economic Co-operation and Development), ADB (Asian Development Bank) and BBA (British Blockchain Association).
+
 
 **Leopold Joy, Lead Developer**
 
-Leopold is a full-stack software engineer. He taught himself to program at the age of 13 and founded and built his first startup at the age of 15. As an undergraduate he studied Computer Science at Bard College and the Rensselaer Polytechnic Institute (RPI), both in New York. Leo has extensive experience in open-source software development, Ethereum and blockchain, and co-founded a number of early stage startups, including an early large-scale Monero mining operation and campus messaging app. He is an active member of the open-source blockchain community and excited to radically disrupt the geospatial analytics space with Flyingcarpet.
+Leopold is a full-stack software developer. He taught himself to program at the age of 13 and founded and built his first startup at the age of 15. As an undergraduate he studied Computer Science at Bard College and the Rensselaer Polytechnic Institute (RPI), both in New York. Leo has extensive experience in open-source software development, Ethereum and blockchain, and co-founded a number of early stage startups, including an early large-scale Monero mining operation and campus messaging app. He is an active member of the open-source blockchain community and excited to radically disrupt the geospatial analytics space with Flyingcarpet.
+
 
 **Victor Faramond, Developer**
 
@@ -80,64 +101,36 @@ Victor is a full-stack developer with an MSc in maths and computer science. He f
 
 **Mike Onorato, Developer**
 
-Mike received his B.S.E. from Princeton University with a senior thesis in machine learning and a certificate in robotics and intelligent systems. He has extensive startup software engineering experience and, most recently, worked as a Senior Software Engineer at DroneBase, building next-generation software for drones. 
+Mike received his B.S.E. from Princeton University with a senior thesis in machine learning and a certificate in robotics and intelligent systems. He has extensive startup software engineering experience and, most recently, worked as a Senior Software Engineer at DroneBase, building next-generation software for drones.
 
 **Satya Doraisamy, Legal Lead**
 
 Satya has experience in investment banking and venture capital, and has also founded Nebula Learning, an education startup. At Flyingcarpet, he handles legal documentation, assists with business development, and co-authored the white paper.
+
 ### Timeline, Milestones and Deliverables
-**Phase I: First Models & Annotation Portal**
+**Phase I: Front-End Development Prediction Market Dashboards**
 
 **Deliverables:**
 
-**1) Build the first Flyingcarpet models:** We are working with Sucafina (a multinational commodity trader), Ice Alive (a glacial research team) via a partnership with National Geographic & Microsoft, Nephila and AXA (insurers), Reforestum (a platform for purchasing carbon-offsets) to construct our initial use case-specific models. By the end of Q1, these initial models will be actively generating revenue on a continual basis. We will start experimenting with bonding curve pricing mechanisms at this stage in preparation for full network launch in Q2.
+1. **Complete development of Flyingcarpet Predictions Dashboard:** the Predictions Dashboard, a web3-enabled dApp, will be a fully featured UI enabling users to interact with predictions based on Flyingcarpets model oracles. Users will be able to make predictions directly from the interface, as well as view charts/graphs of relevant historical analytics extracted in the past.
 
-**2) Annotation Portal:** We have built an early iteration of our Annotation Portal and are currently in discussions with Gems.org (a decentralised Mechanical Turk) about an integration. In Q1 2019, we will open-source the portal and publish it to mainnet, opening up income opportunities for low earners worldwide to earn by annotating training datasets for Flyingcarpet models.
+
+2. **Complete development of Flyingcarpet Model Viability Prediction Market Dashboard:** Another web3-enabled dApp, the Model Viability Prediction Market will provide Flyingcarpet community members with a market to bet on the future profitability and demand for new models. The dashboard will provide a UI to compare these conditional predictions and view details about the function of, and market for, each potential future model. Users will be able to view their existing bets and submit new ones via an intuitive UI.
 
 **Time and Price Estimate:**
+$40,000 and completed by end of May 2019. This money will be used to take the pressure off our development teams who are currently self-funding the project.
 
-$40,000 and completed by end of Q1 2019. This money will be used to take the pressure off our development teams who are currently self-funding the project. We will also use the grant money to purchase datasets for our early models. Although this cost will eventually be passed onto paying organisations, we do not currently have the leverage in business development conversations to demand that potential clients pay for their own datasets.
-
-**Phase II: Business & Technical Development**
+**Phase II: Back-End Development of Prediction Markets + Scaling and Launch**
 
 **Deliverables:**
 
-**1) Business Development:** We will build a strong business development pipeline to ensure that there is constant demand from paying organisations for analytics generated by our initial models. For example, we intend to market our Sucafina coffee plantation model to other South American agribusinesses and commodity traders. We will also focus on building deeper relationships with satellite companies to better streamline the process by which they send the Flyingcarpet Network relevant datasets.
+1. **Flyingcarpet Predictions Dashboard Back-End:** We will integrate the Predictions Dashboard with both the Gnosis PM v2.0 smart contracts and the Flyingcarpet model management smart contracts—these Flyingcarpet contracts will also talk directly to the Gnosis PM contracts (see earlier diagram).
 
-**2) Technical Development:** We will build out the decentralised model competition mechanism, corresponding UIs and the Analytics API with the aim of a beta launch by the end of Q2. We will also airdrop tokens to our data scientist community, as pioneered by Numerai, to rapidly mobilise a distributed, global pool of data scientists. 
+2. **Integration of Models with Predictions Dashboard:** We will integrate existing Flyingcarpet models with the Predictions Dashboard (e.g. the coffee yield model for our client Sucafina, a multinational commodity trader). The dashboard will then be setup to provide predictions for all future models as they come online—for example: our glacial melt model with Ice Alive (via a partnership with National Geographic & Microsoft), our various insurance catastrophe models with Nephila and AXA and our deforestation model for Reforestum, a platform for purchasing carbon-offsets.
 
-**3) Team Growth:** Our team is currently very developer-heavy. We will need to hire the necessary talent to grow our business/marketing capabilities and ensure that we rapidly scale demand for Flyingcarpet models.
+3. **Flyingcarpet Model Viability Prediction Market Back-End:** We will integrate the Model Viability Prediction Market Dashboard with the Gnosis PM v2.0 smart contracts to provide the backbone of the Flyingcarpet community evaluation platform for future models.
 
-**Time and Price Estimate:**
-
-$40,000 and completed by end of Q2 2019. We will use this money to incentivise business development people to join our team. 
-
-**_NB_**: While the Flyingcarpet team will invest in the early models (via the staking mechanisms described in the above “Features” section) on the network in order to generate income, the majority of model revenue will still go to the data scientists that build the models. Therefore, the team’s income during this bootstrapping phase is a fraction of total network revenue, rather than the entire network revenue.
-
-**Phase III: Network Launch**
-
-**Deliverables:**
-
-**1) Network Launch:** We will move all existing Flyingcarpet models onto the newly launched network and run the first decentralised model competitions. This will open up opportunities for data scientists across the world to compete with their skills and earn continual income from the models that they generate.
-
-**2) API Release:** We aim to release our open Analytics API in Q3 2019, which will open up limitless potential for smart contract integrations and enable physical world predictions on Gnosis.
+4. **Drive Adoption of Model Viability Prediction Market by Flyingcarpet Community:** We will continue to develop a strong community and begin to query the sentiment of the community about future model possibilities. This will drive Flyingcarpet community members to Gnosis (via our Model Viability Prediction Market). Because our team is currently very developer-heavy, we will need to hire the necessary talent to grow a strong marketing team to ensure continued community growth and engagement.
 
 **Time and Price Estimate:**
-
-$10,000 and completed by end of Q3 2019. We intend to use this money largely for development/bug bounties to harness the power of the community before we focus on scaling.
-
-**Phase IV: Scaling**
-
-**Deliverables:**
-
-**1) Supply-Side Scaling:** We aim to start competing with the likes of Kaggle and Numerai for data scientists’ attention. The Flyingcarpet Network offers stronger incentives for data scientists than the above platforms because they are able to capture the full value of their work and earn recurring revenue from the models that they build. Therefore, we believe that we will rapidly scale this side of the network and lead to more frequent model competitions, which will compound Flyingcarpet’s network value.
-
-**2) Demand-Side Scaling:** By removing the overheads that persist in centralised analytics firms, we will offer organisations competitively priced analytics. As network effects kick in and our pool of data scientists grows, we believe that organisations will also recognise that the Flyingcarpet Network will offer them higher-quality analytics. 
-
-**3) Smart Contract Development:** In Q4 2019, we want to continue exploring potential integrations with traditional businesses and decentralised projects that are looking for trustworthy off-chain physical world data sources. We particularly envisage Flyingcarpet enabling products such as parametric insurance policies and catastrophe-risk policies that payout automatically when a Flyingcarpet model reports, for instance, that a flood has struck.
-
-**Time and Price Estimate:**
-$10,000 and completed by end of Q4 2019. We envisage using this money for more development bounties.
-
-### Others	 
-[Click here](https://docs.google.com/presentation/d/14VV4gsYYz8PlOW7IoQbXrJ8DfaWvnQnisYTwk95veRc/edit?usp=sharing) to see our 3-slide presentation pitching Flyingcarpet.
+$40,000 and completed by end of September 2019. We will use this money to fund development of the back-end of the PM dashboards, integration of Flyingcarpet models and to incentivise marketing people to join our team.
