@@ -74,8 +74,9 @@ While the Flyingcarpet contracts will provide model information (e.g. what model
 
 The Flyingcarpet smart contracts only contain hashes (e.g. IPFS) corresponding to models and their extracted analytics, as models are both stored and executed off-chain. The Flyingcarpet smart contract will provide Gnosis PM smart contracts access to extracted model analytics (e.g. to determine event outcomes).
 
-![FC & Gnosis workflow] (../assets/Flyingcarpet/FC_Gnosis_workflow.png?raw=true)
-
+<p align="center">
+  <img src="https://github.com/flyingcarpet-network/GECO/blob/master/Proposals/assets/Flyingcarpet/FC_Gnosis_workflow.png" />
+</p>
 
 **Model Viability Prediction Market Dashboard**
 Predictions regarding the demand / profitability of future models will be used to gauge the interest of the Flyingcarpet community with regard to model creation options (e.g. a corn yield model vs a large cargo ship counting model). Since this application requires conditional market support (e.g. predictions of the format: “if x model is built and x model is arbitrarily profitable/in demand”), it is an ideal use case for Gnosis’ new v2.0 PM contracts which enable conditionals.
