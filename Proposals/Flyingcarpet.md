@@ -6,7 +6,7 @@
 ### Project name
 Flyingcarpet Network
 
-**Webiste:** https://www.flyingcarpet.network/
+**Website:** https://www.flyingcarpet.network/
 
 **Github:** https://github.com/flyingcarpet-network
 
@@ -30,11 +30,11 @@ As a component of the Flyingcarpet Network, we are creating two Flyingcarpet pre
 
 #### Flyingcarpet Network Workflow
 
-1. Model Viability Prediction Market (Gnosis Integration): A Gnosis PM v2.0 conditional prediction market crowdsources sentiment from Flyingcarpet Network participants to determine the prospects of future models (how the Flyingcarpet community predicts the future profitability/demand of, for example, a model that analyses Amazonian deforestation vs a model that analyses Arctic ice melt). See Model Viability Prediction Market section below.
-2. Model Sourcing: Data scientists produce optimal models for the paying organisation’s request. Effective models are stored decentrally with all computation taking place off-chain.
+1. **Model Viability Prediction Market (Gnosis Integration):** A Gnosis PM v2.0 conditional prediction market crowdsources sentiment from Flyingcarpet Network participants to determine the prospects of future models (how the Flyingcarpet community predicts the future profitability/demand of, for example, a model that analyses Amazonian deforestation vs a model that analyses Arctic ice melt). See "Model Viability Prediction Market" section below.
+2. **Model Sourcing:** Data scientists produce optimal models for the paying organisation’s request. Effective models are stored decentrally with all computation taking place off-chain.
 
-3. Models Dashboard & Predictions Dashboard (Gnosis Integration): The Flyingcarpet Predictions Dashboard enables participants to make predictions on physical-world events with models acting as arbiters of truth. Analytics from Flyingcarpet models are made continually available to paying organisations via our Analytics API and smart contract oracles.
-4. Model Investments and Financial Instruments: Models are tokenised and converted into investible entities that can function as financial instruments (see Additional Decentralized Financial Instruments section below) so that anyone, anywhere can capture the value of Earth observation.
+3. **Models Dashboard & Predictions Dashboard (Gnosis Integration):** The Flyingcarpet Predictions Dashboard enables participants to make predictions on physical-world events with models acting as arbiters of truth. Analytics from Flyingcarpet models are made continually available to paying organisations via our Analytics API and smart contract oracles.
+4. **Model Investments and Financial Instruments:** Models are tokenised and converted into investible entities that can function as financial instruments (see Additional Decentralized Financial Instruments section below) so that anyone, anywhere can capture the value of Earth observation.
 
 ### Why did you decide to build it
 Julien picked this idea because he had previously worked on building AI-powered IoT swarms. The increasing number of Earth observation satellites, combined with recent advances in both machine learning and blockchain led to a greater vision: using blockchain-based incentives to build a decentralised library of machine learning Earth observation models.
@@ -71,6 +71,7 @@ For both of the above climate-related use cases, we believe that corporations an
 </p>
 
 **The Model Viability Prediction Market Dashboard**
+
 The Flyingcarpet Network will source optimal models for particular use cases by incentivising data scientists with bounties. Optimal models are then stored decentrally and made available to analytics-hungry organisations.
 
 Flyingcarpet will integrate the Gnosis PM v2.0 smart contracts with our Model Viability PM Dashboard front-end in order to enable participants to make bets about the future demand for, and financial profitability of, potential models (e.g. predictions like “if a model for soybeans in the United States gets created, will it generate $100k of revenue in the first 6 months?”). All Flyingcarpet Network participants, including data scientists, satellite imagery providers and paying organisations, have a vested interest in what model use cases get created. Our initial models are being built based on direct relationships with clients, however since the Flyingcarpet Network will be fully decentralised, it needs an ongoing mechanism to crowdsource sentiment from network participants in a trustless manner; therefore, this is an ideal use case for a prediction market.
@@ -81,6 +82,7 @@ Given the volume of Flyingcarpet participants that will have an incentive to par
 Below we will expand on the technical features of our two Gnosis prediction markets and outline some additional financial instruments we intend to develop on top of Gnosis.
 
 **The Flyingcarpet Predictions Dashboard**
+
 The Predictions Dashboard functions as a front-end interface where users can interact with Gnosis predictions that use analytics from Flyingcarpet models. This web3-enabled dashboard will be integrated with both the Gnosis PM and Flyingcarpet smart contracts.
 While the Flyingcarpet contracts will provide model information (e.g. what model oracles are available), the Gnosis PM contracts will function as the interface for all predictions based on Flyingcarpet insights, allowing prediction bets to be created and sending back event outcome information.
 
