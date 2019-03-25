@@ -81,7 +81,9 @@ In essence, the application offers DutchX users a new choice in their interactio
 The payout formula is written from the perspective of the InstantDX liquidity pool.
 
 Payable1ToUser = P0 * Q * LVR
+
 AuctionReceivable = P1 * Q 
+
 Payable2ToUser= AuctionReceivable - Payable1ToUser  - interest
 
 **Where:** 
