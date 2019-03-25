@@ -2,17 +2,16 @@
 # Gnosis Grant Application
 
 ## Project Overview
-
+-------
 ### Project name: InstantDX
-
+--------
 ### Team members
 **Hilmar Orth (Hilmar X)** - [Twitter](https://twitter.com/hilmarxo), [Github](https://github.com/hilmarx), [Linkedin](https://www.linkedin.com/in/hilmarx/)
 
 **Luis Schliesske (Bytezantium)** - [Twitter](https://twitter.com/bytezantium), [Github](https://github.com/bytezantium), [LinkedIn](https://www.linkedin.com/in/schliesskeluis/)
 
-
-### The Project 
 -------
+### The Project 
 
 #### Abstract
 [Quote](https://blog.gnosis.pm/the-mechanism-design-of-the-gnosis-dutch-exchange-4299a045d523) by Nadja Beneš:
@@ -46,7 +45,7 @@ Since we intend to work full-time on InstantDX, the budget for the 5.5 months co
 #### How did we hear about the GECO?
 [Medium post](https://blog.gnosis.pm/unveiling-the-gnosis-ecosystem-fund-7353926bfb65) by Mareen Gläske from December 2018.
 
-
+--------
 ## Proposal
 
 ### Project description
@@ -126,9 +125,9 @@ After enabling the InstantDX application for the first trading pair, other crypt
 3. Integrations of InstantDX with other applications, like dapps built on top of MakerDAO that manage CDPs, by enabling them to automatically purchase large sums of Dai on the DutchX instantaneously,  in order to avoid liquidation of their CDPs
 4. Usage in prediction markets, such as Gnosis, to provide instant liquidity for certain types of bets when the outcome can be predicted with high probability, similar to the “cash out” service of modern sport betting companies.
 
-
-### Features
 -------
+### Features
+
 #### How do we plan to implement InstantDX?
 *Figure 3: Smart Contract Architecture*
 ![Smart Contract Architecture diagram](https://github.com/collateralized/instant-dutchx/blob/master/charts/InstantDX-smart-contract-architecture.png "InstantDX Smart Contract Architecture")
@@ -178,6 +177,7 @@ The platform manager contract will be customized for each lending protocol and a
 - Testing & Deployment: Truffle
 - Libraries: SafeMath.sol, SafeToken.sol
 
+------
 ### Team description
 #### Who are we?
 Luis & Hilmar have been working together on projects since 2016, founded two companies along the way and led multiple software development projects using Ethereum for multiple Fortune500 companies. 
@@ -198,6 +198,7 @@ Luis & Hilmar have been working together on projects since 2016, founded two com
 
 - [IPFSWAP](https://github.com/hilmarx/ipfswap) - Enables ERC20 token swaps using Kyber Networks liquidity hosted on IPFS.
 
+-------
 ### Timeline, Milestones and Deliverables
 
 #### Overall Deliverables:
