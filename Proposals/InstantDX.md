@@ -231,7 +231,7 @@ Deployment of escrow contracts to act as a secure interface between a simulated 
 
 **Time and Price Estimate**
 - **Time:** 1.5 months
-- **Deadline:** 15.07.2019
+- **Deadline:** 15.06.2019
 - **Price Estimate:** 6k 
 
 #### Phase II Development of DaiPool.sol + deployment & testing on Rinkeby
@@ -248,7 +248,7 @@ Deployment of pool contract, accepting e.g. Dai as collateral, interacting direc
 
 **Time and Price Estimate**
 - **Time:** 2.5 months
-- **Deadline:** 15.09.2019
+- **Deadline:** 30.08.2019
 - **Price Estimate:** 10k 
 
 #### Phase III Iterations on both Escrow and Pool Contracts & mainnet deployment of  v0.1.0 + seeding of pool
@@ -263,7 +263,7 @@ Successful completion of test phase on Rinkeby and mainnet deployment
 
 **Time and Price Estimate**
 - **Time:** 1.5 months
-- **Deadline:** 30.09.2019
+- **Deadline:** 15.10.2019
 - **Price Estimate:** 6k 
 
 ### Remarks
