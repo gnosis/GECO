@@ -77,16 +77,20 @@ The application achieves the provision of instant liquidity by lending sellers t
 
 In essence, the application offers DutchX users a new choice in their interactions with the exchange. If instant liquidity and time is not of interest to the seller, they can proceed with the normal auction process. However, if liquidity and time is of importance, as will be the case for many humans and automata, they can gain value from InstantDX in the normal scenario like so:
 
-**Payout Formula:** 
+#### Payout Formula: 
+
 The payout formula is written from the perspective of the InstantDX liquidity pool.
 
-Payable1ToUser = P0 * Q * LVR
+**Payable1ToUser** = P0 * Q * LVR
 
-AuctionReceivable = P1 * Q 
+**AuctionReceivable** = P1 * Q 
 
-Payable2ToUser= AuctionReceivable - Payable1ToUser  - interest
+**Payable2ToUser** = AuctionReceivable - Payable1ToUser  - interest
+
+--------
 
 **Where:** 
+
 **P0** is price of previous auction 
 
 **P1** price of upcoming auction, 
@@ -112,7 +116,7 @@ In order to protect the liquidity providers of the InstantDX pool against possib
 1) For every sale through InstantDX, 10% of the pools earned interest is accumulated within the pools buffer. Those funds will be used to compensate potential losses of the overall pool.
 2) Similar to other lending protocols, in our early versions we will only include low risk collateral tokens combined with low LVRs. We intend to gradually introduce more token pairings as the volatility of these assets decreases over time. 
 Only in an extreme edge case where these two safety mechanisms fail, the pool automatically conducts safety mechanism number three:
-3) haircutting the entire pools liquidity by the incurred losses. 
+3) Haircutting the entire pools liquidity by the incurred losses. 
 
 We are convinced that despite the aforementioned risk, liquidity providers will still be strongly incentivized to contribute funds to the InstantDX pool. They will be compensated for the minor risk they incur, by having significantly more interest accrue to them compared to that of other lending protocols, like Compound, which aim to be the risk-free rate of the market. This is possible because, even though interest paid by individual sellers participating in the DutchX-InstantDX will be very small, these isolated marginal payments are compensated for in the high sell volumes to be expected on the DutchX. In fact, the interest earned by liquidity providers will accumulate every 6 hours on average.
 
