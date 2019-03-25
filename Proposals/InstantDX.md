@@ -37,7 +37,7 @@ At the same time, we are very focussed on the possibilities of decentralized len
 We are extremely excited about the improvements the DutchX project and decentralized lending can bring to the current economic systems. We want to contribute to the mainstream adoption of both by providing these synergies to the participants in the ecosystem with continuous liquidity via DutchX-InstantDX. 
 
 #### How long will it take?
-22 weeks (5.5 months) - Deadline: 23.09.2019
+22 weeks (5.5 months) - Deadline: 15.10.2019
 
 #### How much funding do we need? 
 Since we intend to work full-time on InstantDX, the budget for the 5.5 months consists of covering our basic living expenses in Berlin. We estimate those to be $2k before taxes per person per month. Hence the budget for 5.5 months would be $22k (4k per month). Both of us will be working full time throughout the duration of this project phase and would be glad to work at Gnosis HQ in Full Node Berlin, if possible. 
