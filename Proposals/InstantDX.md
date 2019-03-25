@@ -49,10 +49,9 @@ Since we intend to work full-time on InstantDX, the budget for the 5.5 months co
 ## Proposal
 
 ### Project description
-#### Why did we choose to build InstantDX?
+#### Why DutchX?
 Upon learning about DutchX, we felt encouraged to take action and do our part in bringing about the removal or alleviation of some of current problems facing decentralized exchanges, which include 1) lack of full end-to-end decentralization in DEX designs, 2) Ethereum’s gas model and fees, 3) lack of adequate liquidity to determine a fair price and 4) DEXs not facilitating smart contracts buying and selling on them. 
 
-#### Why DutchX?
 From the stated main problems facing decentralized exchanges today, DutchX sufficiently solves at least the following four of them: 
 1. Centralized order books and front-running in current DEX environments
 2. Ethereum’s gas fees for cancelled orders.
