@@ -46,7 +46,6 @@ Since we intend to work full-time on InstantDX, the budget for the 5.5 months co
 [Medium post](https://blog.gnosis.pm/unveiling-the-gnosis-ecosystem-fund-7353926bfb65) by Mareen Gläske from December 2018.
 
 
-
 ## Proposal
 
 ### Project description
@@ -96,4 +95,86 @@ Payable2ToUser= AuctionReceivable - Payable1ToUser  - interest
 
 *Figure 2: InstantDX vs. regular DutchX payout process*
 ![InstantDX vs. regular DutchX payout process chart](https://github.com/collateralized/instant-dutchx/blob/master/charts/InstantDX-vs-DX-payouts-chart.png "InstantDX vs. regular DutchX payout process")
+
+1. A seller wants to sell a certain quantity _**(Q)**_ of a token on the DutchX using InstantDX and sends the tokens to our smart contract.
+2. The smart contract places the sell order on the DutchX
+3. The InstantDX pool immediately transfers a bridge loan _**(Payable1ToUser)**_, meaning _**Q * LVR (e.g. ~67%)**_ of expected tokens, to the seller using the previous auction price _**(P0)**_ as a benchmark. 
+4. The auction settles on a price _**(P1)**_ and clears the total sell volume _**(Q)**_. The purchased tokens _**(AuctionReceivable)**_ are transferred from the DutchX to InstantDX’s smart contracts
+5. InstantDX smart contracts pay out the outstanding trade balance _**(Payable2ToUser)**_ to the seller.
+6. The interest paid by the seller gets distributed among InstantDXs liquidity providers
+
+In order to protect the liquidity providers of the InstantDX pool against possible black swan events, in which the auction settles on a price for the receivable token that is less than the 1 - LVR safety margin, we introduce three safety mechanisms:
+
+1) For every sale through InstantDX, 10% of the pools earned interest is accumulated within the pools buffer. Those funds will be used to compensate potential losses of the overall pool.
+2) Similar to other lending protocols, in our early versions we will only include low risk collateral tokens combined with low LVRs. We intend to gradually introduce more token pairings as the volatility of these assets decreases over time. 
+Only in an extreme edge case where these two safety mechanisms fail, the pool automatically conducts safety mechanism number three:
+3) haircutting the entire pools liquidity by the incurred losses. 
+
+We are convinced that despite the aforementioned risk, liquidity providers will still be strongly incentivized to contribute funds to the InstantDX pool. They will be compensated for the minor risk they incur, by having significantly more interest accrue to them compared to that of other lending protocols, like Compound, which aim to be the risk-free rate of the market. This is possible because, even though interest paid by individual sellers participating in the DutchX-InstantDX will be very small, these isolated marginal payments are compensated for in the high sell volumes to be expected on the DutchX. In fact, the interest earned by liquidity providers will accumulate every 6 hours on average.
+
+
+#### Overall goal and future outlook:
+
+#### Overall goal
+The overall goal of the project is to build and seamlessly integrate a first version of InstantDX with the DutchX protocol, in order to enable sellers to be able to receive instant payouts on their DutchX sell orders. Our target users are developers, smart contracts and sophisticated end users that want to provide themselves, or their users, with access to the DutchX auction mechanism and its promise of fair pricing, whilst still having access to instant liquidity, thanks to InstantDX’s real-time payout feature.
+
+#### Future Outlook
+After enabling the InstantDX application for the first trading pair, other crypto assets can gradually be added to the offering. Beyond that, the system can offer a variety of additional features to the DutchX users, such as:
+1. Automated price insurance, which guarantees the seller a minimum ask price for their sell order by automatically placing a buy order in the auction at a minimum ask price they can specify.
+2. Automated lending of sellers’ liquidity on lending platforms, to have instant interest accrue to them.
+3. Integrations of InstantDX with other applications, like dapps built on top of MakerDAO that manage CDPs, by enabling them to automatically purchase large sums of Dai on the DutchX instantaneously,  in order to avoid liquidation of their CDPs
+4. Usage in prediction markets, such as Gnosis, to provide instant liquidity for certain types of bets when the outcome can be predicted with high probability, similar to the “cash out” service of modern sport betting companies.
+
+
+### Features
+
+#### How do we plan to implement InstantDX?
+*Figure 3: Smart Contract Architecture*
+![Smart Contract Architecture diagram](https://github.com/collateralized/instant-dutchx/blob/master/charts/InstantDX-smart%20contracts-chart.png "Smart Contract Architecture")
+
+*Note: Version 0.1 of the InstantDX app comprises parts 1 & 2. Part 3 will be part of the next iteration:*
+
+#### Part 1: Creating an escrow contract that interacts with the DutchX
+The escrow smart contracts objective is to act as the address that sells and collects the users tokens to and from the DutchX. For each sell order, a unique escrow contract will be deployed by the respective pool contract. The escrow contract provides 4 core functionalities: 
+1) Accepting funds from the pool contract.
+2) Selling the received tokens on the DutchX.
+3) Claiming the funds receivable upon settlement of the auction.
+4) Transfering the received tokens to the pool contract. 
+
+#### Part 2: Pooling collateral from investors and creating a micro lending platform
+The counterpart of the escrow contract is the pool contract. Its purpose is to pool funds from individual contributors, calculate and facilitate the payouts to sellers, and transfer the earned interest to the liquidity providers of the pool. There will be an individual pool contract for each ERC20 token locked in the InstantDX system with customized LVR and interest fees. Each of these pools contain a ledger of all transactions to borrowers and liquidity providers. 
+
+#### The core functionalities of the Pool Contract are:
+1) Verifying that sufficient funds are present to cover the initial instant payout.
+2) Accepting seller tokens, if sufficient funds are present.
+3) Deploying an individual escrow contract.
+4) Paying out the first payout (bridge loan) to the seller.
+5) Receiving tokens after auction settlement from escrow contract.
+6) Transfering the second payment to the seller after the auction ends.
+7) Distributing interest among liquidity providers.
+8) Building up an internal liquidity buffer to defend against possible black swan events.
+9) Accepting withdrawals and transferring requested funds back to liquidity providers.
+
+We are aware that, at start, it requires some additional funding to initialize the liquidity pool. However, by restricting the total sell volume to be handled by InstantDX at any given time, and by limiting the supported token pairs we can gauge the required up-front capital and set it to a manageable amount, in order to scale the project in a controlled fashion. 
+
+At the beginning the list of possible investors to the pool will be whitelisted, meaning that before accepting permissionless third-party money, the contracts will have to be tested rigorously on mainnet and with selected investors that accept the risk of losing funds.
+
+#### Part 3: Connecting InstantDX to other lending platforms to access an even larger pool of liquidity 
+The beauty of a permissionless blockchain protocol like Ethereum is that we can tap into the liquidity of other already established lending platforms such as Maker or Compound, in order to increase InstantDXs ability to provide instant liquidity to even more DutchX users. This will be achieved by a third major contract called Platform Manager, which serves the following functionalities:
+1) Comparing interest rates and maximum borrow amount on pre-selected lending protocols, in order to select the most economical option.
+2) Depositing collateral at chosen lending protocol.
+3) Borrowing the required asset being purchased by the DutchX seller.
+4) Transferring the funds to the Pool Contract.
+5) Receiving the acquired tokens after dutch auction has been settled from the Pool Contract.
+6) Wiping the loans debt.
+7) Sending the freed up collateral back to the Pool Contract.
+
+The platform manager contract will be customized for each lending protocol and autonomously manages the credit positions of the liquidity pool. At first we will most likely only use stable DAI as collateral for acquiring loans on these platforms, in order to mitigate collateral liquidation risks. As soon as more complex derivatives gain the necessary liquidity on Ethereum, such collateral types can be used, and their risk can be managed accordingly by the Platform Manager smart contracts. 
+
+#### Tools and frameworks:
+- Smart contracts: Solidity
+- Documentation: Web3, Javascript
+- Testing & Deployment: Truffle
+- Libraries: SafeMath.sol, SafeToken.sol
+
 
