@@ -188,7 +188,7 @@ The platform manager contract will be customized for each lending protocol and a
 ------
 ### Team description
 #### Who are we?
-Luis & Hilmar have been working together on projects since 2016, founded two companies along the way and led multiple software development projects using Ethereum for multiple Fortune500 companies. 
+Luis & Hilmar have been working together on projects since 2016, founded two companies along the way and led software development projects using Ethereum for multiple Fortune500 companies. 
 #### Hilmar Orth aka HilmarX
 - Full Stack Developer (Solidity, Javascript, Python, C, Ruby)
 - Hooked on DAOs - first ever [tweet](https://twitter.com/hilmarxo/status/735567875793137664) was about “The DAO” 
