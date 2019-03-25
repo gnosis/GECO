@@ -2,8 +2,7 @@
 # Gnosis Grant Application
 
 ## Project Overview
--------
-### Project name: InstantDX
+### Project name: [InstantDX](https://github.com/collateralized/instant-dutchx)
 --------
 ### Team members
 **Hilmar Orth (Hilmar X)** - [Twitter](https://twitter.com/hilmarxo), [Github](https://github.com/hilmarx), [Linkedin](https://www.linkedin.com/in/hilmarx/)
