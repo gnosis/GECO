@@ -130,7 +130,7 @@ After enabling the InstantDX application for the first trading pair, other crypt
 
 #### How do we plan to implement InstantDX?
 *Figure 3: Smart Contract Architecture*
-![Smart Contract Architecture diagram](https://github.com/collateralized/instant-dutchx/blob/master/charts/InstantDX-smart-contract-architecture.png "Smart Contract Architecture")
+![Smart Contract Architecture diagram](https://github.com/collateralized/instant-dutchx/blob/master/charts/InstantDX-smart-contract-architecture.png "InstantDX Smart Contract Architecture")
 
 *Note: Version 0.1 of the InstantDX app comprises parts 1 & 2. Part 3 will be part of the next iteration:*
 
@@ -177,4 +177,86 @@ The platform manager contract will be customized for each lending protocol and a
 - Testing & Deployment: Truffle
 - Libraries: SafeMath.sol, SafeToken.sol
 
+### Team description
+#### Who are we?
+Luis & Hilmar have been working together on projects since 2016, founded two companies along the way and led multiple software development projects using Ethereum for multiple Fortune500 companies. 
+#### Hilmar Orth aka HilmarX
+- Full Stack Developer (Solidity, Javascript, Python, C, Ruby)
+- Hooked on DAOs - first ever [tweet](https://twitter.com/hilmarxo/status/735567875793137664) was about “The DAO” 
+- Co-founded and led energy blockchain startup DEEP (d33p.org)
+- Participant of ETHSingapore & Prize Winner at ETHParis 
+
+#### Luis Schliesske aka Bytezantium
+- Full Stack Developer (Python, Solidity, C, JavaScript)
+- Political Economy graduate at King's College London
+- Enjoys to theorize about games
+- Co-Founded and headed Konfid.io Contract Solutions. Led project developing private blockchain MVP at European Fortune100 company.
+
+#### Latest collaborative Projects: 
+- [Collateralized](https://github.com/hilmarx/collateralized) - Decentralized Interest Rate Swaps on Ethereum. Allows borrowers and lenders to refinance their loans between multiple lending platforms like Maker and ETHLend.
+
+- [IPFSWAP](https://github.com/hilmarx/ipfswap) - Enables ERC20 token swaps using Kyber Networks liquidity hosted on IPFS.
+
+### Timeline, Milestones and Deliverables
+
+#### Overall Deliverables:
+
+The overall goal will be the deployment of InstantDXs v0.1.0 on Ethereum mainnet, in order to test our idea out in the wild with a preselected set of liquidity contributors. Version 0.1.0 encompasses the aforementioned steps 1 & 2 plus the creation of developer documentation. Step 3 would be a natural next step after this phase to increase the number of token pairs supported by InstantDX.
+In the scope of the project, the more specific deliverables are:
+1) Development and deployment of Escrow and Pool smart contracts facilitating the escrow, token transfers, pooling, borrowing, interest payment, lending and fee calculation operations 
+2) Creation of developer documentation outlining how to integrate the InstantDX feature in user facing applications like slow.trade and other developer targeted applications
+3) Creation of a liquidity pool of at least one asset (e.g. DAI) that can kickstart the liquidity provision.
+
+#### Detailed description of your timeline milestones and the corresponding payouts
+#### Phase I - Development of Escrow.sol + deployment & testing on Rinkeby
+**Goal:**
+
+Deployment of escrow contracts to act as a secure interface between a simulated future pool contract and the DutchX.
+
+**Deliverables:**
+- Development Escrow.sol
+- Deployment Rinkeby
+- Unit & integration testing
+- Gas optimization
+
+**Time and Price Estimate**
+- **Time:** 1.5 months
+- **Deadline:** 15.07.2019
+- **Price Estimate:** 6k 
+
+#### Phase II Development of DaiPool.sol + deployment & testing on Rinkeby
+**Goal:**
+
+Deployment of pool contract, accepting e.g. Dai as collateral, interacting directly with  deployed escrow contracts and transfering funds to the seller.
+
+**Deliverables**
+- Development DaiPool.sol
+- Price oracle selection and integration
+- Deployment Rinkeby
+- Unit & integration testing
+- Gas optimization
+
+**Time and Price Estimate**
+- **Time:** 2.5 months
+- **Deadline:** 15.09.2019
+- **Price Estimate:** 10k 
+
+#### Phase III Iterations on both Escrow and Pool Contracts & mainnet deployment of  v0.1.0 + seeding of pool
+**Goal:**
+
+Successful completion of test phase on Rinkeby and mainnet deployment
+
+**Deliverables**
+- Mainnet deployment of InstantDX v0.1.0
+- Pool seeding and beta testing with whitelist investors
+- Creation of developer documentation
+
+**Time and Price Estimate**
+- **Time:** 1.5 months
+- **Deadline:** 30.09.2019
+- **Price Estimate:** 6k 
+
+### Remarks
+Our team will be working full time on this project and plans to continue its implementation beyond the scope of this grant. 
+The other passion our team shares with Gnosis is decentralized governance. Our long term plan would be to create a - or integrate with an existing - DAO which manages the risk parameters of InstantDXs lending activities and makes crowdsourced decisions about what application to integrate next. We would be thrilled to gain & share insights regarding such opportunities from the Gnosis team and start a discussion about how the dxDAO could be a part of that.
 
