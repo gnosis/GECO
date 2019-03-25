@@ -46,6 +46,7 @@ Since we intend to work full-time on InstantDX, the budget for the 5.5 months co
 [Medium post](https://blog.gnosis.pm/unveiling-the-gnosis-ecosystem-fund-7353926bfb65) by Mareen Gläske from December 2018.
 
 
+
 ## Proposal
 
 ### Project description
@@ -71,6 +72,28 @@ Here, InstantDX significantly adds further value to the DutchX, by providing sel
 InstantDX endows sellers on the DutchX with the option to gain instant liquidity from their sell orders. The application achieves this by instantly lending sellers the tokens they want to trade into. InstantDX smart contracts source the tokens to be paid out from a liquidity pool, which in its infancy will be funded from whitelisted addresses. In later stages of the project we will further open the funding of the pool to be permissionless.  Token holders are incentivized to contribute to the InstantDX pool with the opportunity to earn an interest on their stake. Interest payments to liquidity providers are funded by the DutchX-InstantDX users’ interest payments on the instant liquidity they have received. We also intend to source liquidity from lending protocols such as Compound or Maker in future releases.
 
 *Figure 1: InstantDX standard payout mechanism with the following example parameters: previous auction price: 1 ETH = 100 Dai, instant payout rate (‘loan-to-value ratio’) = 67%, auction price: 1 ETH = 100 Dai.*
-![InstantDX standard payout mechanism](https://github.com/collateralized/instant-dutchx/blob/master/charts/Instant%20payout%20mechanism%20chart.png "InstantDX standard payout mechanism")
+![InstantDX standard payout mechanism](https://github.com/collateralized/instant-dutchx/blob/master/charts/InstantDX-payout-%20mechanism-%20chart.png "InstantDX standard payout mechanism")
 
+In essence, the application offers DutchX users a new choice in their interactions with the exchange. If instant liquidity and time is not of interest to the seller, they can proceed with the normal auction process. However, if liquidity and time is of importance, as will be the case for many humans and automata, they can gain value from InstantDX in the normal scenario like so:
+
+**Payout Formula:** 
+The payout formula is written from the perspective of the InstantDX liquidity pool.
+
+Payable1ToUser = P0 * Q * LVR
+AuctionReceivable = P1 * Q 
+Payable2ToUser= AuctionReceivable - Payable1ToUser  - interest
+
+**Where:** 
+**P0** is price of previous auction 
+
+**P1** price of upcoming auction, 
+
+**Q** is quantity sold by the seller, 
+
+**LVR** is the loan-to-value ratio ,
+
+**interest** is the interest paid to the pool.
+
+*Figure 2: InstantDX vs. regular DutchX payout process*
+![InstantDX vs. regular DutchX payout process chart](https://github.com/collateralized/instant-dutchx/blob/master/charts/InstantDX-vs-DX-payouts-chart.png "InstantDX vs. regular DutchX payout process")
 
