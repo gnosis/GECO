@@ -12,6 +12,7 @@
 
 
 ### The Project 
+-------
 
 #### Abstract
 [Quote](https://blog.gnosis.pm/the-mechanism-design-of-the-gnosis-dutch-exchange-4299a045d523) by Nadja Beneš:
@@ -127,7 +128,7 @@ After enabling the InstantDX application for the first trading pair, other crypt
 
 
 ### Features
-
+-------
 #### How do we plan to implement InstantDX?
 *Figure 3: Smart Contract Architecture*
 ![Smart Contract Architecture diagram](https://github.com/collateralized/instant-dutchx/blob/master/charts/InstantDX-smart-contract-architecture.png "InstantDX Smart Contract Architecture")
