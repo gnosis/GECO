@@ -77,7 +77,7 @@ In essence, the application offers DutchX users a new choice in their interactio
 
 #### Payout Formula: 
 
-The payout formula is written from the perspective of the InstantDX liquidity pool.
+_Note: The payout formula is written from the perspective of the InstantDX liquidity pool_
 
 **Payable1ToUser** = P0 * Q * LVR
 
