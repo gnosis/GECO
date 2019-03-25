@@ -130,7 +130,7 @@ After enabling the InstantDX application for the first trading pair, other crypt
 
 #### How do we plan to implement InstantDX?
 *Figure 3: Smart Contract Architecture*
-![Smart Contract Architecture diagram](https://github.com/collateralized/instant-dutchx/blob/master/charts/InstantDX-smart%20contracts-chart.png "Smart Contract Architecture")
+![Smart Contract Architecture diagram](https://github.com/collateralized/instant-dutchx/blob/master/charts/InstantDX-smart-contract-architecture.png "Smart Contract Architecture")
 
 *Note: Version 0.1 of the InstantDX app comprises parts 1 & 2. Part 3 will be part of the next iteration:*
 
