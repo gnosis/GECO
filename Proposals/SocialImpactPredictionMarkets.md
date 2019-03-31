@@ -4,15 +4,15 @@
 Social Impact Prediction Markets
 
 ### Team members 
-[Raphaël Mazet](https://www.linkedin.com/in/rapha%C3%ABl-mazet-5b76721/)
+[Raphaël Mazet](https://www.linkedin.com/in/rapha%C3%ABl-mazet-5b76721/) - Project Management
 
-[Jakub Wojciechowski](https://www.linkedin.com/in/jakub-wojciechowski-5901b68/)
+[Jakub Wojciechowski](https://www.linkedin.com/in/jakub-wojciechowski-5901b68/) - Blockchain dev / Tech lead
 
-[Alex Suvorov](https://www.linkedin.com/in/alex-suvorov-40528b158/)
+[Alex Suvorov](https://www.linkedin.com/in/alex-suvorov-40528b158/) - Full-stack dev
 
-[Areti Kampyli](https://www.linkedin.com/in/aretikampyli/)
+[Areti Kampyli](https://www.linkedin.com/in/aretikampyli/) - Ux design
 
-[Dhen Padilla](https://www.linkedin.com/in/dhenpadilla/)
+[Dhen Padilla](https://www.linkedin.com/in/dhenpadilla/) - Front-end dev
 
 ### The project we’re building
  
