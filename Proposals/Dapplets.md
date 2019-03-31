@@ -143,6 +143,9 @@ First public release.
 
 ### Others
 
+Technical and business details of the Gnosis-Safe integration were already discussed with Dmitry and Tobias. 
+It would be great to become a chance to bring ideas to reality. 
+
 Technical Whitepaper: http://bitly.com/dapplets-part1
 
 PoC video: http://bitly.com/dapplets-poc-video
