@@ -47,9 +47,9 @@ personal conversation in FullNode with Dmitry Bespalov and then with Mareen Glä
 
 ### Project description
 
-Dapplets proposal improves the current web3 architecture by splitting web3 workflows into two groups: the “UX-focused” and the “Security-focused” and executes the latter workflows in the Signer’s secure environment. For usual Dapps the architecture solves "UX vs. Security" trade-off and achieves both: UX and security. For existing legacy website it allows defining ethereum actions running in Signer even if the site has no web3 support at all. It means, now we can reach millions of users on sites like Twitter. 
+The Dapplets proposal improves the current web3 architecture by splitting web3 workflows into two groups: the “UX-focused” and the “Security-focused” and executes the latter workflows in the Signer’s secure environment. For usual Dapps the architecture solves "UX vs. Security" trade-off and achieves both: UX and security. For an existing legacy website it allows defining ethereum actions running in Signer even if the site has no web3 support at all. It means, now we can reach millions of users on sites like Twitter. 
 
-More generally speaking, Dapplets proposal allows setting up an ethereum based incentivization layer on the top of existing web2 communities.
+More generally speaking, the Dapplets proposal allows setting up an ethereum based incentivization layer on the top of existing web2 communities.
 
 Legacy site support makes the _Dapplets_ to the vehicle for mass adoption and creates this way an incentive for wallet devs to implement the standard.
 
@@ -62,7 +62,7 @@ Dapplet Auditor Community planned to be a DAO or TCR.
 
 ### Team description
 
-*Dmitry Palchun (Ethernian)* - former java developer with more than 25 years of experience. Since 2015 - an ethereum developer and architect. Implemented ethereum based PoC projects and researched blockchain business cases at Lufthansa. In 2017 created independently all contracts around Santiment ICO, token and subscriptions. [Active in Ethereum Magicians](https://ethereum-magicians.org/u/ethernian) forum. An author of Dappets proposal.
+*Dmitry Palchun (Ethernian)* - former java developer with more than 25 years of experience. Since 2015 - an ethereum developer and architect. Implemented ethereum based PoC projects and researched blockchain business cases at Lufthansa. In 2017 created independently all contracts around Santiment ICO, token and subscriptions. [Active in Ethereum Magicians](https://ethereum-magicians.org/u/ethernian) forum. An author of Dapplets proposal.
 Based in Hamburg.
 
 
@@ -87,7 +87,7 @@ The project is divided into several modules:
 * *Injector:* a browser plugin loading and injecting controls into the website depending on context.
 * *Protocol:* a DSL for dapplets and controls definition.
 * *Infrastructure:* to maintain the dapplet's security status and for serving the data.
-* *Wallet support:* implement Dapplets support in Wallets/Signers.
+* *Wallet support:* implement the Dapplets support in Wallets/Signers.
 * *TestCases:* real live dapplets and business cases, creating incentives for Wallet Devs to adopt the Dapplets protocol.
   
 
