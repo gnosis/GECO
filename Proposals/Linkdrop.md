@@ -11,15 +11,15 @@ Gustav Friis,
 Biz lead,
 https://www.linkedin.com/in/gustav-friis-20201086/
 
-Artyom Ignatyev,
+Artiom Ignatyev,
 Product lead,
 https://www.linkedin.com/in/artyomignatyev
 
-Amirkhon Jumaniyazov,
+Amir Jumaniyazov,
 Backend dev,
 https://github.com/amiromayer
 
-Haz,
+Haz Baikulov,
 Frontend dev,
 https://github.com/spacehaz
 
@@ -79,6 +79,12 @@ Our goal for this proposal is to make linkdrops work with the Gnosis Safe end-to
 6. Then Alice’s identity contract creates an identity contract for Bob and sends a Robot
 7. In addition, Bob can now also help Alice recover access to her identity contract in the future using a social key recovery mechanism
 8. Bob now got the Robot he wanted, and in addition has a Universal Login Contract and ENS name which allows him to use the best of web3 to login to all other Ethereum dapps.
+
+### Demo xDAI implementation
+
+[This demo](https://screencast-o-matic.com/watch/cqeblx0k7e) video shows a similiar meta-linkdrop scheme utilizing Universal Login we implemented within the "Daily" wallet. The contract implementation for this meta-linkdrop example can be found [here](https://gist.github.com/Dobrokhvalov/00e2bbca13a1378636fa5a400bd692f5#file-invitelink-sol).
+
+
 
 ### Underlying Assumptions
 
