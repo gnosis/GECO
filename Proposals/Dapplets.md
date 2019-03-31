@@ -9,8 +9,11 @@
 ### Team members
 
 Dmitry Palchun (AKA [@Ethernian](https://ethereum-magicians.org/u/ethernian)) - ethereum developer, founder
+
 Ralf Sturm - UI/UX designer, frontend developer
+
 Alexander Sakhaev (from SkillUnion) - fullstack developer
+
 Andrey Chukhonin (from SkillUnion) - fullstack developer
 
 staffing from SkillUnion may vary.
