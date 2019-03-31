@@ -60,8 +60,8 @@ In our existing mainnet dapp implementations such as [eth2.io](https://eth2.io/)
 
 **Meta linkdrops**
 
-A meta-linkdrop is based on meta-tx accounts.That means that instead of working with an external Ethereum account, a meta-linkdrop works with digital asset stored in wallet contracts, such as Gnosis Safe and Universal Login based wallets.
-This will be working quite similiar to this PoC of a [gassless webwallet utilizing Universal Login SDK](https://github.com/LinkdropProtocol/Gasless-Webwallet) we have recently built 
+A meta-linkdrop is based on meta-tx accounts, instead of working with an external Ethereum account, a meta-linkdrop works with digital asset stored in wallet contracts, such as Gnosis Safe and Universal Login based wallets.
+This will be working quite similiar to this PoC of a [gassless webwallet utilizing Universal Login SDK](https://github.com/LinkdropProtocol/Gasless-Webwallet) we have recently built. 
 
 Our goal for this proposal is to make linkdrops work with the Gnosis Safe end-to-end, as well as deliver a generalized meta-link SDK implementation that other developers can use to integrate interoperable meta-linkdrops into their projects.
 
