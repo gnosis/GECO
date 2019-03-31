@@ -144,10 +144,16 @@ First public release.
 ### Others
 
 Technical Whitepaper: http://bitly.com/dapplets-part1
+
 PoC video: http://bitly.com/dapplets-poc-video
+
 Forum discussion: http://bitly.com/dapplets-forum
 
+
 PoC github (created at ETHParis Hackathon):
+
 https://github.com/skillunion/dapplet-extension
+
 https://github.com/skillunion/walletconnect-mock-wallet
+
 https://github.com/skillunion/dapplet-static
