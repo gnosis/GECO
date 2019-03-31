@@ -66,7 +66,7 @@ This will be working quite similiar to this PoC of a [gassless webwallet utilizi
 Our goal for this proposal is to make linkdrops work with the Gnosis Safe end-to-end, as well as deliver a generalized meta-link SDK implementation that other developers can use to integrate interoperable meta-linkdrops into their projects.
 
 
-### An example of meta-linkdrop including Universal Login, ENS, ERC20 and ERC721 
+### Meta-linkdrop key scheme for Universal Login, ENS, ERC20 and ERC721 
 
 ![invite scheme](https://user-images.githubusercontent.com/18598519/48316096-10f8ab00-e5df-11e8-89f0-63a0397c904c.png)
 
@@ -78,9 +78,9 @@ Our goal for this proposal is to make linkdrops work with the Gnosis Safe end-to
 5. The Relayer calls Alice’s identity contract
 6. Then Alice’s identity contract creates an identity contract for Bob and sends a Robot
 7. In addition, Bob can now also help Alice recover access to her identity contract in the future using a social key recovery mechanism
-8. Bob now got the Robot he wanted, and in addition has a Universal Login Contract and ENS name which allows him to use the best of web3 to login to all other Ethereum dapps.
+8. Bob now got the tokens he wanted, and in addition has a Universal Login Contract and ENS name which allows him to use the best of web3 to login to all other Ethereum dapps.
 
-### Demo xDAI implementation
+### Meta-linkdrop demo and contract
 
 [This demo](https://screencast-o-matic.com/watch/cqeblx0k7e) video shows a similiar meta-linkdrop scheme utilizing Universal Login we implemented within the "Daily" wallet. The contract implementation for this meta-linkdrop example can be found [here](https://gist.github.com/Dobrokhvalov/00e2bbca13a1378636fa5a400bd692f5#file-invitelink-sol).
 
@@ -116,6 +116,6 @@ We described [a bit about us and our story](https://medium.com/@Gfriiis/linkdrop
 
 - Q3: Front-end Javascript libraries, estimated $10.000 
 
-### Existing Codebase
+### Github
 
 https://github.com/LinkdropProtocol
