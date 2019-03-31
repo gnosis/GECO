@@ -19,26 +19,29 @@ staffing from SkillUnion may vary.
 *Dapplets* is a research- and infrastructural project enabling new business models and mass adoption for Dapps. It allows to embed ethereum based actions into existing web2 legacy websites and communities like Twitter. Moreover, the project fixes current flaws in the web3 architechture, repairing [WYSiWYS](https://en.wikipedia.org/wiki/WYSIWYS) property of secure signing process and make it more secure and seamless.
 
 ### Why did you decide to build it
-
+I (Ethernian) was looking for ways to implement ethereum based workflows on the top existing communities. It is essential for Ethereum Governance (Signaling) and for [routing EIPs](https://ethereum-magicians.org/t/decentralizing-eip-workflow/1525)  between specialized communities. It turned out, that the current secure signing infrastructure based in current web3 architecture doesn't support existing legacy sites.
+The broken [WYSiWYS](https://en.wikipedia.org/wiki/WYSIWYS) was the second driver to start the project.
   
 
 ### How long will it take
 
 1. Phase 1: a Gnosis MVP - 2 monthes
 1. Phase 2: public beta - 3 monthes
-1. Phase 3: public release - 2 monthes
+1. Phase 3: public release - 3 monthes
 
   
 
 ### How much funding are you requesting
 1. Phase 1: 12000 euro
 1. Phase 2: 18000 euro
-1. Phase 3: 12000 euro
+1. Phase 3: 18000 euro
+
+Total: 48000 euro
 
 
 ### How did you hear about the GECO
 
-personal conversation in FullNode
+personal conversation in FullNode with Dmitry Bespalov and then with Mareen Gläske and Tobias Schubotz.
 
 ## Your Proposal
 
@@ -50,11 +53,12 @@ More generally speaking, Dapplets proposal allows to set up an ethereum based in
 
 Legacy site support makes the _Dapplets_ to the vehicle for mass adoption and creates this way an incentive for wallet devs to implement the standard.
 
-In particular, dapplet integration with Gnosis-Safe will allow users to create Prediction Markets seamless in context of the website where the User is currently on. For example, the User can join a Prediction Market about US election results or create a bet against some fake news _directly from the news site he or she is reading_ even if the news site has no web3 support at all. 
+In particular, a dapplet integration with Gnosis-Safe will allow users to create Prediction Markets seamless in context of the website where the User is currently on. For example, the User can join a Prediction Market about US election results or create a bet against some fake news _directly from the news site he or she is reading_ even if the news site has no web3 support at all. I have already discussed implementation details with Dmitry Bespalov.
 
 ### Features
 
-_How do you plan to implement your project, which tools and framework will you use? Optional: Architecture, Mockups, etc._
+As for now we are planning to create a browser plugin for injecting dapplet controls. We use WalletConnect to pair wallet and the browser. A dapplet description language (a Dapplet DSL) is to be defined, but will be a subset of HTML or Markdown or similar.
+Dapplet Auditor Community planned to be a DAO or TCR.
 
 ### Team description
 
@@ -62,16 +66,15 @@ _How do you plan to implement your project, which tools and framework will you u
 Based in Hamburg.
 
 
-*Ralf Sturm (meekmocha)* - an experienced UI/UX designer and frontend developer with more than 20 years experience. DJ and musician. 
+*Ralf Sturm (meekmocha)* - an experienced UI/UX designer. 20+ years experience.
+UX tests and guidance for Olympus audio recorder, UX/UI for interactive GPS driven outdoor games, UI/UX for Jabber-based messenger, various network game designs since 1999, UX/UI for Cycosmos (pre Facebook).
+DJ and musician. 
 Based in Hamburg.
 
-*Alexander Sakhaev* - fullstack developer at SkillUnion. Implemented a Dapplets PoC at ETHParis hackaton in Paris, as well as various pre-Dapplets experimentations like Metamask forking & hacking. 
+*Alexander Sakhaev* - fullstack developer at SkillUnion. Implemented a Dapplets PoC at ETHParis hackaton in Paris, as well as various pre-Dapplets experimentations like Metamask forking & hacking. 3+ years experience.
 Based in St.Petersburg.
 
-*Alexander Sakhaev* - fullstack developer at SkillUnion. Implemented a Dapplets PoC at ETHParis hackaton in Paris, as well as various pre-Dapplets experimentations like Metamask forking & hacking. 
-Based in St.Petersburg.
-
-*Andrey Chukhonin* - fullstack developer at SkillUnion.
+*Andrey Chukhonin* - fullstack developer at SkillUnion. A lot of industrial ERP integrations with 10+ years of experience.
 Based in St.Petersburg.
 
 
@@ -95,13 +98,14 @@ A quick and dirty [implementation was made at ETHParis hackathon](https://twitte
 *<==== YOU ARE HERE =====>*
 
 **Phase I** 
-Gnosis MVP
+Gnosis MVP: a supporting one gnosis use case as a test.
 **Deliverables**
 * Injector: a browser plugin loading and injecting context dependend controls.
 * Protocol: threats and security model research for secure signing; create a simple DSL to define controls and dapplets.
 * Infrastructure: simplified and mostly centralized audit infrastructure and data delivery.
-* Wallet support: one wallet (Gnosis-Safe would be great).
-* TestCases: one TestCase to be defined with Gnosis.  
+* Wallet support: one wallet PoC integration (Gnosis-Safe would be great).
+* TestCases: one TestCase to be defined together with Gnosis Team 
+(like Twitter or news feeds integrations).  
 
 **Time and Price Estimate** 
 2 Monthes, 12000 Euro
@@ -109,34 +113,38 @@ Gnosis MVP
   
 
 **Phase II** 
-First public beta.
+First public beta: support for many independent dapplets and authors. 
 **Deliverables**
-
+* Injector: security levels, checks and events; user based favorits and ignores
 * Protocol: implementing security model and DSL.
-* Infrastructure: simple decentralized audit and security management. Project WebSite and simple developer community.
-* Wallet support: one wallet (Gnosis-Safe would be great).
-* TestCase: one UseCase (to be defined with Gnosis).
+* Infrastructure: simple decentralized audit and security management. Simple project web site, dapplet documentation and developer community.
+* Wallet support: dapplet container implemented in Gnosis-Safe.
+* TestCase: Gnosis test case: rolling out and collecting feedback.
 
 **Time and Price Estimate** 
 3 Monthes, 18000 Euro
-
   
 
 **Phase III** 
 First public release.
 **Deliverables**
-* Injector: implement public feedback.
-* Protocol: implementing security model and DSL.
-* Infrastructure: simple decentralized audit and security management.
-* Wallet support: one wallet (Gnosis-Safe would be great).
-* TestCases: one more UseCase (to be defined with Gnosis).
+* Injector: implement fixes and changes from Phase II.
+* Protocol: implement fixes and changes from Phase II.
+* Infrastructure: decentralized audit and security management with ecomomic incentives.
+* Wallet support: second wallet integration. Documentation.
+* TestCases: one more UseCase (to be defined).
 
 **Time and Price Estimate** 
-2 Monthes, 12000 Euro
-
-  
+3 Monthes, 18000 Euro
   
 
 ### Others
 
-Anything else you want to share with us
+Technical Whitepaper: http://bitly.com/dapplets-part1
+PoC video: http://bitly.com/dapplets-poc-video
+Forum discussion: http://bitly.com/dapplets-forum
+
+PoC github (created at ETHParis Hackathon):
+https://github.com/skillunion/dapplet-extension
+https://github.com/skillunion/walletconnect-mock-wallet
+https://github.com/skillunion/dapplet-static
