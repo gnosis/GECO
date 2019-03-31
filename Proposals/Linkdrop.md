@@ -28,8 +28,7 @@ https://github.com/spacehaz
 
 **General description**
 
-[Linkdrop](https://linkdrop.org/) is an open protocol for including digital assets and onboarding properties into links and QR codes. 
-This allows non-crypto users to simply click a URL or scan a linkdrop QR code to get onboarded. Place check out our already live [mainnet demo applications](https://linkdrop.org/demo/) to see how this looks like for one-to-many and one-to-one linkdrops.
+[Linkdrop](https://linkdrop.org/) is an open protocol for including digital assets and onboarding properties into links and QR codes. This allows non-crypto users to simply click a URL or scan a linkdrop QR code to get onboarded. Place check out our already live [mainnet demo applications](https://linkdrop.org/demo/) to see how this looks like for one-to-many and one-to-one linkdrops.
 
 **GECO specific**
 
@@ -37,8 +36,16 @@ We wish to developer a full meta-linkdrop implementation in order to extend link
 
 ### Why did you decide to build it 
 
-Our general motivation for working on the Linkdrop Protocol is that we see usability of web3 being a major blocker for mainstream adoption in an equivalent manner to scalability.
-We see a meta-linkdrop module is a very useful feature to include in the wallet contract of the Gnosis Safe to seamlessly allow referral programs and invitation schemes to onboard new users.
+
+Our general motivation for working on the Linkdrop Protocol is that we see usability of web3 being a major blocker for mainstream adoption in an equivalent manner to scalability. Web3 needs to learn from Web2 best practice of onboarding.
+
+
+![Web2 Onboarding](https://i.imgur.com/ruiWXd9.png)
+
+![Linkdrop](https://i.imgur.com/SOlmvZs.png)
+
+
+We believe meta-linkdrop module is a very useful feature to include in the wallet contract of the Gnosis Safe to seamlessly allow referral programs and invitation schemes to onboard new users.
 
 ### How long will it take 
 
@@ -82,7 +89,7 @@ Our goal for this proposal is to make linkdrops work with the Gnosis Safe end-to
 
 ### Meta-linkdrop demo and contract
 
-[This demo](https://screencast-o-matic.com/watch/cqeblx0k7e) video shows a similiar meta-linkdrop scheme utilizing Universal Login we implemented within the "Daily" wallet. The contract implementation for this meta-linkdrop example can be found [here](https://gist.github.com/Dobrokhvalov/00e2bbca13a1378636fa5a400bd692f5#file-invitelink-sol).
+[This demo](https://screencast-o-matic.com/watch/cqeblx0k7e) video shows a similiar meta-linkdrop scheme utilizing Universal Login we implemented within the "Daily" wallet targeting Venezuelans. The contract implementation for this meta-linkdrop example can be found [here](https://gist.github.com/Dobrokhvalov/00e2bbca13a1378636fa5a400bd692f5#file-invitelink-sol).
 
 
 
@@ -98,11 +105,11 @@ In order for the invite functionality scheme to work in practice, the following 
 
 ### Team description
 
-1. Most of us intially met at the Status Hackathon before Devcon 4 where we won two first prizes, for building the [onbotting.eth webapp](https://www.youtube.com/watch?v=K67dOixMBWI&t=). Prior to that tha Mikhail and Aritom had develped earlier versions of eth2.io and Volca 
-2. Since then we together created the [cryptoxmas.xyz NFT charity](https://cryptoxmas.xyz/) and raised roughly 18 ETH to Venezuelans utilizing linkdrops and a Giveth campaign.
+1. Most of us intially met at the Status Hackathon before Devcon 4 where we won two first prizes, for building the [onbotting.eth webapp](https://www.youtube.com/watch?v=K67dOixMBWI&t=). Prior to that Mikhail and Artiom had develped earlier versions of eth2.io and Volca 
+2. Since then we together created the [cryptoxmas.xyz NFT charity for Venezuela](https://cryptoxmas.xyz/) and raised roughly 18 ETH to Venezuelans utilizing linkdrops and a Giveth campaign.
 3. We have now developed the gasless-webwallet, and began on our roadmap to generalize the linkdrop protocol. 
 
-We described [a bit about us and our story](https://medium.com/@Gfriiis/linkdrops-an-open-source-standard-for-invite-digital-asset-links-on-ethereum-29f34b3fa5ec) in this blogpost
+We described [a bit about us and our story](https://medium.com/@Gfriiis/linkdrops-an-open-source-standard-for-invite-digital-asset-links-on-ethereum-29f34b3fa5ec) in this blogpost.
 
 
 ### Timeline, Milestones and Deliverables
