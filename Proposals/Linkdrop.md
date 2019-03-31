@@ -32,10 +32,9 @@ https://github.com/spacehaz
 
 **GECO specific**
 
-We wish to developer a full meta-linkdrop implementation in order to extend linkdrop functionality to Gnosis Safe
+We wish to develop a full meta-linkdrop implementation in order to extend linkdrop functionality to Gnosis Safe in order to simplify Ethereum onboarding.
 
 ### Why did you decide to build it 
-
 
 Our general motivation for working on the Linkdrop Protocol is that we see usability of web3 being a major blocker for mainstream adoption in an equivalent manner to scalability. Web3 needs to learn from Web2 best practice of onboarding.
 
