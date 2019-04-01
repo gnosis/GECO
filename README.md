@@ -44,7 +44,7 @@ We want to support a wide range of projects in both topic and scale. For this re
 
 **Mentoring**
 
-The Gnosis Ecosystem Fund provides ore than just financial support. You will also be assigned and receive support from a Gnosis developer who will act as your project mentor. Furthermore, we can connect you to experts in the field and to experienced legal, admin, and financial advisors as needed. As our ecosystem continues to develop, we hope to foster a supportive community where past projects are willing to support and mentor new projects. 
+The Gnosis Ecosystem Fund provides more than just financial support. You will also be assigned and receive support from a Gnosis developer who will act as your project mentor. Furthermore, we can connect you to experts in the field and to experienced legal, admin, and financial advisors as needed. As our ecosystem continues to develop, we hope to foster a supportive community where past projects are willing to support and mentor new projects. 
 
 **Community/ Outreach**
 
