@@ -9,8 +9,10 @@
 Bonded Curves for DAOs
 
 ### **Team members**
-
-Ori Shimony, Jordan Ellis, Cory Dickson, Asgier Sognefest
+Cory Dickson <https://github.com/gh1dra>  
+Jordan Ellis <https://github.com/dOrgJelli>  
+Asgier Sognefest <https://github.com/sogasg>  
+Ori Shimony <https://github.com/oshimony>  
 
 ### **What project are you building**
 
