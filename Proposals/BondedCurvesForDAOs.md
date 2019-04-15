@@ -52,7 +52,7 @@ Word of mouth
 
 Token bonding curves come in many different shapes and sizes. Configurations can vary across various factors including:  
 
-- C*urve*: linear, exponential, polynomial, square root, sigmoid  
+- *Curve*: linear, exponential, polynomial, square root, sigmoid  
 - *Reserve Currency*: ether, particular erc-20's  
 - *Spread:* difference between buy & sell curves that goes to the DAO  
 - *Time Locks*: prevent pump & dumps by restricting sells for a certain period after purchase or until tiered thresholds are met  
@@ -79,7 +79,6 @@ This functionality will be built on top of and integrated with DAOstack's existi
 - DAOstack Scheme:  
     - Buy (Mint) & Sell (Burn) Tokens  
     - Create Bonding Curve Market  
-    - Modify Bonding Curve Parameters  
 
 **Application Functionality**
 
@@ -108,7 +107,7 @@ Matan from DAOstack will also be advising on scientific, economic and architectu
 
 1. DAOstack Scheme
 
-**Time and Price Estimate:** $25,000 for 2.5 months
+**Time and Price Estimate:** $25,000 for 2 months
 
 **Phase II: Application Integration**
 
@@ -116,7 +115,7 @@ Matan from DAOstack will also be advising on scientific, economic and architectu
 
 1. Alchemy Earth Integration
 
-**Time and Price Estimate:** $25,000 for 2.5 months
+**Time and Price Estimate:** $25,000 for 2 months
 
 ### **Others**
 
