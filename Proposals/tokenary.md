@@ -72,7 +72,7 @@ We want to give users the ability to use shared accounts to manage their crypto 
 * List of transactions
 
 ### Team description
-The 6-person Tokenary team is purely technical and includes developers with experiences in various industries. Most of the team members have a CS or Mathematical degree from the top Russian universities.
+The 4-person Tokenary team is purely technical and includes developers with experiences in various industries. Most of the team members have a CS or Mathematical degree from the top Russian universities.
 
 **Ivan Grachyov** (Product manager & iOS developer)
 * Apple WWDC scholarship winner
@@ -90,16 +90,8 @@ The 6-person Tokenary team is purely technical and includes developers with expe
 * Bachelor of Computer Science and Engineering at National Research Nuclear University MEPhI
 * Co-author of [Classifiers based on Bayesian neural networks](https://ieeexplore.ieee.org/document/7910653)
 
-**Ilya Lozhkin** (Fronted & Backend developer)
-* [WalletConnect PHP bridge open source](https://github.com/Tokenary/laravel-walletconnect-bridge)
-
 **Olga Kolekonova** (Android developer)
 * Software Engineering Degree from Higher School of Economics
-
-**Vadim Koleoshkin** (Product manager & Backend developer)
-* Founder at [Zerion](https://zerion.io) (Trustless banking) & Jufy (100+ corporate development projects)
-* Business informatics Master’s degree from Higher School Of Economics
-* Contributor to Web3Swift (https://web3swift.io/)
 
 ### Timeline, Milestones and Deliverables
 
