@@ -9,9 +9,7 @@ Tokenary
 * Vadim Zakharenko  — vadim.zakhar42@gmail.com — https://github.com/vadimantiy
 * Igor Shmakov — shmakoff.work@gmail.com — https://github.com/shmakovigor
 * Ivan Grachyov — mail@grachyov.com — https://github.com/grachyov
-* Ilya Lozhkin — mini223@yandex.ru —  https://github.com/lonesta
 * Olga Kolekonova —  anoniav@gmail.com — https://github.com/duprass
-* Vadim Koleoshkin — vadim@zerion.io — https://github.com/rockfridrich  
 
 ### What project are you building
 We are building Tokenary, a simple and seamless cross-device ethereum wallet for crypto newcomers. Our main priorities are security and usability. We want to help users interact with the Ethereum network and DApps in a simple, straightforward way while preserving their favorite features like cross-device sync, push notifications, and extra layers of security (Face ID, Touch ID, KeyChain, etc.). Our initial target market is the crypto-enthusiast Apple user that desires Apple’s simple UX in all of their interactions with the crypto world, which is currently impossible to find—especially for decentralized finance applications. Eventually, we plan on building complementary Android and web-client interfaces to reach additional market segments.
