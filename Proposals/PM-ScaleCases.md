@@ -34,7 +34,7 @@ A system that facilitates crowd opinion mining and incentivization for any surve
  
  3) **NonRepudiationX**
  
- A BlockChain scalability solution that best fit for prediction market and can leverage Gnosis Apollo and exposes it to more use-cases. In addition to increasing the speed and lowing the cost paid by the end users.
+ A BlockChain scalability solution that best fit for prediction markets and can leverage Gnosis Apollo and exposes it to more use-cases. In addition to increasing the speed and lowering the cost paid by the end users.
 
 
 ### Why did you decide to build it
@@ -48,12 +48,12 @@ Almost all crypto community are investors who would appreciate good advice and c
 ***SurveyX:*** Incentivizing the crowd opinion is the main pain point of any survey maker. So, having a website that facilitates crowd mining and rewarding will solve a real business problem.
 
 
-***NRX (NonRepudiationX) Scalability Solution:*** BlockChain till now is did not reach mass-adoption. And two main reasons for that are the scalability (limited number of transactions per second) and cost (transaction cost is relatively high).
+***NRX (NonRepudiationX) Scalability Solution:*** BlockChain till now did not reach mass-adoption. And two main reasons for that are the scalability (limited number of transactions per second) and cost (transaction cost is relatively high).
 
  Using _off-chain non-repudiation communication_, that could be claimed on-chain, will enable the users to vote, participate in surveys and do any other activities for free, and they will only pay for the transaction when they will claim their rewards (if there is any).
 
 
-Actually, we think that InvestorX and SurveyX, like almost all other use-cases that could be built with _Gnosis Apollo_, will stay under the hood, if there were not be provided with a scalability solution. And we believe that NonRepudiationX is fairly simple, yet powerful enough, and best fit for a prediction market. And it can attract developers and end-users to use Gnosis Apollo and the solutions built with.
+Actually, we think that InvestorX and SurveyX, like almost all other use-cases that could be built with _Gnosis Apollo_, will stay under the hood, if they were not provided with a scalability solution. And we believe that NonRepudiationX is fairly simple, yet powerful enough, and best fit for a prediction market. And it can attract developers and end-users to use Gnosis Apollo and the solutions built with.
 
 ### How long will it take
 The 3 projects are estimated to take 4 months for core functionality. 
@@ -65,7 +65,7 @@ However, because we believe in high-quality and because achieving the business g
 
 Actually, we can have the fund to only one selected item of the above (which is the Scalability Solution). However, we strongly recommend that funding them 3 together. Especially that, InvestorX is built with Angular, SurveyX is built with React and the NRX will expose them, and all other similar cases that can be built with Gnosis Apollo, to mass-adoption.
 
-If you chose to fund only NonRepudiationX, we will need 65 000 USD. This does not mean that InvestorX and SurveyX are very less cheap to implement; But this is because it will be is easier to have a successful business model and/or gather funds to them, away from Gnosis, after their MVP is implemented. However, you may choose to fund NonRepudiationX in this round; And we will apply for InvestorX_, SurveyX in the next funding round after 3 months.
+If you chose to fund only NonRepudiationX, we will need 65 000 USD. This does not mean that InvestorX and SurveyX are very less cheap to implement; But this is because it will be is easier to have a successful business model and/or gather funds to them, away from Gnosis, after their MVP is implemented. However, you may choose to fund NonRepudiationX in this round; And we will apply for InvestorX, SurveyX in the next funding round after 3 months.
 
 ### How did you hear about the GECO
 [Gnosis](https://gnosis.pm/ "Gnosis") website
@@ -89,7 +89,7 @@ Crowd opinion mining and rewarding DApp.
 
 BlockChain Off-Chain/On-Chain Scalability Solution.
 
-This scalability solution is based on non-repudiation that can be ensured by the digital signatures that can be made with Ethereum external-accounts with private/public keys. In this solution, users can participate in a prediction market off-chain. And, the winner can claim his/here reward by posting an on-chain transaction that contains a valid message signed early by the market maker. This will minimize the number of transactions made on Ethereum for any given prediction market. And this will result in 0 participation-cost in any market, in addition to the higher speed. Where the only the winner(s) will pay for the fees of the on-chain claim transaction.
+This scalability solution is based on non-repudiation that can be ensured by the digital signatures which can be signed with Ethereum external-accounts with private/public keys. In this solution, users can participate in a prediction market off-chain. And, the winner can claim his/here reward by posting an on-chain transaction that contains a valid message signed early by the market maker. This will minimize the number of transactions made on Ethereum for any given prediction market. And this will result in 0 participation-cost in any market, in addition to the higher speed. Where the only winner(s) will pay for the fees of the on-chain claim transaction.
 
 
 ### Features
@@ -102,7 +102,7 @@ Actually, the POC (http://investorx.io) is built with Angular, Truffle 5 & and s
 
 ***SurveyX***
 
-This DApp POC is also available at http://surveyx.io. And you can find the source code, and helpful information in the readme file, at https://github.com/apper-tech/investorX.
+This DApp POC is also available at http://surveyx.io. And you can find the source code, and helpful information in the readme file, at https://github.com/apper-tech/surveyx.
 
 Actually, the POC (http://surveyx.io) is built with React, Truffle 5 & and solidity 0.5. However, after getting the grant from Gnosis we will re-implement it utilizing Gnosis Apollo packages; And we will keep it in React.
 
