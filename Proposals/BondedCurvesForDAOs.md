@@ -18,23 +18,25 @@ Advisor: Matan Field (DAOstack)
 
 ### **What project are you building**
 
-We are giving DAOstack DAOs like dxDAO the ability to launch and interact with token bonding curves. A DAO will be able to opt-in to this functionality by registering the BondedCurve scheme to its governance controller. Once registered, the DAO can 1) launch a new continuous token with one of the supported reference implementations, 2) modify the bonded curve's parameters, and 3) buy and sell from the curve.  
+We are giving DAOstack DAOs like dxDAO the ability to launch and interact with token bonding curves. A DAO will be able to opt-in to this functionality by registering the BondedCurve scheme to its governance controller. Once registered, the DAO can:
+- Launch a new continuous token with one of the supported reference implementations or with their own contracts.  
+- Buy / Sell from / to a curve.  
 
 All of the DAO's interactions with the curve are performed through proposals. We will build an integration for Alchemy Earth (DAOstack's U.I.) that allows the DAO's reputation holders to submit proposals that execute the functionality described above.  
 
-It will also be possible for the DAO (through other schemes) to assign additional functionality/utility to the token. For example, a balance of the token could be required to call certain functions in a dApp owned by the DAO.  
+In the future, we're hoping it will also be possible for the DAO (through other schemes) to assign additional functionality / utility to the token. For example, a balance of the token could be required to call certain functions in a dApp owned by the DAO.  
 
 ### **Why did you decide to build it**
 
 Most existing use-cases for token bonding curves do not address the governance of the funds that are generated through the activity of speculators. At the same time, most existing DAOs lack sound valuation models and, largely as a result, sustainable sources of funding.  
 
-Creating a bridge between token bonding curves and the DAOstack governance framework will allow new DAOs like dxDAO, Genesis Alpha, polkaDAO and others to experiment with new models for DAO valuation. This would create accountable mechanisms for speculators to invest in promising DAOs. Because the DAO's governance is fully transparent, speculators can easily track fund usage and remove or add support on that basis.  
+Creating a bridge between token bonding curves and the DAOstack governance framework will allow new DAOs like dxDAO, Genesis Alpha, polkaDAO and others to experiment with new models for DAO valuation and funding. This would create accountable mechanisms for speculators to invest in promising DAOs. Because the DAO's governance is fully transparent, speculators can easily track fund usage and remove or add support on that basis.  
 
 For instance, dxDAO could launch a continuous token on a bonding curve that gives token-holders a self-enforcing claim on future DutchX fees. We would expect the price on such a curve to reflect the dxDAO's [Present Value of Future Cash Flows](https://www.investopedia.com/articles/fundamental-analysis/11/present-value-free-cash-flow.asp). Such a scheme could bootstrap the dxDAO's treasury, allowing it to fund the development of DutchX and other dApps ahead of significant revenues from dApp fees.  
 
 ### **How long will it take**
 
-5 months
+4 months
 
 ### **How much funding are you requesting**
 
