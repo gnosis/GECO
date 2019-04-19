@@ -1,5 +1,5 @@
 # Alice Dapps | Gnosis Ecosystem Fund
-_Crypto Superapp as a path to reduce friction, increase usability and accelerate mass consumer adoption ._
+Crypto Superapp as a path to reduce friction, increase usability and accelerate mass consumer adoption
 
 ## Project Overview
 
@@ -16,16 +16,10 @@ Daniel Bar - Web3 UX Research and Project Manager
 
 ### What project are you building 
 
-Tenzorum is focused in building a complete end-to-end onboarding kit for the decentralized web, to empower the developer community to build friendly and familiar applications using Blockchain Technology and give users a secure portal to the web 3.0.
+We are building a crypto super app. It's a mobile app that allows other crypto applications to build mobile applications in React Native into our application. We are heavily focused on User Experience and bringing more utility to the space that needs it the most, which is the Blockchain mobile space. 
 
 ### Why did you decide to build it 
-
-Our decision comes from the fact that the onboarding experience for applications using Blockchain is completely broken. If we are talking about mass consumer adoption and hitting the mainstream with decentralized technology, it is naive to assume that people will interface with the complexity of our current systems to simply start using an application.
-
-If our main priority as a community isn’t to build friendly technology that empowers people, we are going in the wrong direction.
-
-We believe that creating this system where new users don’t have to go after ETH and the insane KYC process to execute simple on-chain functions or send randomly acquired ERC20s, can liberate the growth and potential of the Ethereum community and all applications.
-
+We decided to build it because we were unhappy with the current solutions out there and were yearning for mobile native apps that had the utilities available on web. This is after extensive research in the space around user's experiences and developer's problems.
 
 ### How long will it take 
 
@@ -33,18 +27,20 @@ We believe that creating this system where new users don’t have to go after ET
 
 ### How much funding are you requesting  
 
-$120,000
+$100,000
 
 ### How did you hear about the GEF
 
-Met Stefan, Gnosis CTO at DEVCON and found a lot of synergies in our vision. 🏄
+We met Stefan in the MetaCartel dinner at DEVCON and he informed us on the GECO program.
 
 ## Your Proposal 
-### Project description
-#### Abstract
-We will be building a secure, easy-to-use user account for the Ethereum blockchain. A user's "blockchain account" will be a Gnosis Safe Multisig wallet located via a human readable ENS name much like a username. A user will deploy this account through a seamless onboarding solution powered by MetaConnect and our onboarding kit [tenzorum SDK](https://github.com/Tenzorum/tenzorum). 
 
-A user will then be able to interact with his "account" immediately without having required ETH because of the use of meta-transactions and our service node network in this architecture. This avoids the pain and complexity of a user having to acquire ETH to start using applications.
+### Project description
+Our proposal is 1. to use the Gnosis Personal Mulitisig as the de facto smart contract account for the Alice Wallet to be able to utilise Layer 2 UX and scaling solutions that bring better experiences to users 2. To build a mobile native interface for the DutchX exchange so that Gnosis can access users who are spending most of their time on mobile. 
+
+
+#### Abstract
+
 
 #### Project elements:
 1. A connection application called MetaConnect that leverages and displays all the elements being built to showcase the potential of meta transactions (Relayed tx) being built as a progressive web-app, where users are interactively onboarded and deploy a Gnosis SAFE multisig wallet as part of the process. We see the integration of Gnosis SAFE as an integral piece of web3 security, particularly with recovery configuration and the ability to remove trusted party recovery methods. 
@@ -82,20 +78,11 @@ A user will then be able to interact with his "account" immediately without havi
 
 ### Associated Team Members Description
 
-**Moritz Neto**: Cofounder of Tenzorum Project, Product designer and Growth Manager. Have directly educated more than 300k people about smart contracts and Blockchain Technology with his content.
-
-Linkedin: https://www.linkedin.com/in/moritzneto/
-
-
-**Radek Ostrowski**: Blockchain Engineer particularly interested in Ethereum and Smart Contracts. In the fiat world, experienced in Big Data and Machine Learning projects. Triple winner in two different international IBM Apache Spark competitions and awarded a prize in ConsenSys hackathon. Co-creator of PlayStation 4 backend.
-
-Linkedin: https://www.linkedin.com/in/radekostrowski/
-
-**Mark Pereira**: Fullstack developer with experience building and architecting web and mobile dapps. Before the web3 space, he was a web developer at a variety of dev agencies.
+**Mark Pereira**: Cofounder, Fullstack developer with experience building and architecting web and mobile dapps. Before the web3 space, he was a web developer at a variety of dev agencies.
 
 Linkedin: https://www.linkedin.com/in/markspereira/
 
-**Daniel Bar**: CEO and Project Manager. Daniel has experience working as an R&D Engineer in the semiconductor industry and nanoelectronics. Deeply rooted in the Chinese cryptocommunity and leading the bitfwd community in APAC region. 
+**Daniel Bar**: Cofounder, Project Manager. Daniel has experience working as an R&D Engineer in the semiconductor industry and nanoelectronics. Deeply rooted in the Chinese cryptocommunity and leading the bitfwd community in APAC region. 
 
 Linkedin: https://www.linkedin.com/in/dtbar/
 
@@ -113,20 +100,3 @@ Prepare documentation and interfacing guidlines for users to be able to seamless
 Prepare documentation for developers explaining all the functionalities of the Gnosis SAFE through the SDK including
 code snippets and example implementations. The work of demonstrating the use of the SDK is described in the following section. 
 The result of this work will be several blog posts and developer documentation on SAFE and it's usage via the the SDK.
-
-### Integration of Gnosis SAFE into [MetaConnect](https://www.metaconnect.org) ($20k - 1.5 months)
-MetaConnect allows even non-blockchain aware users to be seamlessly onboarded to Ethereum. 
-Demonstrate the use of the SDK by integrating it into MetaConnect app. This will include an option to have SAFE created via sponsored meta transaction and the use of TENZ-ID to be associated with the SAFE instance. Additionally, all usual SAFE operation will be available as per SDK. We consider MetaConnect as a vehicle for constantly aquiring more users keeping them engaged. This will offer continuous exposure of Gnosis products to Tenzorum current and future audience. 
-The result of this work will be MetaConnect app offering the creation of Gnosis SAFE with an associated TENZ-ID and all SDK SAFE features.
-
-### Leverage MetaConnect to feed Social Recovery module of Gnosis SAFE ($10k - 1 month)
-Currently, SAFE owner has to know the exact wallet address of their friends. This could be simplified by using TENZ-ID 
-of any of the existing connections and build out into the app. As a result, users of MetaConnect will be able to choose which of their connections could become their SAFE social recovery friends.
-
-### Relay Service Network deployment ($40k - 3 months)
-Build a relayer nework capable of executing meta transaction which are either sponsored or paid for in ETH or ERC20 tokens. Relayers are coded in Node.js and can be easily run and deployed by anyone using ElectronJs App (currently it's available via Docker or NPM).
-As a result, users not holding any `ETH` will be able to use their SAFE and pay for any operations in ERC20 tokens. Anyone can participate in the network as a relayer and earn meta transaction fees.
-
-### Liquidity reserves integrations with DutchX ($15k - 1 month)
-The relayers which are accepting ERC20 tokens as fee for their services and gas cost will be interested in converting them back to `ETH`.
-Develop backend integration with DutchX to allow relayers to convert their fee tokens. This will result in extension of relayer code enabling the owners to convert their tokens into `ETH` using fair price as provided by DutchX.
