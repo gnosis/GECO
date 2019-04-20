@@ -65,7 +65,7 @@ We are fully open to keeping research and collaboration going as we believe ther
 
 Linkedin: https://www.linkedin.com/in/markspereira/
 
-**Daniel Bar**: Cofounder, Project Manager. Daniel has experience working as an R&D Engineer in the semiconductor industry and nanoelectronics. Deeply rooted in the Chinese cryptocommunity and leading the bitfwd community in APAC region. 
+**Daniel Bar**: Cofounder, UX Researcher, Digital products growth. Daniel has founded a thriving crypto community ventures network called [bitfwde.com](bitfwde.com). Deeply networked in the Chinese, the U.S and Europre. Primary focused on cryptocommunity and leading the bitfwd community in APAC region #Blockathon. 
 
 Linkedin: https://www.linkedin.com/in/dtbar/
 
