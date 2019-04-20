@@ -48,10 +48,8 @@ Alice is focused on a mobile experience that packs as much utilities into a mobi
 2. A super app interface for Gnosis DutchX
 3. Smart Contract based wallet
 
-
 #### Further Research and Collaboration
-1. 
-
+We are fully open to keeping research and collaboration going as we believe there will be more features to be added to the Gnosis app in Alice and it would be great to establish a relationship moving forward.
 
 ### Features
 
@@ -71,9 +69,43 @@ Linkedin: https://www.linkedin.com/in/markspereira/
 
 Linkedin: https://www.linkedin.com/in/dtbar/
 
-## Timeline, Milestones and Deliverables
+### Timeline, Milestones and Deliverables
+We have built a mobile app using a smart contract based account already and will be plugging in the Gnosis SAFE contract into the architecture as well as building out a fully featured application. 
+
+**Phase I**
+
+> **Smart Contract Based Account**
+
+**Deliverables**
+
+> - Transactions being sent to a relayer to be put on chain, through Gnosis SAFE
+> - Mobile interfaces for Social Recovery, Transactions, Account Management, iOS and Android
+> - An onboarding flow for using the Gnosis SAFE as the de facto smart contract
 
 
-### Gnosis SAFE mobile integrations on iOS and Android
+**Time and Price Estimate**
 
+> **3 months, \$50,000 total**
 
+> - $15,000 3 months worth of time for 1 iOS Developer
+> - $15,000 3 months worth of time for 1 Android Developer
+> - $15,000 3 months worth of time for 1 Solidity/Web Developer
+> - $5,000 3 Months of UX Design and Research
+
+**Phase II**
+
+> **Providing a mobile SDK for mini dapps to utilize**
+
+**Deliverables**
+
+> - Full mobile build for Gnosis DutchX exchange
+> - Feature rich mobile SDK to make using Gnosis SAFE in your mini dapp as easy as possible
+
+**Time and Price Estimate**
+
+> **3 months, \$50,000**
+
+> - $15,000 3 months worth of time for 1 iOS Developer
+> - $15,000 3 months worth of time for 1 Android Developer
+> - $15,000 3 months worth of time for 1 React Native
+> - $5,000 3 Months of UX Design and Research
