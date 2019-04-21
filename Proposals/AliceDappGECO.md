@@ -115,5 +115,5 @@ We have built a mobile app using a smart contract based account already and will
 
 > - Our website is [alicedapp.com](https://alicedapp.com/)
 > - [@heyaliceapp](https://twitter.com/heyaliceapp) on Twitter
-> - Email us at [mark@alicedapp.com](mailto:mark@alicedapp.com)
+> - Email us at [mark@alicedapp.com](mailto:mark@alicedapp.com) or [dtb@bitfwd.com](mailto:dtb@bitfwd.com)
 > - [Here's an explanation video](https://www.youtube.com/watch?v=3Zp4bXob-o8&t=1s) presented by Mark Pereira at the Web3 UX Unconference during EDCON in Sydney
