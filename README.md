@@ -74,11 +74,14 @@ Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/bl
 * Create a Pull Request to merge your submission into the our repository 
 
 ### Roadmap
-* 31.03.2019 - First submission deadline up to $125,000 in grants
-* 30.06.2019 - Second submission deadline up to $125,000 in grants and include the community in the granting procedure
-* 31.09.2019 - Third submission deadline up to $125,000 in grants
-* 31.12.2019 - Fourth submission deadline up to $125,000 in grants
-* Over the year up to $60,000 in bounties
+* 31.12.2019 - First submission deadline up to $125,000 in grants
+* 31.03.2019 - Second submission deadline up to $125,000 in grants 
+* 30.06.2019 - Third submission deadline up to $125,000 in grants 
+* 31.09.2019 - Fourth submission deadline up to $125,000 in grants
+* 31.12.2019 - Fifth submission deadline up to $125,000 in grants
+
+#### Pitches
+We will select up to 10 teams per submission round to pitch their project to a selected group of people from the Gnosis team. Save the date for the next pitch event on the 11th of July 2019.
 
 ### Others: 
 The Intellectual Property of your projects will be owned by you, and you are responsible for hosting, maintaining and, the compliance of your project. 
