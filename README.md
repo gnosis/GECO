@@ -40,7 +40,7 @@ Furthermore, we will also consider projects involved in research and education r
 
 **Funding**
 
-We want to support a wide range of projects in both topic and scale. For this reason, we are offering grants of between $5.000 and $100.000, which will be paid out in GNO tokens. The allocated funding will reflect the scope and ambition of your proposal.  To get a sense of how much funding to request for your proposal, check out our [bounties](https://gitcoin.co/profile/GnosisEcosystemFund) and current projects for an estimation. 
+We want to support a wide range of projects in both topic and scale. For this reason, we are offering grants of between $5.000 and $100.000. The allocated funding will reflect the scope and ambition of your proposal.  To get a sense of how much funding to request for your proposal, check out our [bounties](https://gitcoin.co/profile/GnosisEcosystemFund) and current projects for an estimation. 
 
 **Mentoring**
 
