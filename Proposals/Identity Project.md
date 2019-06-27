@@ -6,8 +6,9 @@ _This is a guideline on how to best structure your proposal._
 ### Project name
 > Identity
 ### Team members 
-> Dennison Bertram
-> Seth Fork
+> Dennison Bertram - Developer and Developer Advocate OpenZepelin.
+> Seth Feibus - Developer and founder NFTY.Supply, and StateSauce a Javascript Web3 state management library.
+
 ### What project are you building 
 > An Identity contract on Ethereum that can represent users as a first-class citizen in Ethereum. 
 ERC725 compliant, MetaTransaction enabled, and Gnosis Multi-Sig for Social Recovery, 2FA, transferable accounts, and fine grain permission controls. 
@@ -20,6 +21,8 @@ artist project needed a way to represent an Identity on the blockchain with asso
 In the case of Artists, a singular contract that could act as the authoritative source of an artists archive needed the ability to create new token lineages that represent their art, along with Metadata to describe themselves and create a catalog. 
 For both these projects, I need an Identity. Something easy to use (MetaTxns for onboarding issues), but also something forgiving- Gnosis multisig for Social Recovery
 and flexible but secure permission model. 
+### How is Gnosis Multi Sig relevant to your project? 
+To improve upon the current public-private key pair system for signing transactions on ethereum, we need to create a second layer permissions system. This is only possible using Gnosis MultiSig. Features such as social recovery, portable identities, two-factor authentication are all features that are built using Gnosis MultiSig contracts. It is a critical component.
 ### How long will it take 
 > The project I have broken down into phases. Each phase will incrementally improve the usability and developer experience of the Identity platform. 
 I estimate 1 quarter for each phase, with a total of 4 quarters to deliver a polished, production level product accessible to the average front-end *developer*. 
@@ -27,11 +30,11 @@ Note that my target is not limited to *web3* developers. My goal is to create so
 ### How much funding are you requesting  
 > Each phase has a different estimated requirement for funding. I have already finished a working proof-of-concept so the first phase the funding I am requesting is lower
 than the others which have yet to be started. 
-Phase 1: Completion of the base Solidity Code + testing: $2,500
-Phase 2: Creation of a Javascript library part 1: A javascript API for interacting with the Identity smart contract code. $6,000
-Phase 3: Creation of a Javascript library part 2: Gasless, keypair-less usage for web2 style onboarding: $3,000
-Phase 4: Documentation and Tutorials: $2,000
-Phase 5: Auditing: Unsure, the goal is a community project. So a community audit should be requested. 
+Phase 1: Completion of the base Solidity Code + testing: $10,000
+Phase 2: Creation of a Javascript library part 1: A javascript API for interacting with the Identity smart contract code. $17,000
+Phase 3: Stretch Goal: Creation of a Javascript library part 2: Gasless, keypair-less usage for web2 style onboarding: $15,000
+Phase 4: Stretch Goal: Documentation and Tutorials: $6,000
+Phase 5: Stretch Goal: Auditing: Unsure, the goal is a community project. So a community audit should be requested. 
 ### How did you hear about the GECO
 > From Twitter.
 
@@ -65,20 +68,22 @@ Javascript library will utilize IPFS/Swarm for storage of metadata and encryptio
 
 ### Team description
 _Who are your team members, what is your background and what you built before._
-Dennison Bertram - 'founder' - I am the developer Advocate at OpenZeppelin. I build numerous tutorials for our products and have a number of soon-to-be-released demo applications
-for Meta Transactions and the Gas Stations Network. I originally got into crypto in 2011 and I created the first Bitcoin exchange in the Czech Republic called BuyBTC.cz in 2012.
-I have spoken at a number of conferences as a developer advocate and run programming workshops for solidity. I was MC of ETH New York and was a prize winner at the ETH Buenos Aires hackathon, MakeDao prize winner at Status IM Hackathon during Devcon 4, and WindingTree during Devcon 4 hackathon among others. I am a member of CryptoNYC.
+Dennison Bertram - Developer Advocate at OpenZeppelin. 
+https://github.com/crazyrabbitLTC
+Created the first Bitcoin exchange in the Czech Republic called BuyBTC.cz in 2012. As developer advocate, runs frequently workshops on building DApps and creates numerous DApp development tutorials in his role as Developer Advocate. Master of Ceremonies of ETH New York 2019, and prize winner at the ETH Buenos Aires hackathon (Status and OpenZeppelin Prize), MakeDao prize winner at Status IM Hackathon during Devcon 4, and WindingTree during Devcon 4 hackathon among others. Member of CryptoNYC.
 
-Seth Fork - Member CryptoNYC. State Sauce: https://github.com/sethfork
+Seth Fork - Freelance Developer. Founder of NFTY Supply. 
+https://github.com/sethfork
+Creator of State Sauce, a Javascript library for web3 state management.  Member of CryptoNYC and prize winner at ETH Denver 2019 Hackathon. 
 https://github.com/statesauce/redux-saga-web3
+
+Both team members are NYC based, share co-working space at CryptoNYC and have collaborated previously. 
 
 ### Timeline, Milestones, and Deliverables
 _Detailed description of your timeline milestones and the corresponding payouts_
-Note: This is budgeted like a renumerated community project. 
-It is budgeted as a part-time project with concrete goals and milestones.
 
 **Phase I**              _Outline the different phases_
-Phase 1: Completion of the base Solidity Code + testing: $1,500
+Phase 1: Completion of the base Solidity Code + testing: $10,000
 
 In this phase, the working code of the first version is completed. Currently, the code is at Alpha status and is functional with a limited set of passing tests for some of the more 
 challenging features (Create2 contract creation, arbitrary code execution)
@@ -96,10 +101,10 @@ Gnosis MultiSig integration: Support for Social Recovery and various recovery me
 
 
 **Time and Price Estimate**    
-$2500
+$10,000
+4-6 Weeks.
 
-I expect this to take 3-4 weeks. Most of the Alpha code is completed and working. There is substantial refactoring to do, but much of the code builds upon code already
-developed by the community and composes it. The majority of the work here is refactoring, breaking the solidity code into EVM package modules and designing a more complete set of tests. 
+Most of the Alpha code is completed and working. There is substantial refactoring to do, but much of the code builds upon code already developed by the community and composes it to a larger organism. The majority of the work here is refactoring, breaking the solidity code into EVM package modules and designing a more complete set of tests. 
 
 **Phase II**              _Outline the different phases_
 Creation of a Javascript library part 1: A javascript API for interacting with the Identity smart contract code. 
@@ -127,11 +132,15 @@ etc...
 ```
 
 **Time and Price Estimate**    _How long will it take and what is the estimated price_
-$6,000
+$17,000
 8-10 weeks
 
+This is the most complicated part of the project because it has not yet begun. We will need to spec out the design for the library and its requirements, then build and test it. 
+The v1 of the library will encapsulate the most common tasks that a developer using Identity would run into. The important points are simplifying the usages of Gnosis Multi-sig 
+for recovery processes and simplifying executing arbitrary functions on-chain. These are the highest points of developer friction in the process. 
+
 **Phase III**              
-Phase 3: Creation of a Javascript library part 2: Gasless, keypair-less usage for web2 style onboarding:
+Phase 3: Stretch Goal 1: Creation of a Javascript library part 2: Gasless, keypair-less usage for web2 style onboarding:
 
 IPFS/SWARM integration for storage and retrieval of Metadata. 
 
@@ -147,33 +156,40 @@ MetaMask, 12 words, KYC for ETH, etc... at the very start.
 **Deliverables**
 
 Javascript front end Library for generating and managing Ephermeral Keypairs
-Metadata Caching with IPFS
+Metadata Caching with IPFS and OrbitDB
 Demo express server for encrypting recovery keypairs
 Demo OATH integration for recovery keypairs. 
 
 
 **Time and Price Estimate**
-$3000
-6-8 weeks. 
+$15,000
+8-10 weeks. 
 
 **Phase IV**
-Phase 4: Documentation and Tutorials: $2,000
+Phase 4: Stretch Goal 2: Documentation and Tutorials: $4,000
 
 A project is only as useful as one can communicate it. As a Developer Advocate, I know first hand the importance of sharing educational materials: Tutorials, guides, documentation. 
-This phase of the project is intended to clearly illustrate in a simple to follow tutorials and guides how to use Identity, how to integrate it into a project, and how to access all
-the features offered by it. 
+While documentation is an important part of each phase, focusing on the complete project requires its own phase to create a unified body of documentation. 
+This phase of the project is intended to clearly illustrate in a simple to follow tutorials and guides how to use Identity, how to integrate it into a project, and how to access all the features offered by it. 
 
-Documentation: Developers need an API reference to understand the ins and outs of a project. Everything needs to be clearly understandable, clearly written. A reference for when working with Identity. 
+Documentation: Developers need an API reference to understand the ins and outs of a project. Everything needs to be clearly understandable, clearly written. A reference for when working with Identity, the contracts and the Javascript library. 
 
 **Deliverables**
 
 A website containing tutorials, examples, documentation and sample code. 
 
+**Time and Price Estimate**
+$6,000
+4-6 weeks. 
+
 **Phase V**
 Phase 5: Auditing
 
-This is a stretch goal, and I feel is beyond the scope of the Gnosis ecosystem grant. We will need auditing services, but as a community project, this must be something that the community feels is important and is either willing to help out with or fund. I am not including it as a grant request at this time from Gnosis. Depending on the reception and
+This is the final stretch goal, and I feel is beyond the scope of the Gnosis ecosystem grant. We will need auditing services, but as a community project, this must be something that the community feels is important and is either willing to help out with or fund. I am not including it as a grant request at this time from Gnosis. Depending on the reception and
 success of Identity, I can propose this in the future for a grant. 
+
+**Cost Estimate**
+This would be performed by a reputable auditing company, the cost estimate would depend on their estimates. 
 
 ### Others     
 Anything else you want to share with us
