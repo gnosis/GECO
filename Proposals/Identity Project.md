@@ -135,9 +135,8 @@ etc...
 $17,000
 8-10 weeks
 
-This is the most complicated part of the project because it has not yet begun. We will need to spec out the design for the library and its requirements, then build and test it. 
-The v1 of the library will encapsulate the most common tasks that a developer using Identity would run into. The important points are simplifying the usages of Gnosis Multi-sig 
-for recovery processes and simplifying executing arbitrary functions on-chain. These are the highest points of developer friction in the process. 
+This is the most complicated part of the project. We will need to spec out the design for the library and its requirements, then build and test it. 
+The v1 of the library will encapsulate the most common tasks that a developer using Identity would run into. The important points are simplifying the usages of Gnosis Multi-sig for recovery processes and simplifying executing arbitrary functions on-chain. These are the highest points of developer friction in the process. 
 
 **Phase III**              
 Phase 3: Stretch Goal 1: Creation of a Javascript library part 2: Gasless, keypair-less usage for web2 style onboarding:
