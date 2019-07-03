@@ -1,3 +1,5 @@
+
+
 # SurveyX
 Crowd Opinion Mining and Rewarding 
 ## Project Overview
@@ -97,11 +99,53 @@ As a result, this enables the users to participate in any prediction market off-
 
 
 
+## SurveyX POC
+- **Main Page**
+    
+    You will get this page after you launch the app. It is the landing page:
+ 
+<img src="https://drive.google.com/uc?id=1MUi4vwmF4gHE3J6GYiz_7Gibgcmta7qA">
+
+ - **Test-net Main-net Connectivity Check Page**
+    
+    You might get this page after you launch the app in case of a network misconnection
+ 
+<img src="https://drive.google.com/uc?id=1YbwCsKkfjniGTESPBtnVEQJc9OK2mbR_">
+
+- **Participation Page**
+    
+    If you are invited to participate in a survey you will see the following screen with appropriate controls to do so  
+ 
+<img src="https://drive.google.com/uc?id=1Zy3bVC7vc1Xh_vHoXHVuRpOUeHEdtM_g">
+
+- **Survey Management Page**
+    
+    If you created a survey, you can see all the states about it here. Additionally, you will have here an option to end the survey, after enough data has been collected, and a shareable link to the participants
+  
+ 
+<img src="https://drive.google.com/uc?id=1iSTgiJEkiITfuxsRaMEMUxnpcHyUgvp1">
+
+- **Survey Creation Page**
+    
+    A page to create a new survey, define the options, pay the fee and start enrolling participants
+  
+ 
+<img src="https://drive.google.com/uc?id=1VHkxBexFbs3CfBqUTZTAgNaZLxafi_mj">
+
+ - **Survey Created**
+   
+    You will get this page after you create a survey
+ 
+<img src="https://drive.google.com/uc?id=1BwUuMZwwDlu7Dpt7XrrftaQQ_EEVuDYz">
+
+*Kindly pair in mind that the POC (Proof-of-Concept) is an incomplete version that is made only for the purpose of demonstration. And it will be recreated after getting the funds.*
+
+
 ## Team description
 
-***Muhammad Altabba*** - CEO
-Full Stack BlockChain Developer
-Solid and extensive commercial experience in BlockChain DApps and Web Apps development.
+***Muhammad Altabba*** 
+
+Full Stack BlockChain Developer with a solid and extensive commercial experience in BlockChain DApps and Web Apps development.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LinkedIn: https://www.linkedin.com/in/muhammadaltabba/
 
@@ -161,7 +205,7 @@ Final Technical Touches, Community Building, and Business Model Fine-Tuning.
  
 This phase is where we will look more for achievements from a business point of view.
 
-How much effect we could make, is a proof of a good technical solution in addition to smart work.
+How much effect we could make, is proof of a good technical solution in addition to smart work.
 
 - Deliverables
 	- Reach at least 1000 users on SurveyX.io
@@ -172,3 +216,9 @@ How much effect we could make, is a proof of a good technical solution in additi
 	    - One or more published research paper (most likely about NonRepudationX) in an academic journal or conference.
 	    - 1 partnership (at least).
    - Time and Price Estimate: 2 to 3 months - 20 000 USD
+   
+### What is after those Phases
+At the point when we will finish the intended work mentioned previously, we will consider that we had fulfilled our commitment to Gnosis. But will not stop. We will plan for financial stability in addition to new levels of explanation mainly through:
+ - Ensuring a revenue stream that keeps the business running and expanding…
+ - Continuously look for more partnerships...
+ - Raising fund and spending it to gain more market share…
