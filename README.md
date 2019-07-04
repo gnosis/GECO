@@ -81,7 +81,7 @@ Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/bl
 * 31.12.2019 - Fifth submission deadline up to $125,000 in grants
 
 #### Pitches
-We will select up to 10 teams per submission round to pitch their project to a selected group of people from the Gnosis team. Save the date for the next pitch event on the 11th of July 2019.
+We will select up to 10 teams per submission round to pitch their project to a selected group of people from the Gnosis team. 
 
 ### Others: 
 The Intellectual Property of your projects will be owned by you, and you are responsible for hosting, maintaining and, the compliance of your project. 
