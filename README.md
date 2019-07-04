@@ -24,12 +24,11 @@ Proposals should focus on:
   
 Our platforms and potential buidl ideas include:
 
-- DutchX: buyer interface, token BuyBacks, deposit or withdraw widget. 
 - Gnosis Safe: recovery modules, transfer limits or Gnosis Safe integration into Dapps
 - PM: prediction market use cases, oracle integrations, wallet integrations or a futarchy interface
 
 Furthermore, we will also consider projects involved in research and education related to:
-- Decentralized exchanges
+
 - Prediction markets/ Futarchy
 - Market mechanism
 - Governance
@@ -89,4 +88,4 @@ The Intellectual Property of your projects will be owned by you, and you are res
 ### Additional Information
 * Reach out to our Devs and Product Managers via [Gitter](https://gitter.im/gnosis)
 * We put together different  bounties for tools/modules/ extension which help improve our products. Check them out [here](https://gitcoin.co/explorer?keywords=gnosis&order_by=-web3_created)
-* Check out the documentation of our [Prediction markets](https://gnosis-apollo.readthedocs.io/en/latest/), [DutchX](https://dutchx.readthedocs.io/en/latest/) and the [Gnosis Safe](https://gnosis-safe.readthedocs.io/en/latest/) protocols
+* Check out the documentation of our [Prediction markets](https://gnosis-apollo.readthedocs.io/en/latest/) and the [Gnosis Safe](https://gnosis-safe.readthedocs.io/en/latest/) protocols
