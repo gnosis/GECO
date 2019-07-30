@@ -1,6 +1,7 @@
 
 
-# SurveyX
+
+# SurveyX <img src="https://user-images.githubusercontent.com/24407834/60393539-ae2d3300-9b1f-11e9-9bab-99623e97c992.png" width="28" />
 Crowd Opinion Mining and Rewarding 
 ## Project Overview
 ### Project name
@@ -44,10 +45,6 @@ We believe that a successful project has to touch the pain of a real business ca
 
 ***NRX (NonRepudiationX) Scalability Solution:*** BlockChain till now did not reach mass-adoption. And two main reasons for that are the scalability (limited number of transactions per second) and cost (transaction cost is relatively high).
 
-Using _off-chain non-repudiation communication_, that could be claimed on-chain, will enable the users to vote, participate in surveys and do any other activities for free, and they will only pay for the transaction when they will claim their rewards (if there is any).
-
-
-Actually, we think that SurveyX, like almost all other use-cases that could be built with _Gnosis Prediction Market_, will stay under the hood, if they were not provided with a scalability solution. And we believe that NonRepudiationX is fairly simple, yet powerful enough, and best fit for a prediction market. And it can attract developers and end-users to use Gnosis Prediction Market and the solutions built with.
 
 ### How long will it take
 The project is estimated to take 6 to 9 months. 
@@ -70,33 +67,15 @@ Crowd opinion mining and rewarding DApp.
 
 ***NRX (NonRepudiationX) Scalability Solution***
 
-BlockChain Off-Chain/On-Chain Scalability Solution.
-
-This scalability solution is based on non-repudiation that can be ensured by the digital signatures which can be signed with Ethereum external-accounts with private/public keys. In this solution, users can participate in a prediction market off-chain. And, the winner can claim his/here reward by posting an on-chain transaction that contains a valid message signed early by the market maker. This will minimize the number of transactions made on Ethereum for any given prediction market. And this will result in 0 participation-cost in any market, in addition to the higher speed. Where the only winner(s) will pay for the fees of the on-chain claim transaction.
-
+A BlockChain Off-Chain/On-Chain scalability solution as part of SurveyX.
 
 ### Features
 
 ***SurveyX***
 
-This DApp POC is also available at http://surveyx.io. And you can find the source code, and helpful information in the readme file, at https://github.com/apper-tech/surveyx.
+The DApp POC is available at http://surveyx.io. You can find the source code, and helpful information in the readme file, at https://github.com/apper-tech/surveyx.
 
 Actually, the POC (http://surveyx.io) is built with React, Truffle 5 & and solidity 0.5. However, after getting the grant from Gnosis we will re-implement it utilizing Gnosis Mercury packages; And we will keep it in React.
-
-***NRX (NonRepudiationX) Scalability Solution***
-
-What is non-repudiation? It is the assurance that someone cannot deny the validity of something.  Non-repudiation could be achieved with digital signatures made with the public-key/private-key of Ethereum external accounts (wallets).
-
-The execution flow, that you can see in the next [Sequence Diagram](#nonrepudiationx-sequence-diagram "Sequence Diagram"), is basically that we will ask both the user and the system-owner (the maker or an oracle) to sign, off-chain, their confirmation messages. Such that, the user will first sign his data off-chain.  And then the system-owner, as a confirmation, will off-chain sign the signed message he receives from the user. The user can then use the confirmation he received from the system-owner to claim his reward on-chain. Just like magic, the off-chain signature will be easily done because of the EIP712 standard that is [already implemented in MetaMask](https://medium.com/metamask/eip712-is-coming-what-to-expect-and-how-to-use-it-bb92fd1a7a26 "already implemented in MetaMask"). And thanks to solidity for having [`ecrecover` function](https://solidity.readthedocs.io/en/latest/units-and-global-variables.html#mathematical-and-cryptographic-functions) that can be used for on-chain verification. Additionally, OpenZeppelin provided a standard hash-verification library: https://docs.openzeppelin.org/docs/cryptography_ecdsa.
-
-As a result, this enables the users to participate in any prediction market off-chain. But the one(s) who deserve a reward will be able to claim his/her reward, on-chain. You may find more at https://github.com/apper-tech/nonrepudiationX.
-
-
-
-| <a href="#nonrepudiationx-sequence-diagram">![Sequence Diagram of NonRepudiationX](https://github.com/apper-tech/nonrepudiationX/raw/master/nrx-sequence-diagram.png)</a>  |
-| :------------: |
-|  Sequence Diagram of NonRepudiationX |
-
 
 
 ## SurveyX POC
@@ -157,7 +136,7 @@ Full Stack BlockChain Developer with a solid and extensive commercial experience
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Medium BlockChain Articles: https://medium.com/@maltabba
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Google Scholar: https://scholar.google.com/citations?user=sdbpUkYAAAAJ (17 Citations for a bachelor-degree graduation project report that is cited as it is a thesis)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Google Scholar: https://scholar.google.com/citations?user=sdbpUkYAAAAJ (17 Citations for a bachelor-degree graduation project report)
 
 ***Muhammed Mazen Hafez***
 
@@ -218,7 +197,7 @@ How much effect we could make, is proof of a good technical solution in addition
    - Time and Price Estimate: 2 to 3 months - 20 000 USD
    
 ### What is after those Phases
-At the point when we will finish the intended work mentioned previously, we will consider that we had fulfilled our commitment to Gnosis. But will not stop. We will plan for financial stability in addition to new levels of explanation mainly through:
+At the point when we will finish the intended work mentioned above, we will consider that we had fulfilled our commitment to Gnosis. But we will not stop. We will plan for financial stability in addition to new levels of expansion mainly through:
  - Ensuring a revenue stream that keeps the business running and expanding…
- - Continuously look for more partnerships...
+ - Continuously looking for more partnerships...
  - Raising fund and spending it to gain more market share…
