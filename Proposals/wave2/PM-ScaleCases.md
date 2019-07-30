@@ -48,13 +48,6 @@ Almost all crypto community are investors who would appreciate good advice and c
 ***SurveyX:*** Incentivizing the crowd opinion is the main pain point of any survey maker. So, having a website that facilitates crowd mining and rewarding will solve a real business problem.
 
 
-***NRX (NonRepudiationX) Scalability Solution:*** BlockChain till now did not reach mass-adoption. And two main reasons for that are the scalability (limited number of transactions per second) and cost (transaction cost is relatively high).
-
- Using _off-chain non-repudiation communication_, that could be claimed on-chain, will enable the users to vote, participate in surveys and do any other activities for free, and they will only pay for the transaction when they will claim their rewards (if there is any).
-
-
-Actually, we think that InvestorX and SurveyX, like almost all other use-cases that could be built with _Gnosis Apollo_, will stay under the hood, if they were not provided with a scalability solution. And we believe that NonRepudiationX is fairly simple, yet powerful enough, and best fit for a prediction market. And it can attract developers and end-users to use Gnosis Apollo and the solutions built with.
-
 ### How long will it take
 The 3 projects are estimated to take 4 months for core functionality. 
 
@@ -85,13 +78,6 @@ An Ethereum decentralized application for crypto-investment with decentralized n
 Crowd opinion mining and rewarding DApp.
 
 
-***NRX (NonRepudiationX) Scalability Solution***
-
-BlockChain Off-Chain/On-Chain Scalability Solution.
-
-This scalability solution is based on non-repudiation that can be ensured by the digital signatures which can be signed with Ethereum external-accounts with private/public keys. In this solution, users can participate in a prediction market off-chain. And, the winner can claim his/here reward by posting an on-chain transaction that contains a valid message signed early by the market maker. This will minimize the number of transactions made on Ethereum for any given prediction market. And this will result in 0 participation-cost in any market, in addition to the higher speed. Where the only winner(s) will pay for the fees of the on-chain claim transaction.
-
-
 ### Features
 
 ***InvestorX***
@@ -105,21 +91,6 @@ Actually, the POC (http://investorx.io) is built with Angular, Truffle 5 & and s
 This DApp POC is also available at http://surveyx.io. And you can find the source code, and helpful information in the readme file, at https://github.com/apper-tech/surveyx.
 
 Actually, the POC (http://surveyx.io) is built with React, Truffle 5 & and solidity 0.5. However, after getting the grant from Gnosis we will re-implement it utilizing Gnosis Apollo packages; And we will keep it in React.
-
-***NRX (NonRepudiationX) Scalability Solution***
-
-What is non-repudiation? It is the assurance that someone cannot deny the validity of something.  Non-repudiation could be achieved with digital signatures made with the public-key/private-key of Ethereum external accounts (wallets).
-
-The execution flow, that you can see in the next [Sequence Diagram](#nonrepudiationx-sequence-diagram "Sequence Diagram"), is basically that we will ask both the user and the system-owner (the maker or an oracle) to sign, off-chain, their confirmation messages. Such that, the user will first sign his data off-chain.  And then the system-owner, as a confirmation, will off-chain sign the signed message he receives from the user. The user can then use the confirmation he received from the system-owner to claim his reward on-chain. Just like magic, the off-chain signature will be easily done because of the EIP712 standard that is [already implemented in MetaMask](https://medium.com/metamask/eip712-is-coming-what-to-expect-and-how-to-use-it-bb92fd1a7a26 "already implemented in MetaMask"). And thanks to solidity for having [`ecrecover` function](https://solidity.readthedocs.io/en/latest/units-and-global-variables.html#mathematical-and-cryptographic-functions) that can be used for on-chain verification. Additionally, OpenZeppelin provided a standard hash-verification library: https://docs.openzeppelin.org/docs/cryptography_ecdsa.
-
-As a result, this enables the users to participate in any prediction market off-chain. But the one(s) who deserve a reward will be able to claim his/her reward, on-chain. You may find more at https://github.com/apper-tech/nonrepudiationX.
-
-
-
-| <a href="#nonrepudiationx-sequence-diagram">![Sequence Diagram of NonRepudiationX](https://github.com/apper-tech/nonrepudiationX/raw/master/nrx-sequence-diagram.png)</a>  |
-| :------------: |
-|  Sequence Diagram of NonRepudiationX |
-
 
 
 ## Team description
