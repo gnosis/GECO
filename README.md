@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400px" src="https://github.com/gnosis/Gnosis-Ecosystem-Fund/blob/master/GEF_logo_text%20(2).png" />
+  <img width="400px" src="https://github.com/gnosis/GECO/blob/master/geco_rgb_horizontal_left_darkblue.png" />
 </p>
 
 **_Creating an environment where ambitious teams can expand and shape the blockchain ecosystem towards a redistributed future._**
