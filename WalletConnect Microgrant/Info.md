@@ -3,11 +3,11 @@
  
 One of our primary goals at Gnosis is to increase the usability of dapps which we believe will play a vital role in the widespread adoption of blockchain technology. Supporting projects that improve the decentralized application user experience will prove an essential contribution to Ethereum wallet infrastructure.
  
-In an effort to improve the Safe’s dapp interoperability, we have decided to offer microgrants to teams that are interested in building a WalletConnect integration that is compatible with the Safe. WalletConnect is an open protocol that allows users to establish a secure connection between a decentralized application and mobile wallet by simply scanning a QR code. This makes connecting to and interacting with the Ethereum blockchain quick and painless. We are therefore big supporters of WalletConnect and recently released a WalletConnect integration with the Safe. 
+In an effort to improve the Safe’s dapp interoperability, we have decided to offer microgrants to teams that are interested in building a WalletConnect integration that is compatible with the Safe. [WalletConnect](https://walletconnect.org/) is an open protocol that allows users to establish a secure connection between a decentralized application and mobile wallet by simply scanning a QR code. This makes connecting to and interacting with the Ethereum blockchain quick and painless. We are therefore big supporters of WalletConnect and recently released a [WalletConnect integration with the Safe](https://blog.gnosis.pm/the-gnosis-safe-now-has-a-wallet-connect-integration-61000b098657). 
 Moving forward, the Gnosis Ecosystem Fund will provide microgrants to teams interested in creating a WalletConnect integration that is compatible with the Gnosis Safe We will support successful integrations with up to $3,000 in funding.
 
 ## How can I apply? 
-At the end of each month, we will give out one grant, although teams can submit a proposal at any time. Please complete this document if you are interested in applying.
+At the end of each month, we will give out one grant, although teams can submit a proposal at any time. Please complete [this document](https://github.com/gnosis/GECO/blob/master/WalletConnect%20Microgrant/Application%20template.md) if you are interested in applying.
 
 ## How to submit your proposal
 * Fork the WalletConnect microgrant repo
@@ -22,10 +22,10 @@ We will only consider projects with a user base who have not received funding fr
 
 The integration with the Safe through WalletConnect should have the following attributes: 
 
-* **Supports WalletConnect** > v1.0.0 (i.e. not v0.7.x)
+* **Supports WalletConnect** > [v1.0.0](https://docs.walletconnect.org/) (i.e. not v0.7.x)
 * **Compatible with the Safe**
    * The dapp should not use message signing
-   * If you do use message signing, you need to build a workaround for the Safe (eg. Like the one done for Alchemy)
+   * If you do use message signing, you need to build a workaround for the Safe (eg. Like the one done for [Alchemy](https://github.com/daostack/alchemy))
    * Teams can also work with us on a contract signature integration please note that this is not a live feature yet, but will be available on Android by DappCon (Aug 21st)
 * **Runs on mainnet**
 * **Visible WalletConnect integration**
