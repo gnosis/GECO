@@ -6,9 +6,9 @@ _KnownOrigin.io_
 > KnownOrigin.io - http://knownorigin.io
 
 ### Team members
-> James Morgan
-> Andy Gray
-> David Moore
+> James Morgan,
+> Andy Gray,
+> David Moore,
 > Oliver Carding
 
 ### GitHub Repo
@@ -35,7 +35,8 @@ platform to one which allows on-boarded artists, currently 126, to create and ma
 - Avg daily users, last 30 days (Google Analytics) - approx 60-100
 
 ### How long will you need to integrate a Gnosis Safe compatible WalletConnect integration?
-> I have not looked to closely into whats required but I think I will need approx 2-3 weeks to fit in the dev time to integrate Gnosis safe and enable wallet connect.
+> I estimate I will need approx 2-3 weeks to fit in the dev time to integrate Gnosis safe and enable wallet connect.
+> Out frontend is built in VueJs, I have seen a react component for Gnosis Safe so maybe at the end we will be able to release an official VueJS library as well.
 
 ### Does your Dapp use message signing?
 > Yes, unfortunately we use message signing for two things:
