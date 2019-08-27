@@ -35,18 +35,19 @@ to create and manage their own works.
 authenticity and provenance.
 
 ### How big is your user base?
-> Since launch our high level platform stats are as follows: (as of 17th Aug 2019)
+> Since launch our high level platform stats are as follows: (as of 27th Aug 2019)
 
-- Total NFTs sold - 2728
-- Total number of NFTs available - 9198
-- Total editions - 716
+- Total NFTs sold - 2947️
+- Total number of NFTs available - 9915
+- Total editions - 818
 - Total artists - 126
-- Total ETH raised (primary & secondary sales) - 94.36 ETH
-- Total onchain txs, last 30 days - approx 420 
-- Avg daily users, last 30 days (Google Analytics) - approx 60-100
+- Total ETH raised (primary & secondary sales) - 100.94 ETH
+- Total onchain txs, last 30 days - approx 400 
+- Total users, last 28 days (Google Analytics) - approx 1700
+- New users, last 28 days (Google Analytics) - approx 1400
 
 ### How long will you need to integrate a Gnosis Safe compatible WalletConnect integration?
-> I estimate I will need approx 2-3 weeks to fit in the dev time to integrate Gnosis safe and enable wallet connect.
+> I estimate I will need approx 1-23 weeks to fit in the dev time plus UX changes required to integrate Gnosis safe and enable wallet connect.
 
 > Our frontend is built in VueJs, I have seen a react component for Gnosis Safe so maybe at the end we will be able 
 to release an official VueJS library as well.
