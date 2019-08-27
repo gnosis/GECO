@@ -47,7 +47,7 @@ authenticity and provenance.
 - New users, last 28 days (Google Analytics) - approx 1400
 
 ### How long will you need to integrate a Gnosis Safe compatible WalletConnect integration?
-> I estimate I will need approx 1-23 weeks to fit in the dev time plus UX changes required to integrate Gnosis safe and enable wallet connect.
+> I estimate I will need approx 1-2 weeks to fit in the dev time plus UX changes required to integrate Gnosis safe and enable wallet connect.
 
 > Our frontend is built in VueJs, I have seen a react component for Gnosis Safe so maybe at the end we will be able 
 to release an official VueJS library as well.
