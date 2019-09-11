@@ -35,6 +35,31 @@ _Outline a detailed description of your project, why you chose to build this pro
 ### Features
 _How do you plan to implement your project, which tools and framework will you use? Optional: Architecture, Mockups, etc._
 #### Individual Component Specs
+* Gnosis Safe:
+    1. Total Number of Safes Deployed.
+    2. Total ETH Stored.
+    3. Total ETH Stored in USD.
+    4. Total Value stored of other popular Tokens like GNO, DAI and OWL.
+    5. An input to check the Amount Stored of a particular token if not listed(that will also guide the user to update the gnosis system if the token is not listed).
+    6. Charts:
+        1. History of funds stored over time.
+        2. Number of Transactions happened over time.
+        3. % measure for payment tokens used for transactions over time.
+        4. Volume over time for tokens. Initially displaying for popular tokens. Also providing users ability to choose for a particular token.  
+* Gnosis Gas Station:
+    1. Gas Prices for different Speeds:
+        1. Fast
+        2. Standard
+        3. Safe low
+    2. Transaction Fee Calculator:
+        1. Inputs:
+            1. Gas Used - by the user
+            2. Payment Option(Optional) (default ETH) - by the user
+            3. Exchange rates- will be fetched automatically and displayed on the screen for the chosen payment option.
+        2. Outputs:
+            1. Transaction Fee in chosen payment option.
+            2. Transaction Fee in USD.
+    3. Charts: A price vs time graph for all the three speeds with option to choose start and end date. With on-hover details for a particular time.
 ### Appendix
 #### API Links:
 Documenting API links that will be required to display various stats as proposed:
