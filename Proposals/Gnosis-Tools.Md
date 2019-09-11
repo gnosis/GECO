@@ -3,28 +3,77 @@ _This is a guideline on how to best structure your proposal._
 
 ## Project Overview
 
-### Project name
-> Name of your project
-### Team members 
-> Name your team members
+### Project name: Gnosis Tools
+--------
+### Team members
+**Prastut Kumar** - [Github](https://github.com/prastut), [Linkedin](https://www.linkedin.com/in/prastut1/)
+
+**Sahil Nanda** - [Github](https://github.com/sahilnanda1995), [LinkedIn](https://www.linkedin.com/in/sahil-nanda-8b1b88143/)
+
+-------
+
 ### What project are you building 
-> Short summary/abstract of your project
+To build an Analytics Dashboard that displays information and various statistics around Gnosis Safe and Gnosis Gas-Station under a single tools website.
 ### Why did you decide to build it 
-> Short summary of your motivation 
+We are currently building a [career accelerator](https://www.thevantageproject.com/ICO-blockchain-engineer-hiring/) that upskills experienced full stack engineers with blockchain skills and readies them for remote jobs.
+
+After reaching out to community via Gitter we were pointed to current requirements of the community(thanks to @MareenG) i.e **an analytics dashboard that tracks statistical information around Gnosis Safe wallet usage** and **an interface for a “Gnosis Gas Station” that will display details about Gas price estimates, Gas price calculator, Gas price history, as well as an FAQ**.
+Resources:
+* https://blog.gnosis.pm/so-you-want-to-build-with-gnosis-but-just-dont-know-exactly-what-c86be7a98314
+* https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description-%20Statistics%20Dashboard.pdf
+* https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description%20-%20Gnosis%20Gas%20Station.pdf
 ### How long will it take 
-> Estimation of how long you will need to finalize the project
+4-6 weeks
 ### How much funding are you requesting  
-> How much money do will you need to finalize the project
+10000 USD
 ### How did you hear about the GECO
-> Website, Twitter, Conference and others
+[Medium post](https://blog.gnosis.pm/unveiling-the-gnosis-ecosystem-fund-7353926bfb65) by Mareen Gläske from December 2018.
 
 ## Your Proposal 
 ### Project description
 _Outline a detailed description of your project, why you chose to build this project, the overall goal and future outlook of your project and why we should fund you._
 ### Features
 _How do you plan to implement your project, which tools and framework will you use? Optional: Architecture, Mockups, etc._
+#### Individual Component Specs
+### Appendix
+#### API Links:
+Documenting API links that will be required to display various stats as proposed:
+* Number of safes (deployed, not deployed), funds stored(ETH and other supported tokens): https://safe-relay.gnosis.pm/api/v1/stats.
+* Funds created over time, number of transactions per day, % of payment tokens used for transactions over time,  Volumes over time: https://safe-relay.gnosis.pm/api/v1/stats/history.
+* Tokens Info: https://safe-relay.gnosis.pm/api/v1/tokens/. 
+* Payment Tokens: https://safe-relay.gnosis.pm/api/v1/tokens/?gas=true.
+* Gas Price Info: https://safe-relay.gnosis.pm/api/v1/gas-station/.
+* Gas Price History: https://safe-relay.gnosis.pm/api/v1/gas-station/history.
+
+
 ### Team description
-_Who are your team members, what is your background and what you built before._
+#### Who are we?
+
+Prastut, currently a partner @ The Vantage Project, comes from a UX, product management & full stack background.
+Github: https://github.com/prastut 
+CV:https://drive.google.com/file/d/15_oS6XtO_DRlITjG6WyTAEavaiSnBsdL/view?usp=sharing. 
+
+Sahil, a software developer @ The Vantage Project will be developing the project full time. 
+Github: https://github.com/sahilnanda1995
+
+ 
+
+#### Proof of work in other communities:  
+- Polkaviz 
+    1. Project Link: http://polkavizproject.surge.sh/ 
+    1. Community which funded the project: PolkaDAO
+    1. Description: a data visualization project of the Polkadot ecosystem. It will start to educate people about the ecosystem and it’s actors. 
+    1. Developers: Developed by Sahil, supervised by Prastut. 
+
+- ZCash Health check service status dashboard
+    1. Project Link: https://www.zcashservicestatus.info/ 
+    1. Proposal Link: https://grants.zfnd.org/proposals/761374418-zcash-service-status-dashboard
+    1. Community which funded the project: ZCash
+    1. Description: Creating a health check monitoring service for different categories of external services that exist in the ZCash ecosystem. 
+    1. Developers: Project supervised by Prastut. 
+
+-------
+
 ### Timeline, Milestones and Deliverables
 _Detailed description of your timeline milestones and the corresponding payouts_
 
