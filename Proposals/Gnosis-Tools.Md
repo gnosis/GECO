@@ -20,8 +20,7 @@ We are currently building a [career accelerator](https://www.thevantageproject.c
 After reaching out to community via Gitter we were pointed to current requirements of the community(thanks to @MareenG) i.e **an analytics dashboard that tracks statistical information around Gnosis Safe wallet usage** and **an interface for a “Gnosis Gas Station” that will display details about Gas price estimates, Gas price calculator, Gas price history, as well as an FAQ**.
 Resources:
 * https://blog.gnosis.pm/so-you-want-to-build-with-gnosis-but-just-dont-know-exactly-what-c86be7a98314
-* https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description-%20Statistics%20Dashboard.pdf
-* https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description%20-%20Gnosis%20Gas%20Station.pdf
+
 ### How long will it take 
 4-6 weeks
 ### How much funding are you requesting  
@@ -31,9 +30,21 @@ Resources:
 
 ## Your Proposal 
 ### Project description
-_Outline a detailed description of your project, why you chose to build this project, the overall goal and future outlook of your project and why we should fund you._
+The primary goal of the proposal is to create a new single platform for curating different characteristics around Gnosis Safe and Gas Station. To make it convenient for a user to find everything regarding the Gnosis Safe at one place. This proposal is based on the following RFP's:
+* https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description-%20Statistics%20Dashboard.pdf
+* https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description%20-%20Gnosis%20Gas%20Station.pdf
+
+### Pre-proposal stage
+#### API Links:
+Links to the data-points that will be required to display various stats as proposed:
+* Number of safes (deployed, not deployed), funds stored(ETH and other supported tokens): https://safe-relay.gnosis.pm/api/v1/stats.
+* Funds created over time, number of transactions per day, % of payment tokens used for transactions over time,  Volumes over time: https://safe-relay.gnosis.pm/api/v1/stats/history.
+* Tokens Info: https://safe-relay.gnosis.pm/api/v1/tokens/. 
+* Payment Tokens: https://safe-relay.gnosis.pm/api/v1/tokens/?gas=true.
+* Gas Price Info: https://safe-relay.gnosis.pm/api/v1/gas-station/.
+* Gas Price History: https://safe-relay.gnosis.pm/api/v1/gas-station/history.
+
 ### Features
-_How do you plan to implement your project, which tools and framework will you use? Optional: Architecture, Mockups, etc._
 #### Individual Component Specs
 * Gnosis Safe:
     1. Total Number of Safes Deployed.
@@ -60,16 +71,6 @@ _How do you plan to implement your project, which tools and framework will you u
             1. Transaction Fee in chosen payment option.
             2. Transaction Fee in USD.
     3. Charts: A price vs time graph for all the three speeds with option to choose start and end date. With on-hover details for a particular time.
-### Appendix
-#### API Links:
-Documenting API links that will be required to display various stats as proposed:
-* Number of safes (deployed, not deployed), funds stored(ETH and other supported tokens): https://safe-relay.gnosis.pm/api/v1/stats.
-* Funds created over time, number of transactions per day, % of payment tokens used for transactions over time,  Volumes over time: https://safe-relay.gnosis.pm/api/v1/stats/history.
-* Tokens Info: https://safe-relay.gnosis.pm/api/v1/tokens/. 
-* Payment Tokens: https://safe-relay.gnosis.pm/api/v1/tokens/?gas=true.
-* Gas Price Info: https://safe-relay.gnosis.pm/api/v1/gas-station/.
-* Gas Price History: https://safe-relay.gnosis.pm/api/v1/gas-station/history.
-
 
 ### Team description
 #### Who are we?
@@ -115,6 +116,14 @@ _Detailed description of your timeline milestones and the corresponding payouts_
 **Time and Price Estimate**	_How long will it take and what is the estimated price_
 
 **Phase III**  			_..._
+
+**Deliverables**
+
+***Upkeep/Maintenance***
+Irrespective of the notion that we would be submitting followup proposals around extending the monitoring service dashboard, we would be:
+* Maintaining the system actively for the next 3 months. That means bug fixes if any with the specs mentioned in the current proposal.
+* For 1 year: support if the system goes down.
+* Since reality may be very different at the end of one year (websites archived, communities/exchanges API may change, new services being added into categories, new categories being added etc.), we would like to submit followup proposals to accomodate these changes, but we shoudn’t be held accountable for it if we aren’t able to do so.
 
 
 ### Others	 
