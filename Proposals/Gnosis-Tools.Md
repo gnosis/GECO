@@ -1,130 +1,167 @@
-# Proposal Guideline 
-_This is a guideline on how to best structure your proposal._
+
+# Gnosis Grant Application
 
 ## Project Overview
 
 ### Project name: Gnosis Tools
---------
+
 ### Team members
-**Prastut Kumar** - [Github](https://github.com/prastut), [Linkedin](https://www.linkedin.com/in/prastut1/)
 
-**Sahil Nanda** - [Github](https://github.com/sahilnanda1995), [LinkedIn](https://www.linkedin.com/in/sahil-nanda-8b1b88143/)
+* Prastut Kumar - [Github](https://github.com/prastut), [Linkedin](https://www.linkedin.com/in/prastut1/)
+* Sahil Nanda - [Github](https://github.com/sahilnanda1995), [LinkedIn](https://www.linkedin.com/in/sahil-nanda-8b1b88143/)
 
--------
 
 ### What project are you building 
-To build an Analytics Dashboard that displays information and various statistics around Gnosis Safe and Gnosis Gas-Station under a single tools website.
-### Why did you decide to build it 
-We are currently building a [career accelerator](https://www.thevantageproject.com/ICO-blockchain-engineer-hiring/) that upskills experienced full stack engineers with blockchain skills and readies them for remote jobs.
 
-After reaching out to community via Gitter we were pointed to current requirements of the community(thanks to @MareenG) i.e **an analytics dashboard that tracks statistical information around Gnosis Safe wallet usage** and **an interface for a “Gnosis Gas Station” that will display details about Gas price estimates, Gas price calculator, Gas price history, as well as an FAQ**.
-Resources:
-* https://blog.gnosis.pm/so-you-want-to-build-with-gnosis-but-just-dont-know-exactly-what-c86be7a98314
+*Gnosis Tools* is an umbrella platform for tooling support around Gnosis ecosystem. For it's first MVP we plan to ship a unified dashboard with the following features: 
+* Information and various statistics around Gnosis Safe. 
+* Gnosis Gas Station. 
+
+### Why did you decide to build it 
+
+Gnosis team has shipped a wide range of products ranging from open prediction market applications, decentralized trading protocols, and tools to manage funds and interact with the decentralized web. 
+
+When we read through the decks Gnosis team had created for project ideas [Gnosis Statistics Dashboard](https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description-%20Statistics%20Dashboard.pdf) & [Gnosis Gas Station](https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description%20-%20Gnosis%20Gas%20Station.pdf), we reached an awareness that a tooling platform around Gnosis ecosystem would be valuable to the community, where these ideas can serve as the first round of features the platform will have.
+
+ 
+In the future, we're hoping to enrich the platform by providing analytics/support to other products in the Gnosis ecosystem. 
+
 
 ### How long will it take 
-4-6 weeks
+6 weeks
+
 ### How much funding are you requesting  
-10000 USD
+$10,000 
+
 ### How did you hear about the GECO
-[Medium post](https://blog.gnosis.pm/unveiling-the-gnosis-ecosystem-fund-7353926bfb65) by Mareen Gläske from December 2018.
+Word of mouth. 
 
 ## Your Proposal 
 ### Project description
-The primary goal of the proposal is to create a new single platform for curating different characteristics around Gnosis Safe and Gas Station. To make it convenient for a user to find everything regarding the Gnosis Safe at one place. This proposal is based on the following RFP's:
-* https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description-%20Statistics%20Dashboard.pdf
-* https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description%20-%20Gnosis%20Gas%20Station.pdf
 
-### Pre-proposal stage
-#### API Links:
-Links to the data-points that will be required to display various stats as proposed:
-* Number of safes (deployed, not deployed), funds stored(ETH and other supported tokens): https://safe-relay.gnosis.pm/api/v1/stats.
+
+We plan to create a unified dashboard which will provide an interface to solve for the usecases mentioned in [Gnosis Statistics Dashboard](https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description-%20Statistics%20Dashboard.pdf) & [Gnosis Gas Station](https://github.com/gnosis/GECO/blob/master/Project%20Ideas/Project%20description%20-%20Gnosis%20Gas%20Station.pdf) decks. 
+
+
+### Pre-Proposal Stage
+
+What we did before writing this proposal: 
+
+* Gained [vantage on the data Gnosis API](https://hackmd.io/L_gXqfAeQeGUn5f6P-nYYg?both#API-Links) provides to come up with the UX of the dashboard. 
+   
+* Iterated through several brainstorming sessions to create [mock-ups](https://www.figma.com/file/4pVf2Lkouxk7ioR9IyBcRm/Gnosis-Safe-Statistics-Dashboard?node-id=153%3A694) for the dashboard. [Protypes in action.](https://www.figma.com/proto/4pVf2Lkouxk7ioR9IyBcRm/Gnosis---Safe-Statistics-Dashboard?node-id=153%3A695&scaling=min-zoom)
+
+
+### Features
+
+![](https://i.imgur.com/jL6AMfc.jpg)
+
+
+#### Overview of the Gnosis Tools Platform: 
+
+Dashboard is currently divided into 2 categories: 
+* Safe Statistics: 
+    * Overview - offers users vantage over what's happening inside the Gnosis safe from a bird's eye view. 
+    * Token Analytics - offers search interface to user users where they can search for the token they want token specific analytics on. 
+        * Specific Token Analytics: when user clicks on a specific token, they are shown token specific analytics.  
+* Gas Station: 
+    * Overview - offers users the option to select the payment token for which they want to see gas prices for + the ability to calculate gas prices in payment token's unit by inputting the gas used by their contract.
+    * FAQ's  - for information around how gas prices are being calculated. 
+
+
+[Protypes in action.](https://www.figma.com/proto/4pVf2Lkouxk7ioR9IyBcRm/Gnosis---Safe-Statistics-Dashboard?node-id=153%3A695&scaling=min-zoom)
+
+### Tech Specs: 
+
+Development Stack: 
+* [React.js](https://reactjs.org/)
+* [Ant Design for UI Framework](https://ant.design/)
+* [BizCharts for charts](https://github.com/alibaba/BizCharts)
+
+Hosting: since the dashboard can be a pure client side app, we might explore services like [Surge](https://surge.sh/) or [Zeit's Now](https://zeit.co/). 
+
+
+### Team description
+
+
+#### Prastut
+Currently a partner @ The Vantage Project. Comes from a UX, product management & full stack background.
+
+Relevant data visualization, UI/UX experience: 
+* Executed [PolkaViz](http://polkavizproject.surge.sh/) as part of PolkaDAO. PolkaViz aims to kickstart data visualization efforts around the Polkadot ecosystem. Kickstarted and developed 40% of the project + supervised Sahil who executed 60% of the project. (2019)
+* Co-founder, Designer, Frontend Developer for [Centify](https://centify.surge.sh/) (2018). Built the entire frontend data visualization stack. 
+ * Data Visualization Research Associate at Information Design Lab, IIT Bombay (2017). [Work documentation](https://prastut.github.io/dataviz ).  
+        
+
+[Github](https://github.com/prastut), [CV](https://drive.google.com/file/d/15_oS6XtO_DRlITjG6WyTAEavaiSnBsdL/view?usp=sharing), [LinkedIn](https://www.linkedin.com/in/prastut1/). 
+
+#### Sahil: 
+
+Software developer @ The Vantage Project. 
+
+Relevant data visualization experience: 
+Executed 2/3rd of the PolkaViz as part of PolkaDAO. 
+
+[Github](https://github.com/sahilnanda1995), [LinkedIn](https://www.linkedin.com/in/sahil-nanda-8b1b88143/). 
+
+ 
+
+
+## Timeline, Milestones and Deliverables
+
+
+#### Phase 1
+
+Deliverables:
+- Finish laying down the foundation for the dashboard.
+- [Safe Statistics Overview](https://www.figma.com/proto/4pVf2Lkouxk7ioR9IyBcRm/Gnosis---Safe-Statistics-Dashboard?node-id=153%3A695&scaling=min-zoom) will be deployed live. 
+
+
+Time and Price Estimate: 
+- Time: 2 weeks
+- Price Estimate: $4,000
+
+
+#### Phase 2
+
+Deliverables:
+- Development and deployment of all the components shown in the below links:
+    * [Token Analytics - search interface for tokens stored inside Gnosis Safe](https://www.figma.com/proto/4pVf2Lkouxk7ioR9IyBcRm/Gnosis---Safe-Statistics-Dashboard?node-id=153%3A1426&scaling=min-zoom)
+    * [Specific Token Analytics](https://www.figma.com/proto/4pVf2Lkouxk7ioR9IyBcRm/Gnosis---Safe-Statistics-Dashboard?node-id=153%3A1426&scaling=min-zoom)
+    * [Gas Station Overview - display gas prices for different speeds, gas price history, gas price calculator](https://www.figma.com/proto/4pVf2Lkouxk7ioR9IyBcRm/Gnosis---Safe-Statistics-Dashboard?node-id=153%3A931&scaling=min-zoom)
+
+Time and Price Estimate
+- Time: 2 weeks
+- Price Estimate: $4,000 USD
+
+#### Phase 3
+
+Deliverables: 
+- FAQ section for gas price. 
+- Installation instructions uploaded to the Github repo of the dashboard. 
+- Screencast guiding through the dashboard. 
+- Buffer time of 1 week kept for delays.  
+
+Time and Price Estimate
+- Time: 2 weeks
+- Price Estimate: $2,000 USD
+
+
+### Reporting
+Weekly reports will be submitted in the [#gnosis-gitter](https://gitter.im/gnosis/GECO) channel. The community can keep us accountable by going through each step described in the timeline & double check if these were implemented.
+
+## Remarks
+Our team will be working full time on this project. 
+
+Additionally, we would be more than happy to listen and incorporate the communities feedback and make changes (if any) on the mockups of the proposed design. 
+
+
+## Appendix: 
+
+### API Links: 
+ * Number of safes (deployed, not deployed), funds stored(ETH and other supported tokens): https://safe-relay.gnosis.pm/api/v1/stats.
 * Funds created over time, number of transactions per day, % of payment tokens used for transactions over time,  Volumes over time: https://safe-relay.gnosis.pm/api/v1/stats/history.
 * Tokens Info: https://safe-relay.gnosis.pm/api/v1/tokens/. 
 * Payment Tokens: https://safe-relay.gnosis.pm/api/v1/tokens/?gas=true.
 * Gas Price Info: https://safe-relay.gnosis.pm/api/v1/gas-station/.
 * Gas Price History: https://safe-relay.gnosis.pm/api/v1/gas-station/history.
-
-### Features
-#### Individual Component Specs
-* Gnosis Safe:
-    1. Total Number of Safes Deployed.
-    2. Total ETH Stored.
-    3. Total ETH Stored in USD.
-    4. Total Value stored of other popular Tokens like GNO, DAI and OWL.
-    5. An input to check the Amount Stored of a particular token if not listed(that will also guide the user to update the gnosis system if the token is not listed).
-    6. Charts:
-        1. History of funds stored over time.
-        2. Number of Transactions happened over time.
-        3. % measure for payment tokens used for transactions over time.
-        4. Volume over time for tokens. Initially displaying for popular tokens. Also providing users ability to choose for a particular token.  
-* Gnosis Gas Station:
-    1. Gas Prices for different Speeds:
-        1. Fast
-        2. Standard
-        3. Safe low
-    2. Transaction Fee Calculator:
-        1. Inputs:
-            1. Gas Used - by the user
-            2. Payment Option(Optional) (default ETH) - by the user
-            3. Exchange rates- will be fetched automatically and displayed on the screen for the chosen payment option.
-        2. Outputs:
-            1. Transaction Fee in chosen payment option.
-            2. Transaction Fee in USD.
-    3. Charts: A price vs time graph for all the three speeds with option to choose start and end date. With on-hover details for a particular time.
-
-### Team description
-#### Who are we?
-
-Prastut, currently a partner @ The Vantage Project, comes from a UX, product management & full stack background.
-Github: https://github.com/prastut 
-CV:https://drive.google.com/file/d/15_oS6XtO_DRlITjG6WyTAEavaiSnBsdL/view?usp=sharing. 
-
-Sahil, a software developer @ The Vantage Project will be developing the project full time. 
-Github: https://github.com/sahilnanda1995
-
- 
-
-#### Proof of work in other communities:  
-- Polkaviz 
-    1. Project Link: http://polkavizproject.surge.sh/ 
-    1. Community which funded the project: PolkaDAO
-    1. Description: a data visualization project of the Polkadot ecosystem. It will start to educate people about the ecosystem and it’s actors. 
-    1. Developers: Developed by Sahil, supervised by Prastut. 
-
-- ZCash Health check service status dashboard
-    1. Project Link: https://www.zcashservicestatus.info/ 
-    1. Proposal Link: https://grants.zfnd.org/proposals/761374418-zcash-service-status-dashboard
-    1. Community which funded the project: ZCash
-    1. Description: Creating a health check monitoring service for different categories of external services that exist in the ZCash ecosystem. 
-    1. Developers: Project supervised by Prastut. 
-
--------
-
-### Timeline, Milestones and Deliverables
-_Detailed description of your timeline milestones and the corresponding payouts_
-
-**Phase I**  			_Outline the different phases_
-
-**Deliverables** 			_What features will be implemented_
-
-**Time and Price Estimate**	_How long will it take and what is the estimated price_
-
-**Phase II**  			_Outline the different phases_
-
-**Deliverables** 			_What features will be implemented_
-
-**Time and Price Estimate**	_How long will it take and what is the estimated price_
-
-**Phase III**  			_..._
-
-**Deliverables**
-
-***Upkeep/Maintenance***
-Irrespective of the notion that we would be submitting followup proposals around extending the monitoring service dashboard, we would be:
-* Maintaining the system actively for the next 3 months. That means bug fixes if any with the specs mentioned in the current proposal.
-* For 1 year: support if the system goes down.
-* Since reality may be very different at the end of one year (websites archived, communities/exchanges API may change, new services being added into categories, new categories being added etc.), we would like to submit followup proposals to accomodate these changes, but we shoudn’t be held accountable for it if we aren’t able to do so.
-
-
-### Others	 
-Anything else you want to share with us
