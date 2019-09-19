@@ -12,17 +12,26 @@ Muhammad Mafazine  <br/>
 Jean-Baptiste Soufron  <br/>
 
 ## What project are you building 
-PꝏlStake is a self-funded experiment consisting on creating series of Ethereum Smart Contracts and building tools related to pooling and staking. The idea is to provide pieces of software that allow people to leverage their number and regroup (pooling) in different kinds of settings and in a decentralized manner. Staking pools and staking derivatives became our main focus after numerous discussions with the different PoS blockchain projects in the space and their communities.
+PꝏlStake started in 2018 as an experiment with the objective to provide the community with tools related to pooling and staking. It also allowed us to learn by building and interacting with dApp users.
+
+The first tools were related to ICOs and trading, the ones we are  building now are more related to staking as PoS comes with different designs and each design has its own sets of challenges. Staking derivatives and staking pools became our main focus as they allow to explore innovative approaches to build solutions on top of PoS blockchains. 
+Our objective is to make PꝏlStake the go-to place for delegators either to get relevant data regarding their preferred PoS blockchains/validators, to buy or create a staking derivative and for communities to create their own staking pools through a Node as a Service type of offering.
 
 One of the tools that we are currently building is an insurance-like product for slashing events.
-In order to implement it, we will use prediction markets and build it on top of the Conditional Token Standard (Gnosis Mercury) and connect it to the Cosmos Hub as our first PoS Blockchain to insure. This will enable our users to have access to a new type of product through an insurance like market-place while bringing a solution to the current pain point being the slashing risk in the staking process of PoS blockchains.
+
+In order to implement it, we will use prediction markets and build it on top of the Conditional Token Standard (Gnosis Mercury) then connect it to Cosmos Hub as our first PoS Blockchain to cover. This will enable users to have access to a new type of product through a market-place, cover the slashing risk during the staking process of PoS blockchains, let the market price the risks of each validator on each blockchain and have data available for the public.
 
 ## Why did you decide to build it 
-PꝏlStake is a self-funded experiment consisting on creating series of Ethereum Smart Contracts and building tools related to pooling and staking. The idea is to provide pieces of software that allow people to leverage their number and regroup (pooling) in different kinds of settings and in a decentralized manner. Staking pools and staking derivatives became our main focus after numerous discussions with the different PoS blockchain projects in the space and their communities.
+While discussing with different members of staking communities (blockchain projects, delegators, validators, block explorers, wallet providers, etc ...), we identified pain points that led us to focus on staking derivatives as possible solutions. The staking derivative with the most potential appeared to be a slashing insurance. After consulting with validators and delegators from the Cosmos Network over a period of 6 weeks we had a strong confirmation of our initial intuition. During this market research phase, we managed to get the support and collect signatures of a Letter of Intent from 12 validators representing approximately 25% of the voting power of the Cosmos Hub. We also got interest and support of wallet providers and block explorers.
 
-One of the tools that we are currently building is an insurance-like product for slashing events.
-In order to implement it, we will use prediction markets and build it on top of the Conditional Token Standard (Gnosis Mercury) and connect it to the Cosmos Hub as our first PoS Blockchain to insure. This will enable our users to have access to a new type of product through an insurance like market-place while bringing a solution to the current pain point being the slashing risk in the staking process of PoS blockchains.
+The slashing insurance is a multi-level solution:
 
+- Delegators would be able to enjoy slashing-risk free delegations.
+- The premium prices will allow validators to differentiate from a perceived risk point of view.
+- Validators can use free insurance as part of their offering and leverage it from a marketing perspective.
+- Once Delegation Vouchers or representations of Bonded Atoms are implemented, the insurance token will allow to make them tradeable against one another no matter which validator is linked to each voucher.
+
+The existence of a product/market fit combined with the possibility to bring value to the crypto community while being part of the DeFi movement and solve a real problem are the main motivations.
 
 ## How long will it take 
 4 months with grants from both ICF (InterChain Foundation) and GECO, 6 months with a grant from GECO alone.
