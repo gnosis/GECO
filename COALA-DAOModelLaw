@@ -13,7 +13,6 @@ To address DAO’s lack of legal personhood, solutions that use current legal fr
 
 Code-controlled zero-member US LLCs 
 A more radical solution has been proposed by legal scholar Shawn Bayern that, prima facie, deals with the shortcomings of requiring a board or members for an entity housing a DAO, who have more extensive exposure to the legal system than other participants in the DAO. 
-
 In relation to autonomous systems generally, Bayern has suggested that this may be achieved as follows: legal persons set up an LLC filing necessary paperwork with a limited number of members and that LLC is managed by members. Those members then agree on an operating agreement subjecting the LLC to the control of the autonomous system. The members transfers ownership of any necessary hardware for the autonomous system to the LLC. The members then all withdraw, leaving a memberless LLC controlled by the autonomous system. The result is that the autonomous system has been bestowed with a functional analogue to legal personhood. 
 
 The proposed technique takes advantage of the flexible LLC regime instituted by several US states. It also relies on the power of contract law; i.e. “that an agreement may give legal significance to the action of any process or system, without regard to the legal personhood of that process or system, by specifying appropriate terms, promises, and conditions.” 
@@ -89,7 +88,7 @@ Subdivision of funds (€43.400 total)
 €3.900 as a 10% administration fee for COALA Foundation (coordination and internal costs)
 
 Milestones:
-[alt text](https://raw.githubusercontent.com/yaoe/GECO/master/COALA-milestones.png)
+![alt text](https://raw.githubusercontent.com/yaoe/GECO/master/COALA-milestones.png)
 Milestone
 Deliverables
 Completion Date
