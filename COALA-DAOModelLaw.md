@@ -76,9 +76,11 @@ We also anticipate that such initial research will require expert review and fee
 ## Use of funds:
 Research track: 1 full-time person working for the duration of the project (six months) to collect all emergent information on an ongoing basis regarding the regulatory frameworks and relevant technical innovations regarding the grant of full or partial legal personality to DAOs in the selected jurisdictions and cataloguing all relevant legal reforms and statements issued by oversight and regulatory authorities around the world.
 
-### Coordination track: 1 part-time coordinator working for the duration of the project (six months) to coordinate the work of multiple experts around the various attributes of the DAO Model Law.
+### Coordination track: 
+We will hire one part-time coordinator working for the duration of the project (six months) to coordinate the work of multiple experts around the various attributes of the DAO Model Law.
 
-### Workshops: We will organize two workshops with the COALA community comprising relevant legal, technical and subject-matter experts in order to elaborate the details of the proposal DAO Model Law. 
+### Workshops: 
+We will organize two workshops with the COALA community comprising relevant legal, technical and subject-matter experts in order to elaborate the details of the proposal DAO Model Law. 
 
 Subdivision of funds (€43.400 total)
 €21.000 for 1 full-time employee (€3.500 / month) for the research and development track
@@ -95,7 +97,8 @@ Subdivision of funds (€43.400 total)
 
 
 
-## Legal Structure: funds are to be paid to COALA Foundation (a 501(c)(3) non-profit organization incorporated in Delaware, U.S.A. and non-profit organization incorporated in Paris, France). All payments are tax-deductible.
+## Legal Structure:
+Funds are to be paid to COALA Foundation (a 501(c)(3) non-profit organization incorporated in Delaware, U.S.A. and non-profit organization incorporated in Paris, France). All payments are tax-deductible.
 
 All work under the COALA Foundation will be released under Creative Commons - BY - SA
 
