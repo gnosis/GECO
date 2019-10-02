@@ -92,7 +92,7 @@ Subdivision of funds (€43.400 total)
 ![Milestones](https://raw.githubusercontent.com/yaoe/GECO/master/COALA-milestones.png)
 
 ## Payment:
-![Payments](https://raw.githubusercontent.com/yaoe/GECO/master/COALA-milestones.png)
+![Payments](https://raw.githubusercontent.com/yaoe/GECO/master/COALA-payments.png)
 
 
 
