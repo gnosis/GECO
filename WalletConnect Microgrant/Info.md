@@ -10,7 +10,7 @@ Moving forward, the Gnosis Ecosystem Fund will provide microgrants to teams inte
 At the end of each month, we will give out one grant, although teams can submit a proposal at any time. Please complete [this document](https://github.com/gnosis/GECO/blob/master/WalletConnect%20Microgrant/Application%20template.md) if you are interested in applying.
 
 ## How to submit your proposal
-* Fork the WalletConnect microgrant repo
+* Fork the GECO repo
 * Create a new file with your project’s name
 * Outline your proposal in that file
 * Create a Pull Request to merge your submission into our repository
