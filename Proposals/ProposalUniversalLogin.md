@@ -50,10 +50,12 @@ Universal Logins is now an independent company incorporated in the US and seekin
 We intend to release in two phases:
 
 **Phase 1: (4-6 weeks)** 
+*US$10,000.00*
 
 - integrate with existing Relayer & SDK
 
 **Phase 2: (4-6 weeks)**
+*US$15,000.00*
 
 1. Add ENS name functionality to smart contracts
 2. Add new Gnosis Safe functionality to Universal login: 
