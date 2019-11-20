@@ -1,4 +1,4 @@
-# Conditional Tokens GECO Nanogrants
+# Conditional Tokens Nanogrants
 
 We’ve revamped our prediction market contracts and created the new conditional tokens smart contracts. Conditional tokens are a fundamentally new type of asset class based on the ERC1155 token standard, which allows you to use multiple types of tokens within a single application. 
 In prediction markets applications, conditional tokens allow you to:
