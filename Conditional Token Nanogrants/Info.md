@@ -12,7 +12,7 @@ However, conditional tokens are so versatile that they can be used for many diff
 To encourage the development of conditional tokens use cases, we are reaching out to the community for inspiration. We will give out Nanogrants from $50 to $500 for exceptional use cases. We will reward the best Twitter threads with $50 Nanogrants, payouts for projects using alternative mediums (e.g. blogpost or community call) will be determined based on their complexity and utility. 
 
 ## How can I apply?
-The GECO Nanogrants program will run via Bounties.Network. You can submit your project idea on their platform. At the end of each month, we will select the best submissions. 
+The GECO Nanogrants program will run via [Bounties.Network](https://explorer.bounties.network/bounty/3727). You can submit your project idea on their platform. At the end of each month, we will select the best submissions. 
 ## Is my project eligible?
 We will consider projects that showcase interesting and new use cases for conditional tokens. We are especially interested in use cases that spark discussion within the ecosystem.
 ## How should I format my submission? 
