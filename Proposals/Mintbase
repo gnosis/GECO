@@ -1,0 +1,83 @@
+Project Overview
+
+Mintbase is a non-fungible token (NFT) allocation and minting tool. 
+In this project, Mintbase aims to tokenize a global membership pass for Full Node. As such, new partnerships and real-life applications on the Ethereum ecosystem are built and geared towards a redistributed future.
+
+Project name
+
+Tokenizing Full Node’s global membership pass
+
+Team members
+
+Nathanael Marc Geier
+Carolin Wend
+
+What project are you building
+
+Full Node is Europe’s largest co-working space for web3.0 technologies and the center of decentralized technologies.  Full Node does not yet provide tokenized membership passes nor options to pay the membership with cryptocurrencies although these features would accommodate their customers. Furthermore, Full Node has recently agreed on a global membership system with Nonce and other co-working spaces from the Neutrino Network. In order to technically display the above mentioned passes, Mintbase will build a walled garden solution for membership passes that can easily be integrated on any website and goes hand in hand with Gnosis’ core values of building a decentralized future.
+
+Why did you decide to build it
+
+Working out of Full Node, tokenizing memberships is a real-life application for web3.0 technologies. Also,  Nate observed that tracking short-term customers was difficult at the reception. A comprehensive and easy technology is needed to handle the FN application, selling and redeeming process internally but also in accordance with global partners.
+As Mintbase is focussed on NFT ticketing, the smart contract technology behind a co-working membership pass is similar. Mintbase will build a walled garden solution for membership passes that can easily be integrated on any website and goes hand in hand with Gnosis’ core values of building a decentralized future.
+
+How long will it take
+
+We estimate a total time of 3.5 months.
+How much funding are you requesting
+We are requesting $15.000 to finalize the project.
+
+How did you hear about the GECO
+
+Full Node members,  Stefan from Gnosis
+
+Your Proposal
+
+Project description
+Tokenizing membership passes and aligning them with Full Node’s global partnership (e.g. nonce) is building the bridge for real life adaptation of non-fungible tokens and a decentralized web. Scarcity, interoperability and ownership do not exist on the internet. With NFTs, we are able to show that a membership is scarce, interoperable and really owned by one person. Due to Full Node’s membership policy, we will build a walled garden so that the pass can only be given to like-minded people from within the ecosystem. Mintbase will build an embeddable script solution that can easily live on Full Node’s website. Furthermore, the solution will be interoperable as the membership pass can live on any wallets.
+
+Funding us will allow you to offer your customers a tokenized membership and a truly working, efficient system that also works with your global partners. Trust will be established through the blockchain as every transaction is transparent which will simplify your accounting. Furthermore, the concept can be expanded to different co-working spaces and further down the line, be integrated with Gnosis’ products such as the Gnosis Safe.
+ 
+Features
+
+How do you plan to implement your project, which tools and framework will you use? Optional: Architecture, Mockups, etc.
+We use the Ethereum blockchain to build the global membership solution. Moreover, we use the newest technology such as the graph. All of Mintbase's architecture lives on the graph. This will make it faster and easier to get accurate data of blockchains. All data and transactions made via our system will be reliable and scalable. 
+Team description
+
+Who are your team members, what is your background and what you built before.
+
+Nate Geier | CEO
+Since putting everything in storage in Portland, Oregon in March of 2018, Nate has been meeting any blockchain communities around the world including Lisbon, Paris, Budapest, Croatia, Bali, Sumatra, Singapore, Bangkok, Chiang Mai, Prague, Budapest, Cape Town, Tokyo, Seoul and now Berlin. Nate also won first prize for the original version of Mintbase at the Devcon4 Status Hackathon.
+
+Nate worked with a clearing firm at a broker-dealer, fractionalizing publicly traded stock based on users everyday purchases with their debit or credit card. Nate also helped push Nike to rebuild its million-dollar a day application, NikeiD to React and Redux when React was still in beta.
+
+
+Carolin Wend | Director of Business Development
+Having lived in Indonesia, Great Britain, Spain, and Germany, Carolin worked in communication and business development roles in several startups and political environments. In 2017, she opened up a sales division for a ticketing startup called Festicket. As a research assistant at the German Parliament, she was responsible for  Blockchain and technology- related topics. Since July 2019, she has been working full-time on Mintbase.
+
+Timeline, Milestones and Deliverables
+Detailed description of your timeline milestones and the corresponding payouts
+
+We will implement a walled garden solution with ID verification using 3box. 
+We are also building a DAI integration.
+We will also build a tailored solution for reports of monex flow and usage.
+
+ 
+
+Phase I: DAI integration/ orientation and understanding of the needs
+Approx. 2 weeks
+Cost  $2307.6 
+
+Phase II: Walled garden solution
+Walled garden solution with ID verification using 3box.
+Approx. 8 weeks
+Cost $9230.4 
+
+Phase III Fine-tuning of project and integrating with Gnosis products 
+Approx. 3 weeks
+Cost  $3461.4 
+
+			
+		
+
+
