@@ -50,8 +50,7 @@ The Gnosis Ecosystem Fund provides more than just financial support. You will al
 Teams will have the option of working at [Full Node](https://www.fullnode.berlin/), our co-working space in Berlin. The Gnosis Communications team will provide branding and outreach support to encourage engagement with the larger blockchain community. Bigger projects will have the opportunity to present their work at [DappCon](https://dappcon.io/). 
 
 ### How to apply for a grant:
-For the remainder of 2018, grant proposals can be submitted at any time and will be evaluated by the Gnosis team. 
-In 2019, we will introduce set application deadlines, advisors and, mechanism to include the community in the grant approval process. 
+From 2020 on we will accept application on a monthly basis. Submit your proposal until the end of each month and will get back to you. 
 
 ### Your proposal should include: 
 * What you want to build
@@ -71,13 +70,6 @@ Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/bl
 * Create a new file with your project’s name 
 * Outline your proposal in that file 
 * Create a Pull Request to merge your submission into the our repository 
-
-### Roadmap
-* 31.12.2019 - First submission deadline up to $125,000 in grants
-* 31.03.2019 - Second submission deadline up to $125,000 in grants 
-* 30.06.2019 - Third submission deadline up to $125,000 in grants 
-* 30.09.2019 - Fourth submission deadline up to $125,000 in grants
-* 31.12.2019 - Fifth submission deadline up to $125,000 in grants
 
 #### Pitches
 We will select up to 10 teams per submission round to pitch their project to a selected group of people from the Gnosis team. 
