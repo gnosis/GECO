@@ -65,7 +65,7 @@ The applications are evaluated on a rolling basis, and you can expect a decision
 In order to be eligible for a grant, a Safe App needs to fulfill the following criteria:
 
 #### Valuable
-Safe Apps that are considered for one of the above-mentioned grants, must be considered “valuable” by the Gnosis team. We want to make sure Safe Apps are built around actual use cases. This is a subjective evaluation, so there is no guarantee that a grant will be awarded. Factors included in the consideration are the potential size of the user base, expected transaction volume, or user experience improvements.
+Safe Apps that are considered for one of the above-mentioned grants, must be considered “valuable” by the Gnosis team. We want to make sure Safe Apps are built around actual use cases. This is a subjective evaluation, but factors included in the consideration are the potential size of the user base, expected transaction volume, or user experience improvements.
 
 #### Production-ready
 The Safe App must be ready to be used by actual Safe Multisig users on mainnet. In case your Safe App interacts with smart contracts, make sure they are audited and generally perceived as production-ready. Your Safe App should overall be considered “safe” and feature a decent user experience. Risks associated with the usage of the Safe App must be communicated to the user transparently.
