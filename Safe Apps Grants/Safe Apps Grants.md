@@ -28,10 +28,10 @@ Grants are paid out at the sole discretion of Gnosis, with varying rewards depen
 **Low complexity: $500**
 (1-3 days of work)
 
-**Medium complexity: $800** 
+**Medium complexity: $1,000** 
 (3-10 days of work)
 
-**High complexity: $2000**
+**High complexity: $2,000**
 (>10 days of work)
 
 
