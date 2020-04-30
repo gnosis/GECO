@@ -9,7 +9,7 @@ Safe Apps allow users to interact with Ethereum applications straight from the S
 
 **We think this makes Safe Multisig a browser into the “internet of value” and we want to build this browser together with the entire Ethereum ecosystem.**
 
-See the Safe Apps announcement post for more details.
+See the [Safe Apps announcement post](https://blog.gnosis.pm/introducing-gnosis-safe-apps-faef908f69c6) for more details.
 
 ### What are Safe Apps Grants?
 We are introducing Safe Apps grants to incentivize the community to extend the functionality of the Safe Multisig and enable small projects or independent developers to build their first Safe App. 
