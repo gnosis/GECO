@@ -40,7 +40,7 @@ Grants are paid out at the sole discretion of Gnosis, with varying rewards depen
 
 Here are a few tools and resources that will help you build your first Safe App:
 
-* [Safe Apps Documentation](https://docs.gnosis.io/safe/docs/sdks_safe_apps/)
+* [Documentation](https://docs.gnosis.io/safe/docs/sdks_safe_apps/)
 * [Safe App SDK](https://github.com/gnosis/safe-apps-sdk)
 * [UI Styleguide](https://drive.google.com/file/d/18QxvqPzJ39Da3peSId0hJe9dL2mSB818/view)
 * [Reusable React Components](https://components.gnosis-safe.io)
