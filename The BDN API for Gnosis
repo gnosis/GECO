@@ -1,0 +1,82 @@
+Project Description
+The goal of this project is to allow Gnosis traders to send ETH transactions faster, avoid transaction propagation jams and receive more accurate information about their transaction confirmation status. The way to deliver it is to develop an API that on one end taps into bloXroute’s Blockchain Distribution Network (BDN) and on the other end integrates with Gnosis’s existing user API as a new module or feature. 
+The BDN is a highly efficient relay network that bloXroute has built to help all blockchains improve their on-chain data propagation and provide their users better visibility of transaction stream. More importantly, as the blockchain starts to scale with the BDN, their transaction cost will go down and users of the BDN API will receive the benefit.  
+Currently, the BDN is deployed on Ethereum Mainnet and adopted by major ETH mining nodes. Additional support is being implemented for other blockchains which will be added to the API once the deployments are completed. 
+Team Members
+•	Eyal Markovich (Lead)
+•	Sergey Ilin (Dev)
+•	Uri Margalit (Dev)
+•	Kevin Chen (UX/UI)
+•	Jesus Pedrosa Guerrero (QA)
+Team Website
+•	https://bloxroute.com
+Team's Experience
+•	bloXroute Labs is a team of network, cryptocurrency, software design & business experts and academics passionate about promoting the blockchain ecosystem. 
+•	Already built and open-sourced gateways for Ethereum and Bitcoin Cash:
+o	GitHub: https://github.com/bloXroute-Labs/bxgateway
+o	Docker Hub: https://hub.docker.com/r/bloxroute/bxgateway
+o	PyPi: https://pypi.org/project/bloxroute-gateway/
+•	bloXroute’s gateway software has been “battle-tested,” and is in production, used by the largest ETH mining pools.
+•	In-house experience with the design and implementation of large-scale network and distributed systems.
+•	Currently developing bloXroute gateways for blockchain projects such as Ontology, Quorum, and Conflux, and in the near future adding more projects. 
+Team Code Repos
+bloXroute Gateway repository
+Team LinkedIn Profiles
+•	https://www.linkedin.com/in/eyalmarkovich/
+•	https://www.linkedin.com/in/sergeyilinn/
+•	https://www.linkedin.com/in/urimargalit/
+•	https://www.linkedin.com/in/kevkevchen/
+•	https://www.linkedin.com/in/jesuspedrosaguerrero/ 
+Specification and Development Roadmap
+Specification
+The proposed solution to be developed will include:
+1.	An open-sourced BDN API, serving as an entry point to bloXroute’s BDN.
+2.	To support detailed insights into the networking system performance, we will implement a network-wide logging, communication, and presentation system of detailed network information for ETH transactions, blocks, and other messages from Gnosis.
+Development Roadmap
+To build an API with the above specifications, the below milestones will be set:
+•	Milestone 1 – Product design:
+o	Gnosis API interface analysis.
+o	List of functional requirements from Gnosis. 
+o	Design concept for the BDN API.
+o	Basic documentation on the BDN API design.
+•	Milestone 2 - Implementation of Product Design:
+o	Implementation of the BDN API design concept.
+o	BDN support for the API.
+o	Testing and optimizations.
+o	Basic documentation on design and setup.
+•	Milestone 3 – Pre-release testing:
+o	Closed system testing on bloXroute’s Testnet.
+o	The BDN API testing by Gnosis.
+•	Milestone 4 - Documentation and Further Testing:
+o	Security assessment, i.e., DDoS parameter setting and testing.
+o	Documentation equivalent in detail to that in the current bloXroute system on the design and features of its various components.
+o	Documentation equivalent in detail to that in the current bloXroute gateway installation.
+o	Releasing the BDN API on bloXroute’s Mainnet.
+The following deliverables will be available once the milestones are reached:
+•	At Milestone 1:
+o	Document outlining the technical design of the BDN API. 
+•	At Milestone 2:
+o	Report outlining the results of the tests of transaction propagation and transaction streaming with the BDN.
+•	At Milestone 3:
+o	Documentation on setup and running of the BDN API and its requirements.
+o	Report outlining the results of the tests of transaction propagation and transaction streaming with the BDN.
+o	Open-source the BDN API repo.
+•	At Milestone 4:
+o	Documentation on design and features of the BDN API and its components.
+o	Documentation on setup and running of the BDN API and its requirements.
+o	Report outlining the results of the security assessment, i.e., DDoS parameter setting and testing.
+Longer-Term
+In general, we would like to make continuous contributions to Gnosis in terms of improving the transaction propagation, transaction stream visibility and on-chain data analytics for not only ETH but also other blockchains, through close collaboration with Gnosis on research projects, roadmap designs and product developments.
+Our long-term vision for bloXroute specifically is that we focus on constantly improving network performance and providing more valuable on-chain data service, by adding more relay nodes and by optimizing the BDN, to fulfill the present and future needs of Gnosis. 
+Funding Request
+This project is estimated to take about 1.5 - 2 months. The majority of the API design is believed to reusable for integrations with other potential users, but additional time for Gnosis specific configuration and certain amount of customization may be needed for seamless integration with Gnosis and unique features promoting Gnosis users’ satisfaction. Therefore, based on our current estimation, a $10k USD grant will be sufficient to make this project successful.   
+Additional Information
+•	What work has been done so far?
+o	We have already built and open-sourced bloXroute Gateways for Ethereum and Bitcoin Cash. The Ethereum gateway has been deployed and run on major ETH mining nodes across the world since Nov, 2019. 
+•	Are there any teams who have already contributed (financially) to the project?
+o	No (no one else contributed to the BDN API)
+•	Have you applied for other grants so far?
+o	Not for the BDN API.
+•	Are there any other projects similar to yours? If so, how is your project different?
+o	bloXroute Labs is a pioneer in networking support for blockchains, and provides and runs the first and only blockchain-tailored global BDN. The major difference between bloXroute’s BDN and other networking solutions (such as a relay networks for Bitcoin, i.e., FIBRE) systems lies in (1) end-to-end (gateway-to-gateway) system integration, which is essential because it addresses the critical last-mile Internet connection problem, (2) distribution and caching of transactions, which is crucial for scaling, and (3) deep integration with the underlying blockchain system, which is vital for state synchronization, reliability, and visibility. Last but not least, none of the other projects in the same category are capable of providing the transaction streaming service that bloXroute offers.  
+
