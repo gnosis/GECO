@@ -1,5 +1,5 @@
 # Safe Apps Grants
-### Get started building with Safe Apps and receive up to $2,000
+### Get started building with Safe Apps and receive up to $3,000
 
 
 ### What are Safe Apps?
@@ -25,13 +25,13 @@ Grants are paid out at the sole discretion of Gnosis, with varying rewards depen
 
 ### Grant Levels
 
-**Low complexity: $500**
+**Low complexity: $750**
 (1-3 days of work)
 
-**Medium complexity: $1,000** 
+**Medium complexity: $1,500** 
 (3-10 days of work)
 
-**High complexity: $2,000**
+**High complexity: $3,000**
 (>10 days of work)
 
 
