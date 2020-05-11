@@ -14,6 +14,16 @@ See the [Safe Apps announcement post](https://blog.gnosis.pm/introducing-gnosis-
 ### What are Safe Apps Grants?
 We are introducing Safe Apps grants to incentivize the community to extend the functionality of the Safe Multisig and enable small projects or independent developers to build their first Safe App. 
 
+### Scope
+
+Safe Apps are a blank canvas with a lot of opportunities to build useful applications and extend the feature set of the Safe Multisig. Just a few example use-cases include:
+
+- Swapping tokens on a decentralized exchange such as Kyber or Uniswap
+- Buy cover on Nexus Mutual
+- Open / manage Maker Vaults
+- Register and manage ENS domains
+- Mixer integration (e.g. Tornado Cash)
+- ... and many more
 
 ### Who can participate?
 
