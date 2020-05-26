@@ -3,7 +3,7 @@
 ### Project name
 SafeColony App
 ### Team 
-Raid Guild
+[Raid Guild](https://raidguild.org/) -- builders of [DAOhaus](https://daohaus.club/), [Pokemol](https://pokemol.com/), [Stake On Me](https://stakeonme.com/), and much more!
 ### What project are you building 
 An app that allows Gnosis Safes to control some of the core functionality of a colony; moving funds, assigning permissions, minting tokens, triggering rewards, etc.
 ### Why did you decide to build it 
