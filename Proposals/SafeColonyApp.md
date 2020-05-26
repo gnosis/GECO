@@ -20,7 +20,7 @@ The app will allow Gnosis Safes to:
 5. Set colony permissions for other addresses
 6. Trigger reward distributions
 7. Claim and waive reward distributions
-4. Set the reward percentage
+8. Set the reward percentage
 
 Explore a [clickable prototype](https://www.figma.com/proto/hmd9GZj1Wi7O6mAVTGiX6w/SafeColony?node-id=19%3A912&scaling=contain).
 
