@@ -1,7 +1,7 @@
 ## Project Overview
 
 ### Project name
-Colony Manager
+SafeColony App
 ### Team 
 Raid Guild
 ### What project are you building 
