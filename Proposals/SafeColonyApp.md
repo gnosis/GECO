@@ -27,4 +27,4 @@ Explore a [clickable prototype](https://www.figma.com/proto/hmd9GZj1Wi7O6mAVTGiX
 ### How long will it take 
 We estimate that it can be built and deployed in under a month.
 ### How much funding are you requesting  
-$3,000
+$3,000 as this app will be >10 work.
