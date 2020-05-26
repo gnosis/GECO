@@ -208,3 +208,6 @@ The following projects are also on the roadmap if DCID is granted:
 * DID authentication and communication library (implementing [DIDComm](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0005-didcomm))
 * Secure Data Storage layer for identity owners to manage and share data and credentials
 * Gnosis App for identity management
+
+Please feel free to contact us for any questions. We'd be happy to have a call to discuss other
+potential cases and ideas for identity development on Gnosis ecosystem.
