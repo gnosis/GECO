@@ -8,6 +8,7 @@ Raid Guild
 An app that allows Gnosis Safes to control some of the core functionality of a colony; moving funds, assigning permissions, minting tokens, triggering rewards, etc.
 ### Why did you decide to build it 
 We use popup colonies to track work for some of our raids. Right now, this is a somewhat trustful process as individuals are permissioned directly. Allowing colonies to use a Gnosis Safe to manage their core functionality would allow us to remove much of the trust from our Colony interactions.
+We are aware of several colonies already using a Gnosis Safe to interact with their colonies ([clr.fund](https://colony.io/colony/clr) and [Burn Signal](https://colony.io/colony/burn)), this interface would be a useful tool for these colonies and would likely encourage more colonies to secure there tokens with a Gnosis Safe.
 ### Features
 The SafeColony app will allow colonies to be controlled via the Gnosis Safe, importing Gnosis Safe's security model into Colony.
 The app will allow Gnosis Safes to:
