@@ -43,3 +43,21 @@ I think I've first read about Gnosis Apps on Reddit
 ### Timeline, Milestones and Deliverables
 
 I will deliver the app until the end of June.
+
+## Update 16.06.2020
+
+#### Link to the open-source repository
+
+The source code of the Safe App is available here: [https://github.com/krzysu/safe-app-idle](https://github.com/krzysu/safe-app-idle)
+
+The app is interacting with Idle V3 smart contracts on mainnet. Source code of the contracts is available here: [https://github.com/bugduino/idle-contracts](https://github.com/bugduino/idle-contracts). More details can be found in [Idle docs](https://developers.idle.finance/contracts-and-codebase).
+
+#### Links to a hosted version of the Safe App
+
+- Netlify: [https://gnosis-safe-idle-finance-app.netlify.app/](https://gnosis-safe-idle-finance-app.netlify.app/)
+- Fleek: [https://gnosis-safe-idle-app.on.fleek.co/](https://gnosis-safe-idle-app.on.fleek.co/)
+- IPFS hash: [QmRNPykKRMERwQgrqUrWaTXXriTn2FZiAbisXdUaaRXU4s](https://ipfs.fleek.co/ipfs/QmRNPykKRMERwQgrqUrWaTXXriTn2FZiAbisXdUaaRXU4s/)
+
+#### Walkthrough screencast
+
+coming soon
