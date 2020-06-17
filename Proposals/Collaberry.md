@@ -43,10 +43,12 @@ Add the option to leave feedback to the mediator from the freelancer and the cus
 
 Use part of the platform commission to create important incentives using referral bonus and dividends.
 
-Referral program
+**Referral program**
+
 Pay bonuses to the inviters and inviters of inviters to create a network effect.
 
-Dividends
+**Dividends**
+
 In exchange for the platform commission, the user will receive platform tokens, which will be used to dividends payout.
 
 Referral program and dividends can be implemented via Telegram bot.
