@@ -1,4 +1,4 @@
-# Collabery (3rdkeys)
+# Collabery Safe App (3rd keys)
 
 replace Upwork escrow with a market of 3rd keys
 
