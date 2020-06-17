@@ -11,7 +11,7 @@ The commission of the platform can be used to maintain a minimum infrastructure 
 
 ## Flow
 
-The mediator creates a 2-out-of-3 SCollaberry (3rdkeys)afe with the addresses of the freelancer and the customer.
+The mediator creates a 2-out-of-3 Safe with the addresses of the freelancer and the customer.
 The mediator creates a job, including the description, cost, and address of the managing safe.
 Freelancer does the work and sends the result to the mediator and the customer
 The mediator performs the necessary mediation between the freelancer and the customer, the result of which should be a mutually beneficial agreement.
