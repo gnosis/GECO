@@ -55,7 +55,7 @@ The app is interacting with Idle V3 smart contracts on mainnet. Source code of t
 ### Links to a hosted version of the Safe App
 
 - Fleek: [https://gnosis-safe-idle-app.on.fleek.co/](https://gnosis-safe-idle-app.on.fleek.co/)
-- IPFS hash: [QmZkxU7N8V2BP6fCeoqWYVFuRsfZPXKNkEWXzpnrMcBj6T](https://ipfs.fleek.co/ipfs/QmZkxU7N8V2BP6fCeoqWYVFuRsfZPXKNkEWXzpnrMcBj6T/)
+- IPFS hash: [QmeRBDBa2CthZa3KrNXVTPAsMNi1MA1uudgvYSNkNA9NNk](https://ipfs.fleek.co/ipfs/QmeRBDBa2CthZa3KrNXVTPAsMNi1MA1uudgvYSNkNA9NNk/)
 
 ### Walkthrough screencast
 
