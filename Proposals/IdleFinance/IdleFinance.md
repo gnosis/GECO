@@ -52,11 +52,6 @@ The source code of the Safe App is available here: [https://github.com/krzysu/sa
 
 The app is interacting with Idle V3 smart contracts on mainnet. Source code of the contracts is available here: [https://github.com/bugduino/idle-contracts](https://github.com/bugduino/idle-contracts). More details can be found in [Idle docs](https://developers.idle.finance/contracts-and-codebase).
 
-### Links to a hosted version of the Safe App
-
-- Fleek: [https://gnosis-safe-idle-app.on.fleek.co/](https://gnosis-safe-idle-app.on.fleek.co/)
-- IPFS hash: [QmUoqmq8jw98VwTSf7aTQeBCfPKicQgcJL5k2Bch9QT8BJ](https://ipfs.fleek.co/ipfs/QmUoqmq8jw98VwTSf7aTQeBCfPKicQgcJL5k2Bch9QT8BJ/)
-
 ### Walkthrough screencast
 
 #### Deposit
@@ -66,3 +61,10 @@ The app is interacting with Idle V3 smart contracts on mainnet. Source code of t
 #### Withdraw
 
 ![Withdraw demo](./idle-withdraw.gif)
+
+## Update 23.06.2020 - final version
+
+### Links to a hosted version of the Safe App
+
+- Fleek: [https://gnosis-safe-idle-app.on.fleek.co/](https://gnosis-safe-idle-app.on.fleek.co/)
+- IPFS hash: [QmVHo99ojWo6vidTbwMbzws8xGheFtBYPXxJk4ox1unqGP](https://ipfs.fleek.co/ipfs/QmVHo99ojWo6vidTbwMbzws8xGheFtBYPXxJk4ox1unqGP/)
