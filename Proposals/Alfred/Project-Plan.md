@@ -47,4 +47,4 @@ In addition to interacting with the ethereum blockchain, the onboarding dapp int
 ![LMS Flowchart](/Proposals/Alfred/LMS.png)
 
 ### Post Death Workflow
-![Post Death Flowchart](.=/Proposals/Alfred/PostDeath.png)
+![Post Death Flowchart](/Proposals/Alfred/PostDeath.png)
