@@ -39,7 +39,7 @@ Writing down keys and instructions can work but introduces severe vulnerabilitie
 
 Alfred introduces the concept of Perpetual Inheritance. This protocol increases the likelihood a digital wallet holder will be able to recover their assets in the event they lose access to their primary wallet by forcing them to prove their ability to access their primary wallet at regular intervals.
 
-![](Alfred/PerpetualInheritance.png)
+![](/Proposals/Alfred/PerpetualInheritance.png)
 =======
 
 ### How long will it take 
