@@ -36,15 +36,15 @@ Onboarding is conduct through a dapp. The main objectives are:
 3) Configure the oracle contract.
 4) Configure the wallet contract.
 
-![Onboarding Flowchart](./Alfred/onboarding.svg)
+![Onboarding Flowchart](/Proposals/Alfred/Onboarding.png)
 
 In addition to interacting with the ethereum blockchain, the onboarding dapp interacts with a payment processor, a KYC service, and the liveliness monitoring service.
 
 ### Dead Man Switch (DMS) Workflow
-![DMS Flowchart](./Alfred/dms.svg)
+![DMS Flowchart](/Proposals/Alfred/DMS.png)
 
 ### Live Man Switch (LMS) Workflow
-![LMS Flowchart](./Alfred/lms.svg)
+![LMS Flowchart](/Proposals/Alfred/LMS.png)
 
 ### Post Death Workflow
-![Post Death Flowchart](./Alfred/post-death.svg)
+![Post Death Flowchart](.=/Proposals/Alfred/PostDeath.png)
