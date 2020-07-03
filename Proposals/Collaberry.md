@@ -55,7 +55,7 @@ Referral program and dividends can be implemented via Telegram bot.
 
 ## Team members
 
-Max Pogorelov - master of computer science, full-stack developer with an experience of building production-ready smart contracts, founder of Tipsomat (tipsomat.com), and also experienced Upwork user who successfully used 2-out-of-3 Gnosis wallets few times to exclude voracious intermediary.
+Max Pogorelov - master of computer science, full-stack developer with an experience of building production-ready smart contracts, founder of Tipsomat (tipsomat.com), and also experienced Upwork user who successfully used 2-out-of-2 Gnosis wallets few times to exclude voracious intermediary.
 
 ## Motivation
 
