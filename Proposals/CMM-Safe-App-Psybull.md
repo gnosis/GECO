@@ -18,10 +18,10 @@ After doing a manual deployment of a CMM for the recent GNO liquidity incentive 
 
 ### How long will it take 
 
-I would estimate around 4 weeks of project time, broken down as such:
+I would estimate around 6 weeks of project time, broken down as such:
 
-2 weeks - delivery of initial PoC from Psybull to Gnosis
-2 weeks - iteration between Psybull-Gnosis for design/functionality improvements
+4 weeks - Conversion of current CMM liquidity provision script setup to fully compile/deploy contracts in JS in the browser.
+2 weeks - UI/UX development of Safe App in React
 
 These timelines are subject to change as development progresses, but any anticipated deviation will be communicated promptly to Gnosis team 
 
@@ -104,17 +104,17 @@ Psybull is a full stack JS engineer with 10 years of experience building consume
 
 **Deliverables**
 
-The initial PoC will be leaning heavily on Psybull's initial vision for the application, comprised of a functional codebase that covers all of the features outlined above.  The application will be built to run over the Rinkeby test network, and then shared with Gnosis team for iteration in Phase II.
+The initial PoC will be a joint effort between Psybull and Gnosis team, comprised of a functional codebase that covers all of the features outlined above.  The application will be built to run over the Rinkeby test network, and then shared with broader user group for iteration in Phase II.
 
 **Time and Price Estimate**	
 
-2 weeks, $3000
+4 weeks, $3000
 
 **Phase II - Iteration**
 
 **Deliverables**
 
-Phase II will be about iteration between Psybull and Gnosis team.  Design, functionality, testing, etc. will be evaluated by all stakeholders, and feedback will be continually incorporated by Psybull, with the final deliverable being the acceptance and deployment of the app the the Gnosis Safe mainnet.
+Phase II will be about iteration between Psybull, Gnosis team, and any other alpha-testers.  Design, functionality, testing, etc. will be evaluated by all stakeholders, and feedback will be continually incorporated by Psybull, with the final deliverable being the acceptance and deployment of the app the the Gnosis Safe mainnet.
 
 **Time and Price Estimate**	
 
