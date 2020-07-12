@@ -22,7 +22,7 @@ Gnosis and Balancer Labs have also partnered on a bounty for an app for pool liq
 
 ### How long will it take
 
-Work started last Friday (10th July). It should take a few days from now for a round or two of UI feedback + changes before it's ready 
+Work started last Friday (10th July). I have a working prototype but it should take a few days from now for a round or two of UI feedback + changes before it's ready 
 
 ### How much funding are you requesting
 
