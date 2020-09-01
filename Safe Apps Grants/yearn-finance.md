@@ -18,7 +18,7 @@ Eric Conner reached out and asked if I was interested.
 
 ### How long will it take
 
-The app is pretty much done. There's some testing of withdrawals to do but what with it being YFI... "I test in prod" and I'm seeing if gas prices drop (or will resort to Tenderly)
+The app is pretty much done. I'm in the process of testing but what with it being YFI the options are "I test in prod" or simulate using Tenderly so I'm opting for the latter.
 
 ### How much funding are you requesting
 
