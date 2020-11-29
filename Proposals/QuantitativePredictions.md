@@ -11,7 +11,7 @@ I want to stimulate predictions markets development by creating prediction marke
 ### How long will it take 
 I expect I need just a few days.
 ### How much funding are you requesting  
-"Medium complexity: $1,500 (3-10 days of work)" - [the GitCoin bounty](https://gitcoin.co/issue/gnosis/GECO/75/100023743)
+I have a contradictory information on your funding amoungs, it is up to you to decide. Please decide the sum as you decide usually for this kind of projects.
 ### How did you hear about the GECO
 https://gitcoin.co/issue/gnosis/GECO/75/100023743
 
