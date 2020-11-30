@@ -23,7 +23,7 @@ The following is a mathematical model (applicable to science financing but not o
 
 1. Using a special smart contract anybody can claim his account as a science author for purposes of his “salary” accounting.
 2. Using a special smart contract anybody can claim his account as a science publisher.
-3. Anybody could create (if he has enough money to implement this) an oracle mapping for example scientist’s Ethereum address to the number of scientist’s score (such as based on the number of direct and indirect citations and on how free the manuscript license is) (accordingly this oracle) and optionally to the publisher(s).
+3. Anybody could create (if he has enough money to implement this) an oracle mapping for example scientist’s Ethereum address to the scientist’s score (such as based on the number of direct and indirect citations and on how free the manuscript license is) (accordingly this oracle) and optionally to the publisher(s).
 4. Create two prediction markets:
     1. the score of each oracle
     2. the score of each scientist and each publisher by each oracle (so NxM where N is the number of scientists and M is the number of oracles outcomes)
