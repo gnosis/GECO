@@ -19,6 +19,8 @@ https://gitcoin.co/issue/gnosis/GECO/75/100023743
 
 ## Your Proposal 
 ### Project description
+[Visual diagram to grasp it better.](assets/PredictionOfPredictions-diagram.pdf) (PDF)
+
 The following is a mathematical model (applicable to science financing but not only) possible to implement in blockchain for stimulating market to implement the author and publisher scoring oracles.
 
 1. Using a special smart contract anybody can claim his account as a science author for purposes of his “salary” accounting.
