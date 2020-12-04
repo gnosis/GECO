@@ -76,5 +76,4 @@ Testing smart contracts.
 [More information](https://reward.portonvictor.org/predict-prediction-markets-or-hire-google-to-account-salaries-for-scientists-and-free-software-developers/)
 
 Need first finish:
-* https://github.com/gnosis/GECO/pull/79
 * https://github.com/gnosis/GECO/pull/81
