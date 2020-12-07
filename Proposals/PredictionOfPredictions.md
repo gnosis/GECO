@@ -61,6 +61,8 @@ This contract needs to be modified to include BrightID integration and based on 
 
 BrightID has "supervisor" feature, that need to be integrated into the contract for greater fraud resistance. I am going to use my own BrightID node (please also provide funding for a server to run this node) as the oracle (unrelated with "scoring" oracles described above) for supervising BrightID. The supervising oracle needs to be an upgradeable smart contract, because otherwise it would remain centralized. Upgrading the BrightID supervising oracle needs to be done by voting. The voting contract needs also be upgradeable (by itself, the voting contract). Our initial voting contract is going to be quadratic with BrightID anti-sybil and vote weight proportional to the square root of the amount of WETH (I've choosen this ERC-20 token arbitrarily) donated to the system by a given voter.
 
+Also need to add restoration of lost scientists' accounts via BrightID.
+
 BrightID integration is the most complex part of the system.
 
 Need also to consider replacing BrightID by Ceramic identity. (I still haven't studied the features of Ceramic, so I will revise this document after I study Ceramic.)
