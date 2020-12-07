@@ -92,7 +92,7 @@ Whitepaper.
 Whitepaper.
 
 **Time and Price Estimate**
-9 days, $1000.
+9 days, $750.
 
 **Phase II**
 Smart contracts.
@@ -101,7 +101,7 @@ Smart contracts.
 Compilable smart contracts.
 
 **Time and Price Estimate**
-12 days, $1000.
+12 days, $750.
 
 **Phase III**
 
@@ -109,7 +109,15 @@ Compilable smart contracts.
 Testing smart contracts.
 
 **Time and Price Estimate**
-5-6 days, $1000.
+5-6 days, $750.
+
+**Phase IV**
+
+**Deliverables**
+A dapp.
+
+**Time and Price Estimate**
+5-6 days, $750.
 
 ### Others
 [More information](https://reward.portonvictor.org/predict-prediction-markets-or-hire-google-to-account-salaries-for-scientists-and-free-software-developers/)
