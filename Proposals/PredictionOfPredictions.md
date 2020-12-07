@@ -24,7 +24,7 @@ The following is a mathematical model (applicable to science financing but not o
 
 1. Using a special smart contract (similar to my [ConditionalTokensMany.sol](https://github.com/vporton/conditional-tokens-contracts/blob/shared-sets/contracts/ConditionalTokensMany.sol)) anybody can claim his account (just call a special contract method with his Ethereum address and probably some identity like first/last name) as a science author for purposes of his “salary” accounting. Simply, due to technical limitations of ERC-1155, a user needs to be explicitly registered before he can receive tokens.
 2. Using a special smart contract (ditto) anybody can claim his account as a science publisher.
-3. Anybody could create (if he has enough money to implement this) an oracle (a possibly off-chain software that may write data to the chain using a specially provided method) mapping for example scientist’s Ethereum address to the scientist’s score (such as based on the number of direct and indirect citations and on how free the manuscript license is) (accordingly this oracle) and optionally to the publisher(s). That is oracle is a software that stores into the chain scientists "score" (a number which his salary is proportional to, calculated accordingly the oracle's creator's sense of fairness).
+3. Anybody could create (if he has enough money to implement this) an oracle (a possibly off-chain software that may write data to the chain using a specially provided method) mapping for example scientist’s Ethereum address to the scientist’s score (such as based on the number of direct and indirect citations and on how free the manuscript license is) (accordingly this oracle) and optionally to the publisher(s). That is oracle is a software that stores into the chain scientists "score" (a number which his salary is proportional to, calculated accordingly the oracle's creator's sense of fairness). With an oracle is also associated an address that will hold collateral funds for this oracle (after 100 years), to be further distributed among scientists.
 4. Create two prediction markets:
     1. the score of each oracle
     2. the score of each scientist and each publisher by each oracle (so NxM where N is the number of scientists and M is the number of oracles outcomes)
@@ -32,7 +32,8 @@ The following is a mathematical model (applicable to science financing but not o
 6. After 100 years each oracle owner is expected to write the “score” (presumably based on citations counts and licensing/pricing policies) for each scientist (with nonzero results) into the blockchain. He is also expected to score publishers. (A probably simplest way to score publishers is to add scores for all articles for which it is is considered the primary publisher.)
 7. During some additional time period the people (or robots) vote resulting scoring each of these oracles 0..1 (with the sum 1) based on how they perceive the “correctness” or “fairness” of its scientists’ scores (for our purposes we define correctness/fairness of an oracle as the quantity of votes an oracle will receive). The voting results are the outcomes of the oracles list predictions.
 8. Each oracle receives the collateral proportional to its score.
-9. Each scientist receives the collateral proportional to the sum of the products of his score in an oracle to the score of the oracle. (To be retrieved from each oracle funds separately, because potentially there may be many oracles.)
+9. Each oracle's collateral holder receives 
+9. Each conditional token holder can receive (after 100 years, for any oracle) the collateral proportional to the product of his score in an oracle to the score (voting result) of the oracle using two consequtive transfers: 1. to oracle's collateral holder from the |prediction of predictions" contract; 2. from that collateral holder to the requestor of funds. (To be retrieved from each oracle funds separately, because potentially there may be many oracles.)
 10. Each publisher receives the collateral proportional to its score.
 
 We have thus a prediction market that will run for about 100 years.
@@ -71,7 +72,8 @@ I am going to work on this project after I finish [ConditionalTokensMany.sol sma
 
 The contracts to be produced:
 
-- the main contract (modified [this contract](https://github.com/vporton/conditional-tokens-contracts/blob/shared-sets/contracts/ConditionalTokensMany.sol)) that accepts donations, manages predictions, pays salaries
+- the "prediction of predictions" conditional tokens contract (modified [this contract](https://github.com/vporton/conditional-tokens-contracts/blob/shared-sets/contracts/ConditionalTokensMany.sol)) that also accepts donations
+- the prediction markets contract that can receive the collateral assigned to a given oracle proportionally to the voting results for this oracle and then distribute to the traders (conditional token holders) accodingly to their score by this oracle (slightly modified [this contract](https://github.com/vporton/conditional-tokens-contracts/blob/shared-sets/contracts/ConditionalTokensMany.sol) will suffice)
 - the upgradeable voting contract
 - the upgradeable BrightID supervisor contract
 
@@ -81,8 +83,6 @@ Solidity, JavaScript tests.
 Victor Porton (`vporton` at GitCoin) - a frequent and respected GitCoin contributor.
 ### Timeline, Milestones and Deliverables
 
-TODO: The timing needs to be prolonged (the project is more complex because of BrightID, etc. than I anticipated when writing the original version of this proposal) after a consultation with Gnosis team. So the timings below are not final.
-
 **Phase I**
 Whitepaper.
 
@@ -90,7 +90,7 @@ Whitepaper.
 Whitepaper.
 
 **Time and Price Estimate**
-6 days, $1000.
+9 days, $1000.
 
 **Phase II**
 Smart contracts.
@@ -99,7 +99,7 @@ Smart contracts.
 Compilable smart contracts.
 
 **Time and Price Estimate**
-10 days, $1000.
+12 days, $1000.
 
 **Phase III**
 
@@ -107,7 +107,7 @@ Compilable smart contracts.
 Testing smart contracts.
 
 **Time and Price Estimate**
-3 days, $1000.
+5-6 days, $1000.
 
 ### Others
 [More information](https://reward.portonvictor.org/predict-prediction-markets-or-hire-google-to-account-salaries-for-scientists-and-free-software-developers/)
