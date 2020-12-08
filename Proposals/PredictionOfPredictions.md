@@ -65,8 +65,6 @@ Also need to add restoration of lost scientists' accounts via BrightID.
 
 BrightID integration is the most complex part of the system.
 
-Need also to consider replacing BrightID by Ceramic identity. (I still haven't studied the features of Ceramic, so I will revise this document after I study Ceramic.)
-
 I am going to work on this project after I finish [ConditionalTokensMany.sol smart contract](https://github.com/vporton/conditional-tokens-contracts/blob/shared-sets/contracts/ConditionalTokensMany.sol):
 
 - need to test it thoroughly
