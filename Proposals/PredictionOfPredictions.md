@@ -41,7 +41,7 @@ So, we have the prediction markets for scientists, publishers, and oracles, they
 How to split the collateral into three parts between scientists+publishers and oracles? It could be done by voting after 100 years with voting results taking the arithmetic averages from each voter. Or we can start voting now and keep it running for 100 years.
 We could also pay to reviewers but that’s not possible to do fairly as they are anonymous.
 
-The icentives to put a collateral into this market are:
+The incentives to put a collateral into this market are:
 
 - goodwill to help the scientists, etc.
 - the donor will receive more voting rights.
