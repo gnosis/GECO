@@ -58,7 +58,7 @@ This contract needs to be modified to be appropriate for this proposal:
 - Make allocation of conditional tokens proportional to the time since registration rather than one-time as now.
 - Allow to restore lost accounts (by a smart contact upgradeable by voting) of scientists, because they otherwise be legible to losing their lifetime salaries.
 - So, add voting and ability to upgrade the voting contract itself by voting.
-    - Add a nontrasferrable voting token.
+    - Add a nontransferrable voting token.
         - Proportional to donated WETH token (calculation of the amount of voting token should be upgradeable).
         - Myself receive (as the first estimation) $200000 in voting rights to keep the system under my control until enough big players enter.
     - For start voting would possibly be quadratic for voting token with BrigthID anti-Sybil.
