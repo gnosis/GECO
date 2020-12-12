@@ -60,8 +60,8 @@ This contract needs to be modified to be appropriate for this proposal:
 - So, add voting and ability to upgrade the voting contract itself by voting.
     - Add a nontransferrable voting token.
         - Proportional to donated WETH token (calculation of the amount of voting token should be upgradeable).
-        - Myself receive (as the first estimation) $200000 in voting rights to keep the system under my control until enough big players enter.
-    - For start voting would possibly be quadratic for voting token with BrigthID anti-Sybil.
+        - Myself receive (as the first estimation) $140000 in non-transferrable voting rights to keep the system under my control until enough big players enter.
+    - For start voting we can use DAOstack.
 
 A future upgrade of the voting contract is expected to use a DAOstack DAO.
 
