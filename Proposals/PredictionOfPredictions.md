@@ -70,7 +70,6 @@ The contracts to be produced:
 - the "prediction of predictions" conditional tokens contract (modified [BidOnAddresses.sol](https://github.com/vporton/conditional-tokens-contracts/blob/bid-addresses/contracts/BidOnAddresses.sol)) that also accepts donations
 - the prediction markets contract that can receive the collateral assigned to a given oracle proportionally to the voting results for this oracle and then distribute to the traders (conditional token holders) accodingly to their score by this oracle (slightly modified [BidOnAddresses.sol](https://github.com/vporton/conditional-tokens-contracts/blob/bid-addresses/contracts/BidOnAddresses.sol) will suffice)
 - the upgradeable voting contract
-- the upgradeable BrightID supervisor contract
 
 ### Features
 Solidity, JavaScript tests.
