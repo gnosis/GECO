@@ -17,10 +17,10 @@ We talked to the Biconomy team and took various user interviews regarding the sa
 After validating this idea from Hackathon judges/mentors and various people at Gitcoin Kernel Genesis Block, we decided to build Parcel.
 
 ### How long will it take
-Two phases of 6-8 weeks each
+4-6 weeks
 
 ### How much funding are you requesting
-10K USD 
+3K USD 
 
 
 ### How did you hear about the GECO 
@@ -70,29 +70,12 @@ Blockchain Developer at [Biconomy](https://biconomy.io), Previously Backend Deve
 
 ### Deliverables 
 
-### Phase 1 : Parcel V1  - 
+### Parcel V1 as a Safe app  - 
 
-1. Create and Import Gnosis safe account seamlessly on Parcel UI. 
-2. Encrypt and store signature data of transaction life cycle on IPFS.
-3. Integrate meta transactions on all Gnosis Safe transactions with Biconomy.
-4. Transaction Batching on Gnosis Safe for token transfers and token swaps (with Uniswap) to run mass payouts for teams in one click.
-5. Earn Interest with AAVE from Gnosis Safe.
+Gnosis Safe app users will be able to run mass payouts with multiple token swaps (with Uniswap) in one click from the UI.
 
-
-### Timeline - 6 - 8 Weeks
-### Amount - $5k
-
-### Phase 2 : Parcel V2  
-
-1. Enabling Social recovery of Gnosis Safe on Parcel UI.
-2. Insurance with Nexus Mutual through Gnosis Safe.
-3. Transact on Gnosis Safe with permissions.
-4. Sablier Integration with Gnosis Safe for vesting in treasury management
-
-
-### Timeline - 6 - 8 Weeks
-### Amount - $5k
-
+### Timeline - 4 - 6 Weeks
+### Amount - $3k
 
 ### Where you've applied for other sources of funding if applicable
 We have received grants from AAVE protocol and Matic Network.
