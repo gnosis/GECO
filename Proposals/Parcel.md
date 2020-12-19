@@ -74,7 +74,7 @@ Blockchain Developer at [Biconomy](https://biconomy.io), Previously Backend Deve
 
 Gnosis Safe app users will be able to run mass payouts with multiple token swaps (with Uniswap) in one click from the UI.
 
-### Timeline - 4 - 6 Weeks
+### Timeline - 6 - 8 Weeks
 ### Amount - $3k
 
 ### Where you've applied for other sources of funding if applicable
