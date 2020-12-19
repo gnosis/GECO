@@ -72,7 +72,8 @@ Blockchain Developer at [Biconomy](https://biconomy.io), Previously Backend Deve
 
 ### Parcel V1 as a Safe app  - 
 
-Gnosis Safe app users will be able to run mass payouts with multiple token swaps (with Uniswap) in one click from the UI.
+1. Gnosis Safe app users will be able to run mass payouts with multiple token swaps (with Uniswap) in one click from the UI.
+2. Users will be able to seamlessly import & export payout details via csv.
 
 ### Timeline - 4 - 6 Weeks
 ### Amount - $3k
