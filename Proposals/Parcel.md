@@ -17,7 +17,7 @@ We talked to the Biconomy team and took various user interviews regarding the sa
 After validating this idea from Hackathon judges/mentors and various people at Gitcoin Kernel Genesis Block, we decided to build Parcel.
 
 ### How long will it take
-4-6 weeks
+6-8 weeks
 
 ### How much funding are you requesting
 3K USD 
@@ -72,8 +72,7 @@ Blockchain Developer at [Biconomy](https://biconomy.io), Previously Backend Deve
 
 ### Parcel V1 as a Safe app  - 
 
-1. Gnosis Safe app users will be able to run mass payouts with multiple token swaps (with Uniswap) in one click from the UI.
-2. Users will be able to seamlessly import & export payout details via csv.
+Gnosis Safe app users will be able to run mass payouts with multiple token swaps (with Uniswap) in one click from the UI.
 
 ### Timeline - 4 - 6 Weeks
 ### Amount - $3k
