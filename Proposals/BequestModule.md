@@ -40,7 +40,7 @@ Contract creation and testing.
 **Deliverables**
 All the above described features + unit tests (however not quite complete).
 
-**Time and Price Estimate**	_How long will it take and what is the estimated price_
+**Time and Price Estimate**
 20 days (25 Dec 2020 - 13 Jan 2021)
 
 $10000
