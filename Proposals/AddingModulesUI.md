@@ -20,7 +20,7 @@
 ### Project description
 Change `Advanced` section of `Settings` to be able to easily add a module.
 
-The proposal of this grant is limited to adding modules that can be initialized by a call to a method without arguments. (Doing otherwise would require to be able to query something (like EtherScan) for the API specs, this is outside of the scope of this proposal.) It will be presented a dialog widget asking for the name of the function to be called with the default to be `setup` and the address of the module. There will be also text advising to use APPS tab to install "standard" modules (that I am going to add in other grants). The UI should display a message and if anticipated do other relevant UI changes.
+The proposal of this grant is limited to adding modules that can be initialized by a call to a method without arguments. (Doing otherwise would require to be able to query something (like EtherScan) for the API specs, this is outside of the scope of this proposal.) It will be presented a dialog widget asking for (optional) the name of the function to be called with the default to be `setup` and the address of the module. There will be also text advising to use APPS tab to install "standard" modules (that I am going to add in other grants). The UI should display a message and if anticipated do other relevant UI changes.
 
 Writing a phone app is outside of the scope of this proposal.
 
