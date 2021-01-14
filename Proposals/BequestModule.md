@@ -26,6 +26,8 @@ Also it adds wrappers to easily bequest all ERC-20 and ERC-1155 tokens available
 
 The bequest date and heir can be changed at any time.
 
+It supports bequesting a DeFi token together with all its profits.
+
 Please fund me for having done this work, despite I did not do this proposal before starting the work, because otherwise would be dishonest and because I want to keep working for Gnosis project.
 
 This project is to be able to finance charities by non-donors and other persons who wish to bequest. It also can be used for such things as a parental bequest.
@@ -46,7 +48,7 @@ All the above described features + unit tests (however not quite complete).
 $10000
 
 ### Others	 
-It is a very innovative way to bequest.
+It is a very innovative way to bequest. Combined with [that project](https://vporton.github.io/future-salary/#/) it even allows to use a bequest _before_ the inherited funds are released.
 
 Need also create UI (outside of the proposal scope).
 
