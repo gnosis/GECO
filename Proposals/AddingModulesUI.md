@@ -26,7 +26,7 @@ Writing a phone app is outside of the scope of this proposal.
 
 I want to do this stuff because:
 
-* I am Gnosis Safe user and want to use modules myself.
+* I am a Gnosis Safe user and want to use modules myself.
 * I am a creating the [https://github.com/gnosis/safe-modules/pull/23](`Bequest` module) that I also use in my other project, and I want to be able to make its UI, too, so this series of proposals.
 
 The goal is to make modules well supported in UI.
