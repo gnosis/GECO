@@ -8,18 +8,18 @@
 # Bruno
 
 ### Team members 
-> [James Sheeder](https://www.linkedin.com/in/james-sheeder-1282a8156) Co-Founder at BRUNO <br />
-> [Taylor Bingwa](https://www.linkedin.com/in/taylorbingwa/) Head of Sales at Qoden <br /> 
-> [Albert Tackie](https://www.linkedin.com/in/albert-tackie/) Software Engineer & Co-Founder at BRUNO <br />
-> [Anjali Tomer](https://www.linkedin.com/in/anjalitomer/) Senior Product Manager at Zest Al <br />
-> [Matt Kaufman](https://www.linkedin.com/in/matt-kaufman-7972b567/) Attorney at Hathaway & Kunz, Wyoming Blockchain Taskforce <br />
-> [Andrey Verbin](https://www.linkedin.com/in/andrey-verbin-1a40568/) Co-Founder at Qoden <br />
-> [Tim Leonhardt](https://www.linkedin.com/in/timleonhardt/) Leonhardt Senior Product Manager at LexisNexis Risk Solutions <br />
-> [Jamey Noland](https://www.linkedin.com/in/jamey-noIand-86978958/) Director at PenTrust Inc. <br />
-> [Mark Roderick](https://www.linkedin.com/in/markroderick/) Principal Partner at Lex Nova Law LLC <br />
-> [Timothy Spangler](https://www.linkedin.com/in/timothyspanglerjd/) FinTech & Securities Regulatory Partner at Dechert LLP <br />
-> [Mark Regan](https://www.linkedin.com/in/iworktoski) Partner at Grit Ventures <br />
-> [Ashley Frederick](https://www.linkedin.com/in/ashley-frederick-0b5a53142/) Frederick Design <br />
+* [James Sheeder](https://www.linkedin.com/in/james-sheeder-1282a8156) Co-Founder at BRUNO <br />
+* [Taylor Bingwa](https://www.linkedin.com/in/taylorbingwa/) Head of Sales at Qoden <br /> 
+* [Albert Tackie](https://www.linkedin.com/in/albert-tackie/) Software Engineer & Co-Founder at BRUNO <br />
+* [Anjali Tomer](https://www.linkedin.com/in/anjalitomer/) Senior Product Manager at Zest Al <br />
+* [Matt Kaufman](https://www.linkedin.com/in/matt-kaufman-7972b567/) Attorney at Hathaway & Kunz, Wyoming Blockchain Taskforce <br />
+* [Andrey Verbin](https://www.linkedin.com/in/andrey-verbin-1a40568/) Co-Founder at Qoden <br />
+* [Tim Leonhardt](https://www.linkedin.com/in/timleonhardt/) Leonhardt Senior Product Manager at LexisNexis Risk Solutions <br />
+* [Jamey Noland](https://www.linkedin.com/in/jamey-noIand-86978958/) Director at PenTrust Inc. <br />
+* [Mark Roderick](https://www.linkedin.com/in/markroderick/) Principal Partner at Lex Nova Law LLC <br />
+* [Timothy Spangler](https://www.linkedin.com/in/timothyspanglerjd/) FinTech & Securities Regulatory Partner at Dechert LLP <br />
+* [Mark Regan](https://www.linkedin.com/in/iworktoski) Partner at Grit Ventures <br />
+* [Ashley Frederick](https://www.linkedin.com/in/ashley-frederick-0b5a53142/) Frederick Design <br />
 
 ### What project are you building 
 > The first Ethereum-based investment engine.
@@ -108,4 +108,8 @@ It is not capable of comprehension and therefore is endless and limitless"
 
 <p align="center">
   <img width="400px" src="./assets/Bruno/giordanobruno.png" />
+</p>
+
+<p align="center">
+  ###### Copyright © 2021 BRUNO. All rights reserved.
 </p>
