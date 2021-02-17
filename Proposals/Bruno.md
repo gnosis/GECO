@@ -1,10 +1,12 @@
-# Proposal Guideline 
-
 ## Project Overview
 
-### Project name'
+### Project name
 
-Bruno
+<p align="right">
+  <img width="400px" src="./assets/Bruno/BRUNO.png" />
+</p>
+
+# Bruno
 
 ### Team members 
 > [James Sheeder](https://www.linkedin.com/in/james-sheeder-1282a8156) Co-Founder at BRUNO <br />
@@ -18,7 +20,7 @@ Bruno
 > [Mark Roderick](https://www.linkedin.com/in/markroderick/) Principal Partner at Lex Nova Law LLC <br />
 > [Timothy Spangler](https://www.linkedin.com/in/timothyspanglerjd/) FinTech & Securities Regulatory Partner at Dechert LLP <br />
 > [Mark Regan](https://www.linkedin.com/in/iworktoski) Partner at Grit Ventures <br />
-> [Ashley Frederick](https://www.linkedin.com/in/ashley-frederick-Ob5a53142/) Frederick Design <br />
+> [Ashley Frederick](https://www.linkedin.com/in/ashley-frederick-0b5a53142/) Frederick Design <br />
 
 ### What project are you building 
 > The first Ethereum-based investment engine.
@@ -49,7 +51,6 @@ Mr. Tackie is the co-founder of BRUNO & has been operating as a developer in the
 Ms. Frederick has a degree in Family Business and specializes in state-of-the art design, publishing, and digital marketing. She is currently studying Ethereum protocol as the basis for Web 3.0. Other team members have deep experience in Venture Capital, Real Estate, Pension Management, Software Development, as well as Law and Securities Regulation.
 
 ### Timeline, Milestones and Deliverables
-_Detailed description of your timeline milestones and the corresponding payouts_
 
 **Phase I**
 
