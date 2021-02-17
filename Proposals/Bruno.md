@@ -14,19 +14,6 @@
 | <p align="center"><img width="100px" src="./assets/Bruno/Matt.jpg" /></p>[Matt Kaufman](https://www.linkedin.com/in/matt-kaufman-7972b567/) Attorney at Hathaway & Kunz, Wyoming Blockchain Taskforce | <p align="center"><img width="100px" src="./assets/Bruno/Andrey.jpg" /></p>[Andrey Verbin](https://www.linkedin.com/in/andrey-verbin-1a40568/) Co-Founder at Qoden | <p align="center"><img width="100px" src="./assets/Bruno/TimL.jpg" /></p>[Tim Leonhardt](https://www.linkedin.com/in/timleonhardt/) Leonhardt Senior Product Manager at LexisNexis Risk Solutions | <p align="center"><img width="100px" src="./assets/Bruno/Jamey.jpg" /></p>[Jamey Noland](https://www.linkedin.com/in/jamey-noIand-86978958/) Director at PenTrust Inc. |
 | <p align="center"><img width="100px" src="./assets/Bruno/MarkR.jpg" /></p>[Mark Roderick](https://www.linkedin.com/in/markroderick/) Principal Partner at Lex Nova Law LLC | <p align="center"><img width="100px" src="./assets/Bruno/TimS.jpg" /></p>[Timothy Spangler](https://www.linkedin.com/in/timothyspanglerjd/) FinTech & Securities Regulatory Partner at Dechert LLP | <p align="center"><img width="100px" src="./assets/Bruno/MarkReg.jpg" /></p>[Mark Regan](https://www.linkedin.com/in/iworktoski) Partner at Grit Ventures | <p align="center"><img width="100px" src="./assets/Bruno/Ashley.jpg" /></p>[Ashley Frederick](https://www.linkedin.com/in/ashley-frederick-0b5a53142/) Frederick Design |
 
-* [James Sheeder](https://www.linkedin.com/in/james-sheeder-1282a8156) Co-Founder at BRUNO <br />
-* [Taylor Bingwa](https://www.linkedin.com/in/taylorbingwa/) Head of Sales at Qoden <br /> 
-* [Albert Tackie](https://www.linkedin.com/in/albert-tackie/) Software Engineer & Co-Founder at BRUNO <br />
-* [Anjali Tomer](https://www.linkedin.com/in/anjalitomer/) Senior Product Manager at Zest Al <br />
-* [Matt Kaufman](https://www.linkedin.com/in/matt-kaufman-7972b567/) Attorney at Hathaway & Kunz, Wyoming Blockchain Taskforce <br />
-* [Andrey Verbin](https://www.linkedin.com/in/andrey-verbin-1a40568/) Co-Founder at Qoden <br />
-* [Tim Leonhardt](https://www.linkedin.com/in/timleonhardt/) Leonhardt Senior Product Manager at LexisNexis Risk Solutions <br />
-* [Jamey Noland](https://www.linkedin.com/in/jamey-noIand-86978958/) Director at PenTrust Inc. <br />
-* [Mark Roderick](https://www.linkedin.com/in/markroderick/) Principal Partner at Lex Nova Law LLC <br />
-* [Timothy Spangler](https://www.linkedin.com/in/timothyspanglerjd/) FinTech & Securities Regulatory Partner at Dechert LLP <br />
-* [Mark Regan](https://www.linkedin.com/in/iworktoski) Partner at Grit Ventures <br />
-* [Ashley Frederick](https://www.linkedin.com/in/ashley-frederick-0b5a53142/) Frederick Design <br />
-
 ### What project are you building 
 > The first Ethereum-based investment engine.
 ### Why did you decide to build it 
