@@ -1,25 +1,24 @@
 # Proposal Guideline 
-_This is a guideline on how to best structure your proposal._
 
 ## Project Overview
 
-### Project name
-James Sheeder
+### Project name'
 
+Bruno
 
 ### Team members 
-> [James Sheeder](https://www.linkedin.com/in/james-sheeder-1282a8156) Co-Founder at BRUNO
-> [Taylor Bingwa](https://www.linkedin.com/in/taylorbingwa/) Head of Sales at Qoden
-> [Albert Tackie](https://www.linkedin.com/in/albert-tackie/) Software Engineer & Co-Founder at BRUNO
-> [Anjali Tomer](https://www.linkedin.com/in/anjalitomer/) Senior Product Manager at Zest Al
-> [Matt Kaufman](https://www.linkedin.com/in/matt-kaufman-7972b567/) Attorney at Hathaway & Kunz, Wyoming Blockchain Taskforce
-> [Andrey Verbin](https://www.linkedin.com/in/andrey-verbin-1a40568/) Co-Founder at Qoden
-> [Tim Leonhardt](https://www.linkedin.com/in/timleonhardt/) Leonhardt Senior Product Manager at LexisNexis Risk Solutions 
-> [Jamey Noland](https://www.linkedin.com/in/jamey-noIand-86978958/) Director at PenTrust Inc.
-> [Mark Roderick](https://www.linkedin.com/in/markroderick/) Principal Partner at Lex Nova Law LLC
-> [Timothy Spangler](https://www.linkedin.com/in/timothyspanglerjd/) FinTech & Securities Regulatory Partner at Dechert LLP
-> [Mark Regan](https://www.linkedin.com/in/iworktoski) Partner at Grit Ventures
-> [Ashley Frederick](https://www.linkedin.com/in/ashley-frederick-Ob5a53142/) Frederick Design
+> [James Sheeder](https://www.linkedin.com/in/james-sheeder-1282a8156) Co-Founder at BRUNO <br />
+> [Taylor Bingwa](https://www.linkedin.com/in/taylorbingwa/) Head of Sales at Qoden <br /> 
+> [Albert Tackie](https://www.linkedin.com/in/albert-tackie/) Software Engineer & Co-Founder at BRUNO <br />
+> [Anjali Tomer](https://www.linkedin.com/in/anjalitomer/) Senior Product Manager at Zest Al <br />
+> [Matt Kaufman](https://www.linkedin.com/in/matt-kaufman-7972b567/) Attorney at Hathaway & Kunz, Wyoming Blockchain Taskforce <br />
+> [Andrey Verbin](https://www.linkedin.com/in/andrey-verbin-1a40568/) Co-Founder at Qoden <br />
+> [Tim Leonhardt](https://www.linkedin.com/in/timleonhardt/) Leonhardt Senior Product Manager at LexisNexis Risk Solutions <br />
+> [Jamey Noland](https://www.linkedin.com/in/jamey-noIand-86978958/) Director at PenTrust Inc. <br />
+> [Mark Roderick](https://www.linkedin.com/in/markroderick/) Principal Partner at Lex Nova Law LLC <br />
+> [Timothy Spangler](https://www.linkedin.com/in/timothyspanglerjd/) FinTech & Securities Regulatory Partner at Dechert LLP <br />
+> [Mark Regan](https://www.linkedin.com/in/iworktoski) Partner at Grit Ventures <br />
+> [Ashley Frederick](https://www.linkedin.com/in/ashley-frederick-Ob5a53142/) Frederick Design <br />
 
 ### What project are you building 
 > The first Ethereum-based investment engine.
@@ -45,7 +44,7 @@ The governance token "BRO" will be an ERC20 structure to be issued in conjunctio
 
 Mr. Sheeder, the founder of BRUNO, has been a Broker and Registered Investment Advisor for over 20 years in Investment Banking, Executive Benefits, and Private Placements. He has operated with JOBS Act regulation since 2014 with transactions including fund structure, Real Estate, and Early Stage Capital.
 
-Mr. Tackie is the co-founder of BRUNO with a degree in Software Engineering operating as a developer in the Healthcare space for over a decade. He has worked with the Founder on and off since 2011. Mr. Tackie is currently focusing on the issues of security, custody, and liquidity in the Ethereum ecosystem.
+Mr. Tackie is the co-founder of BRUNO & has been operating as a developer in the Healthcare space for nearly a decade. He has worked with the Founder on and off since 2011. Mr. Tackie is currently focusing on the issues of security, custody, and liquidity in the Ethereum ecosystem.
 
 Ms. Frederick has a degree in Family Business and specializes in state-of-the art design, publishing, and digital marketing. She is currently studying Ethereum protocol as the basis for Web 3.0. Other team members have deep experience in Venture Capital, Real Estate, Pension Management, Software Development, as well as Law and Securities Regulation.
 
@@ -92,15 +91,10 @@ $10,000, 4-6 weeks
 
 From the token "BRO" representing ownership in the General Partner, BRUNO Capital will be created, an Investment Advisor managing pooled investments in an underlying fund structure operating as a series or sometimes called "Hub and Spoke" structure. This can allow for an expansion of new fund structures with various themes from crypto to the environment, social, and governance (ESG) while at the same time simplifying legal structure, regulatory compliance, and the technology upon which they settle. Ethereum has forever changed the way capital will be raised, from its own initial offering, now to be replicated by other structures, while at the same time in compliance with existing regulation.
 
-BRUNO LLC
-Allocations by Group
-$10 million valuation
-40 million shares offered at  each
-
 <p align="center">
-BRUNO LLC
-Allocations by Group
-$10 million valuation
+BRUNO LLC <br />
+Allocations by Group <br />
+$10 million valuation <br />
 40 million shares offered at  each
 </p>
 
