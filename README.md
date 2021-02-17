@@ -10,7 +10,7 @@ We provide selected applicants with funding, mentoring, and outreach support to 
 
 We welcome you to explore a diverse range of topics, such as tooling, infrastructure, and research, that fall in line with the products we're building at Gnosis. Are you enthusiastic about building modules and integrations for our products, enhancing user experience, or passionate about new market mechanisms and governance.
 
-Well, this is your opportunity to #BUIDL!
+Well, this is your opportunity to #BUILD!
 
 To reach our goal of a decentralized future, it is imperative that we support developers who want to build on distributed platforms. We believe that the Gnosis Ecosystem Fund will bring us one step closer to the redistributed future we’re imagining!  
 ### What kind of projects are we looking for? 
@@ -69,7 +69,7 @@ Check out our template [here](https://github.com/gnosis/Gnosis-Ecosystem-Fund/bl
 * Fork the [Gnosis Ecosystem Fund GitHub repository](https://github.com/gnosis/Gnosis-Ecosystem-Fund)
 * Create a new file with your project’s name 
 * Outline your proposal in that file 
-* Create a Pull Request to merge your submission into the our repository 
+* Create a Pull Request to merge your submission into our repository 
 
 #### Pitches
 We will select up to 10 teams per submission round to pitch their project to a selected group of people from the Gnosis team. 
