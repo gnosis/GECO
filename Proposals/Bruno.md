@@ -1,11 +1,9 @@
 ## Project Overview
 
 ### Project name
-
 <p align="right">
-  <img width="400px" src="./assets/Bruno/BRUNO.png" />
+  <img width="300px" src="./assets/Bruno/BRUNO.png" />
 </p>
-
 # Bruno
 
 ### Team members 
