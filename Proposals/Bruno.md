@@ -30,7 +30,7 @@
 ### How much funding are you requesting  
 > $50,000
 ### How did you hear about the GECO
-.> We became familiar with Gnosis/GECO from Bankless whom we follow on Twitter and other platforms.
+> We became familiar with Gnosis/GECO from Bankless whom we follow on Twitter and other platforms.
 
 ## Your Proposal 
 ### Project description
