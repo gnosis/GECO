@@ -111,5 +111,5 @@ It is not capable of comprehension and therefore is endless and limitless"
 </p>
 
 <p align="center">
-  #### Copyright © 2021 BRUNO. All rights reserved.
+  <sub><sup>Copyright © 2021 BRUNO. All rights reserved.</sup></sub>
 </p>
