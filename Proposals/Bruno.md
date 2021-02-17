@@ -30,7 +30,7 @@
 ### How much funding are you requesting  
 > $50,000
 ### How did you hear about the GECO
-> We became familiar with Gnosis/GECO from Bankless whom we follow on Twitter and other platforms.
+.> We became familiar with Gnosis/GECO from Bankless whom we follow on Twitter and other platforms.
 
 ## Your Proposal 
 ### Project description
@@ -53,7 +53,7 @@ Ms. Frederick has a degree in Family Business and specializes in state-of-the ar
 
 **Phase I**
 
-will focus on regulation and security. This will include "What is a true governance and utility token? How can this be used for voting and semi-autonomous organizations?"
+Will focus on regulation and security. This will include "What is a true governance and utility token? How can this be used for voting and semi-autonomous organizations?"
 
 **Deliverables**
 
@@ -111,5 +111,5 @@ It is not capable of comprehension and therefore is endless and limitless"
 </p>
 
 <p align="center">
-  ###### Copyright © 2021 BRUNO. All rights reserved.
+  #### Copyright © 2021 BRUNO. All rights reserved.
 </p>
