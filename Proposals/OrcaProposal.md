@@ -7,7 +7,7 @@
 ### What project are you building 
 > We are building Orca Protocol: a gas-efficient and Sybil-resistant DAO implementation using ERC1155.
 ### Why did you decide to build it 
-> We believe that existing governance frameworks lack ways to meaningfully manage hierarchy and permissions. The DAO usability problems result in voter apathy and misaligned voter incentives. Therefore, we are excited to build a flexible, adaptable, and user-friendly DAO implimentation.   
+> We believe that existing governance frameworks lack ways to meaningfully manage hierarchy and permissions. The DAO usability problems result in voter apathy and misaligned voter incentives. Therefore, we are excited to build a flexible, adaptable, and user-friendly DAO implimentation with Orca Protocol. 
 ### How long will it take 
 > Estimation of how long you will need to finalize the project
 ### How much funding are you requesting  
@@ -17,7 +17,9 @@
 
 ## Your Proposal 
 ### Project description
-_Outline a detailed description of your project, why you chose to build this project, the overall goal and future outlook of your project and why we should fund you._
+Orca Protocol is a gas-efficient, Sybil-resistant DAO implementation using ERC1155. The protocol is equipped with a simple UI dashboard to manage DAO proposals and allow on-chain voting for on-chain assets, all secured using Gnosis Safe. Orca is made up of pods: organizations that consist of a fixed number of member tokens each representing a single vote. Each pod is linked to a Gnosis Safe multi-sig vault to securely hold shared on-chain assets.  
+
+We have built pods modularly so they have the flexibility to accommodate infinite use cases including project governance, pooled investing, community management, and so much more. Our motivation in building Orca Protocol is to allow for DAOs to easily create customizable rules and manage permissions. We believe our adaptable protocol is a critical step toward on-chain governance reaching its full potential.
 ### Features
 _How do you plan to implement your project, which tools and framework will you use? Optional: Architecture, Mockups, etc._
 ### Team description
