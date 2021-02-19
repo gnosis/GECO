@@ -3,11 +3,11 @@
 ### Project name
 > Orca Protocol
 ### Team members 
-> Name your team members
+> Julia Rosenberg, John Sterlacci, Steven Valeri, Will Kim, Daniel Thompson, Gresshaa Mehta, Margaux Paradis
 ### What project are you building 
-> Short summary/abstract of your project
+> We are building Orca Protocol: a gas-efficient and Sybil-resistant DAO implementation using ERC1155.
 ### Why did you decide to build it 
-> Short summary of your motivation 
+> We believe that existing governance frameworks lack ways to meaningfully manage hierarchy and permissions. The DAO usability problems result in voter apathy and misaligned voter incentives. Therefore, we are excited to build a flexible, adaptable, and user-friendly DAO implimentation.   
 ### How long will it take 
 > Estimation of how long you will need to finalize the project
 ### How much funding are you requesting  
