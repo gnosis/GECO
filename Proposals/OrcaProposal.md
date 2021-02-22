@@ -7,7 +7,7 @@
 ### What project are you building 
 > Orca Protocol: a gas-efficient and Sybil-resistant DAO implementation using ERC1155.
 ### Why did you decide to build it 
-> We believe that existing governance frameworks lack ways to meaningfully manage hierarchy and permissions resulting in voter apathy and misaligned voter incentives. Therefore, we are excited to build a flexible, adaptable, and user-friendly DAO implimentation with Orca Protocol. 
+> We believe that existing governance frameworks lack ways to meaningfully manage hierarchy and permissions resulting in voter apathy and misaligned voter incentives. A protocol which allows DAOs to easily create flexible rules and manage permissions is critical in order for on-chain governance to reach its full potential.
 ### How long will it take 
 > Estimation of how long you will need to finalize the project
 ### How much funding are you requesting  
@@ -21,9 +21,9 @@ Orca Protocol is a gas-efficient, Sybil-resistant DAO implementation using ERC11
 
 We have built pods modularly so they have the flexibility to accommodate infinite use cases including project governance, pooled investing, community management, and so much more. Our motivation in building Orca Protocol is to allow for DAOs to easily create customizable rules and manage permissions. We believe our adaptable protocol is a critical step toward on-chain governance reaching its full potential.
 ### Features
-_How do you plan to implement your project, which tools and framework will you use? Optional: Architecture, Mockups, etc._
+This project is built using Javascript and Solidity. To set up our dev environment we used Hardhat/Waffle, and mainnet forking. We used ERC1155 to track our membership tokens, and rules are stored as Structs that get packed into transactions and executed at runtime. Each pod will be connected to a Gnosis Safe instance, and transactions are relayed through the safe. Additionally, we used Tenderly for some of the more complex debugging. 
 ### Team description
-_Who are your team members, what is your background and what you built before._
+See deck. 
 ### Timeline, Milestones and Deliverables
 _Detailed description of your timeline milestones and the corresponding payouts_
 
