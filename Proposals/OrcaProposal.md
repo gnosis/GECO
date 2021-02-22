@@ -43,4 +43,6 @@ _Detailed description of your timeline milestones and the corresponding payouts_
 
 
 ### Others	 
-Anything else you want to share with us
+Twitter: https://twitter.com/orcaprotocol
+Site: https://www.orcaprotocol.org/
+Github: https://github.com/orcaprotocol
