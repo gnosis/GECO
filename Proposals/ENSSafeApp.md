@@ -1,7 +1,5 @@
 # Proposal Guideline
 
-_This is a guideline on how to best structure your proposal._
-
 ## Project Overview
 
 A Gnosis Safe Ethereum Name System application.
@@ -37,7 +35,9 @@ https://github.com/kamescg/gnosis-safe-ens-app
 
 Broadly, I think it's an important application to have for the community. Most serious projects use a Gnosis Multsig to manage projects and having a way to easily add ENS name to a project infrastructure is a valuable.
 
-More specifically, I would like to earn the bounty.
+Personally, I use ENS for my accounts and have several projects (comming) that require a multisig and having a simple way to manage domains would be nice.
+
+And more specifically, I would like to earn the bounty.
 
 ### How long will it take
 
@@ -59,15 +59,36 @@ Was directed towards GECO by a Gnosis Safe Staff Member (John)
 
 A complete integration with the Ethereum Name System.
 
-I'm building this project, because I want the prestige (and bounty) of building a popular application for Gnsosis.
+I'm building this project, because I want the prestige (great resume item) of building a popular application for Gnsosis and ENS.
 
-Gnosis should fund me, because I will build a clean, easy-to-maintin application that will be completed quickly and on-time.
+Gnosis should fund the proposal, because I will build a clean, easy-to-maintin application that will be completed quickly and on-time.
 
 ### Features
 
-I plan on contintuing to build using the Gnosis Safe App Template.
+#### Primary Features
 
-Adding ethers, web3-react and @gnosis.pm/safe-apps-ethers-provider to manage communication with the network.
+- Display ENS names owned by your Safe
+- Register .ETH name (by default should also set resolver to Public Resolver and ETH Address record to multisig’s receiving Ethereum address)
+- Claim DNS name on ENS (by default should also set resolver to Public Resolver and ETH Address record to multisig’s receiving Ethereum address)
+- Create subdomains of ENS names
+- Transfer ENS name’s Registrant and Controller
+- Set ENS name resolver (should default to most recent Public Resolver)
+- Set ENS name records (Addresses, Content, Text Records)
+- Renew/add registration years to .ETH names
+
+#### Design
+
+- Logo/Branding
+- Matching CSS
+- Helpful Links
+
+**A significant emphasis will be put on matching the current Ethereum Name System branding and style to ensure trust with user.** Matching the existing ENS APP CSS (copying/pasting if possible) and writing any custom styling (matching aesthetic) so the ENS Safe App feels like a native experience.
+
+#### Libraries/Module
+
+Will use the standard frontend libraries: ethers, web3-react (if neccesary) and @gnosis.pm/safe-apps-ethers-provider to manage communication with the network.
+
+I plan on build the ENS Safe APp using the Gnosis Safe App Template, which has already been forked and edited.
 
 https://github.com/kamescg/gnosis-safe-ens-app
 
