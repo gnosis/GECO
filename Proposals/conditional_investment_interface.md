@@ -46,7 +46,7 @@ This will use existing smart contracts - Uniswap Core + Router, Conditional Toke
 > > [David Johnston](https://www.linkedin.com/in/david-johnston-50461b141/) ([github](https://github.com/davidoj)) - working on an AI PhD & as a consulting data scientist
 ### Timeline, Milestones and Deliverables
 
- - Uniswap trade interface with split & wrap capability
- - Medium article explaining conditional investment & how to do it with splits and trades
+ - Uniswap trade interface with split & wrap capability (April 23, 2021)
+ - Medium article explaining conditional investment & how to do it with splits and trades (April 30, 2021)
 
 ### Others	 
