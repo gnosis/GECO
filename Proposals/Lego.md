@@ -1,6 +1,6 @@
 # GECO Proposal — Lego DAO
 
-For: [https://github.com/gnosis/GECO](https://github.com/gnosis/GECO)
+
 ## Project Overview
 ### Project name
 > Lego DAO
