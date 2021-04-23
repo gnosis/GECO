@@ -20,11 +20,17 @@
 ### Project description
 *Outline a detailed description of your project, why you chose to build this project, the overall goal and future outlook of your project and why we should fund you.*
 ### Why
+
 [Why Lego DAO?](https://www.notion.so/Why-Lego-DAO-aa28e06aa1a149b0a3a16cdbe0b76188) 
+
 Gnosis has specifically expressed desire to see more DAO adoption and tooling related to Gnosis Safe. We are creating a framework in which Gnosis Safe plays an essential role, and so are extending the number of use cases for Gnosis Safe and make it a logical choice for a central component in a DAO architecture.
 Also, as a team of experienced and connected DAO builders, we believe we have a high chance of successfully building on and advocating for Gnosis Safe-based solutions such as Lego. We are already in talks with a number of prominent projects including Yearn, DXdao, Rarible, and Lido.
 ### Features
+
 [Lego DAO MVP](https://www.notion.so/Lego-DAO-MVP-a621e77ba18a45c3ae7522498865f03c)
+
 [Lego DAO Architecture](https://www.notion.so/Lego-DAO-Architecture-a2c6091773bc456196d223a0d8b868b8)
+
 ### Team description
+
 [Who We Are](https://www.notion.so/Who-We-Are-3fd0ca042b6c4572a3fae26ee7d7bc00)
