@@ -1,4 +1,4 @@
-# GECO Proposal — Lego DAO
+# Lego DAO
 
 
 ## Project Overview
@@ -18,8 +18,7 @@
 > Twitter + Auryn Macmillan
 ## Your Proposal
 ### Project description
-*Outline a detailed description of your project, why you chose to build this project, the overall goal and future outlook of your project and why we should fund you.*
-### Why
+
 
 [Why Lego DAO?](https://www.notion.so/Why-Lego-DAO-aa28e06aa1a149b0a3a16cdbe0b76188) 
 
