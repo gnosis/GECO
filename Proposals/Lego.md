@@ -13,7 +13,7 @@
 ### How long will it take
 > This is an open-ended project, so there is no clear final date. We believe we can build a useable MVP from the code we already have in about 3 months.
 ### How much funding are you requesting
-> $5k-100k - we can agree on specific deliverables
+> $100k - we can agree on specific deliverables
 ### How did you hear about the GECO
 > Twitter + Auryn Macmillan
 ## Your Proposal
