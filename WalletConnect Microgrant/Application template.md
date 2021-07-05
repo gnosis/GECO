@@ -3,31 +3,37 @@ _This is a guideline on how to apply for a WalletConnect microgrant_
 
 
 ### Dapp name
-> Name of your project and provide an URL to access it
+Linkdrop.io
 
 ### Team members
-> Name your team members 
+
+ At Linkdrop we are 5 full-time technical people
+
+https://github.com/orgs/LinkdropHQ/people
+
 
 ### GitHub Repo
-> Link to your GitHub Repo
+https://github.com/LinkdropHQ
 
 ### What is your Dapp about?
-> Short summary/abstract of your project. What can a user do with your dapp?
+We focus on onboarding non crypto-users as easy as possible into digital assets
 
 ### Why did you decide to build it?
-> Short summary of your motivation
+We have built a range of wallets and dapps in the past, and have on our own body experinced how hard it is to convince normal people to use it
 
 ### How big is your user base?
-> How many users does your Dapp have? How many active users does your Dapp have?
+We have in total had around 5.0000 unique transactions so far
 
 ### How long will you need to integrate a Gnosis Safe compatible WalletConnect integration?
-> Estimation of how long you will need to build the integration
+We will need around a month for fully tested & audited hand-over. We have already worked on WalletConnect Module to Gnosis Safe, so we are quite familiar with the codebase and what is needed.
 
 ### Does your Dapp use message signing?
-> The Gnosis Safe is a smart contract wallet. That means there is no single private key that can be used to sign messages. If your dapp requires message signing, please map out a high level plan on how you want to make it compatible with the Safe. We are working on contract signature support via EIP1271 and hope to be able to have it live by the beginning of Q4 on Android and iOS.
+We use an ephemeral private key 🔑 ‘linkKey’ to sign the receiver’s address
 
 ### How did you hear about the GECO?
-> Website, Twitter, Conference and others
+
+We heard about GECO through our friends at Brainbot / Mainz
 
 ### Others
-> Anything else you want to share with us
+
+Thanks for a great Dappcon!
