@@ -1,0 +1,123 @@
+## Project Overview
+
+### Project name
+  
+Mesa CMM Safe App
+
+### Team members 
+
+Psybull
+
+### What project are you building 
+
+The Mesa CMM Safe App is a Gnosis Safe App which seeks to streamline and simplify the deployment of the [Custom Market Maker](https://docs.gnosis.io/protocol/docs/intro-cmm/) (CMM) as well as serving as a dashboard for viewing some basic performance metrics on deployed CMMs, such as P&L and total asset value.
+
+### Why did you decide to build it 
+
+After doing a manual deployment of a CMM for the recent GNO liquidity incentive program, I felt that the setup was too complex for anyone but a relatively experienced developer, as well as desiring a way to track the performance/yield of my maker without withdrawing the funds.  After voicing some of this feedback on the Gnosis Discord, I offered my services to help build a proof of concept to cover these feature requests with a custom UI built into a Safe App.
+
+### How long will it take 
+
+I would estimate around 6 weeks of project time, broken down as such:
+
+4 weeks - Conversion of current CMM liquidity provision script setup to fully compile/deploy contracts in JS in the browser.
+2 weeks - UI/UX development of Safe App in React
+
+These timelines are subject to change as development progresses, but any anticipated deviation will be communicated promptly to Gnosis team 
+
+### How much funding are you requesting  
+
+As this is a custom Safe App with novel functionality, I am requesting $5000 in funding for completion.
+
+### How did you hear about the GECO
+
+Discussions with team members through the Gnosis Discord.
+
+## Your Proposal 
+### Project description
+
+The Mesa CMM Safe App is built as a Gnosis Safe App to provide a streamlined user interface for deployment of the [Custom Market Maker](https://docs.gnosis.io/protocol/docs/intro-cmm/).  
+
+### Features
+
+#### Architecture
+
+The app will be a React web application built over the [Safe Apps SDK](https://github.com/gnosis/safe-apps-sdk) and utilize the [Gnosis Subgraph](https://thegraph.com/explorer/subgraph/gnosis/protocol) for querying data, with [chart.js](https://github.com/chartjs/Chart.js) as a light charting library.
+
+#### Application UI Components
+
+The initial PoC will be a minimalist, single page app following in the footsteps of [Uniswap](https://uniswap.exchange/).  There are three main user workflows for the app, Deploying, Viewing, and Closing CMMs under their control.
+
+
+##### Deploy New CMM
+
+UI to automate the deployment of a new CMM
+
+The following variables for the CMM will be set by this component:
+
+| variable | source  |
+|----------|---------|
+| `masterSafe` | The current active Safe, as provided by the SDK |
+| `numBrackets` | Defaulted to `10` to match incentive guidelines |
+| `baseTokenId` | User Input - selection list based on 'volatile' tokens as per the incentive guidelines (currently {WETH, WBTC, UMA, DMG, COMP, UAX, PNK, SNX, DXD, ANT, DZAR, GRID, GNO} ).  De-activate tokens that are not present in `masterSafe`, sort list by daily exchange volume |
+| `depositBaseToken` | User Input - amount of `baseToken` to deposit into the maker.  Maximum is based on `masterSafe` balance of `baseToken` |
+| `quoteTokenId` | User Input - selection list based on 'stable' tokens as per the incentive guidelines (currently {DAI, USDC, OWL, sUSD} ). De-activate tokens that are not present in `masterSafe`, sort list by daily exchange volume |
+| `depositQuoteToken` | User Input - amount of `quoteToken` to deposit into the maker.  Maximum is based on `masterSafe` balance of `quoteToken` |
+| `lowestLimit` | User Input - lower limit of the CMM's price range |
+| `highestLimit` | User Input - upper limit of the CMM's price range |
+| `currentPrice` | User Input - middle point between `lowestLimit`-`highestLimit`, or current pair price as read from dex.ag |
+
+User will be asked to input the variables as outlined above, then the necessary transactions will be automatically generated and pushed to the Safe for approval/submission by the multisigs.
+
+Confirmation of creation should also display estimated gas fees for creation.
+
+##### View CMM
+
+UI for performance and other key metrics of an actively deployed CMM.
+
+Panel will display:
+ - current total asset value
+ - profit/loss vs. simply holding the tokens
+ - trades executed
+
+Optionally, any reamining time will go into data-visualization elements, such as charts of the data (using [chart.js](https://github.com/chartjs/Chart.js))
+
+Also contains a visual element to send user to Close this CMM.
+
+##### Close CMM
+
+UI to allow user to close their positions in the CMM brackets, and withdraw the funds back to their `masterSafe`.
+
+There should be a warning/explanatory confirmation panel, to reduce liklihood User closes unintentionally through confusion, and should show User the expected assets to withdraw, and the gas fee for execution.
+
+All necessary ETH TX for closing and withdrawals will then be generated by application and submitted for multisig approval, after which the funds will be returned to the `masterSafe`
+
+
+### Team description
+
+Psybull is a full stack JS engineer with 10 years of experience building consumer-facing mobile and web applications in a variety of industries.  He recently built and delivered a [Synthetix GrantsDAO project](https://github.com/psybull/snx-governance-discord-bot), and his linked in is: psybull
+
+### Timeline, Milestones and Deliverables
+
+
+**Phase I - Initial PoC Development** 
+
+**Deliverables**
+
+The initial PoC will be a joint effort between Psybull and Gnosis team, comprised of a functional codebase that covers all of the features outlined above.  The application will be built to run over the Rinkeby test network, and then shared with broader user group for iteration in Phase II.
+
+**Time and Price Estimate**	
+
+4 weeks, $3000
+
+**Phase II - Iteration**
+
+**Deliverables**
+
+Phase II will be about iteration between Psybull, Gnosis team, and any other alpha-testers.  Design, functionality, testing, etc. will be evaluated by all stakeholders, and feedback will be continually incorporated by Psybull, with the final deliverable being the acceptance and deployment of the app the the Gnosis Safe mainnet.
+
+**Time and Price Estimate**	
+
+2 weeks, $2000
+
+Time windows are the same for phases, but prices are different, due to exected lag-times and buffer time to account for large timezone discrepancies for the various stakeholders in this phase.
