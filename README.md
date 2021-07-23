@@ -50,7 +50,7 @@ The Gnosis Ecosystem Fund provides more than just financial support. You will al
 Teams will have the option of working at [Full Node](https://www.fullnode.berlin/), our co-working space in Berlin. The Gnosis Communications team will provide branding and outreach support to encourage engagement with the larger blockchain community. Bigger projects will have the opportunity to present their work at [DappCon](https://dappcon.io/). 
 
 ### How to apply for a grant:
-From 2020 on we will accept application on a monthly basis. Submit your proposal until the end of each month and will get back to you. 
+From 2020 on we will accept applications on a monthly basis. Submit your proposal until the end of each month and we will get back to you. 
 
 ### Your proposal should include: 
 * What you want to build
