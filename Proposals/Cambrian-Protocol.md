@@ -92,7 +92,7 @@ We are pushing the applications of Gnosis tech! We believe Solvers harness the p
 
 **Paul Malin** is an entrepreneur with multiple exits under his belt. His career has focused on accounts, strategic alliances, sales and other business development efforts. He discovered Bitcoin at $70 and is dutifully obsessed with the potential of blockchain technology to create an internet of value. He spent his 20s in a rock band, holds an MBA from the University Toronto, and a BSc in Chemistry from the University of Alberta.
 
-**Oliver Hens** is an experienced UX developer, entrepreneur and part-time digital nomad. His experience ranges from software engineering at MIPS in Germany to running a photography and film-making business in Panama. He discovered the potential of blockchain technology recently and has taken the plunge with Cambrian to build the future of work.
+**Oliver Hens** is an experienced UX developer, entrepreneur and part-time digital nomad. His experience ranges from software engineering on laboratory systems in Germany to running a photography and film-making business in Panama. He discovered the potential of blockchain technology recently and has taken the plunge with Cambrian to build the future of work.
 
 **Ryan Walker** studied robotics and electrical engineering in college while maintaining a key interest in emerging technologies. He’s an industry professional of 10 years with a formidable side-project portfolio, including the blockchain-based MMO ecosystem “Worlds”, which allows digital assets to be transferred between several independently developed games. Outside of his collaboration with the Cambrian team, he develops for Oculus on cutting-edge Augmented Reality technologies.
 
