@@ -42,21 +42,15 @@ gnosis.io
 
 Our project seeks to build foundational legos ("_Solvers_") system for composing novel goods, labor and service solutions which can be used by non-developers. It also seeks to develop a crypto-economic incentive model to attract developers to the creation of new Solvers and introduction of additional utility to the system. Developers are rewarded with a small fee from funds which flow through their Solvers, incentivizing development of those with valuable general-purpose functionality or which capture profitable niches. We are also building a staking scheme to curate and signal high-value Solvers and Solutions in a marketplace, allowing third parties to easily select the best tools for their needs.
 
-Solver implementations are instantiated as proxy contracts with custom parameters for instances of a project, which may be to:
+Solver implementations are instantiated as proxy contracts with custom parameters for instances of a project, which may be to:  
+
 • Hire freelancers for a work  
-
 • Enter mutual funding agreements with other organizations  
-
 • Administer grants programs and public goods funding  
-
 • Sell labor and services on-chain  
-
 • Accountably allocate resources within decentralized organizations  
-
 • Run contests and lotteries  
-
 • Conditionally incentivize delegates and other entities  
-
 • . . .and much more!  
 
 
