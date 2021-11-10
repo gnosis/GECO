@@ -65,7 +65,7 @@ The DAO funds the proposal to deploy a three-Solver Solution separately managing
 2. Approving the work — _Solver[1]_
 3. Passing a security audit — _Solver[2]_
 
-![Solution](../assets/CambrianProtocol/solution.png){: width=300 style="float:right; padding:16px"}
+<img src="./assets/CambrianProtocol/solution.png" alt="solution diagram" width="350">
 
 _Solver[0]_ implements a prediction market, open only to the DAOs members, to select the developer from a list of applicants after some period. It splits a position of **_CT(A)("Successfully Chose a Developer")_** and **_CT(B)("Failed to Choose")_**. **_CT(A)_** is sent to _Solver[1]_, and **_CT(B)_** is returned to the DAO for redemption in the event that a developer cannot be found. Its `Keeper` is a Gnosis Safe with the Zodiac Reality module which reports **_(A)_** only if the winning developer's tokens are trading above a certain price.
 
