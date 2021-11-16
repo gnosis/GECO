@@ -98,21 +98,28 @@ We are pushing the applications of Gnosis tech! We believe Solvers harness the p
 
 ## Timeline, Milestones and Deliverables
 
-_Some aspects of our roadmap that have already received funding are not included here._
+_Some aspects of our roadmap that have already received funding are not included here. All milestones will be open sourced no later than Q2 2022 and we are working towards ultimately exiting to the community._
 
 1. Basic proof-of-concept Solver and Proposal contracts - **DONE!**
+_Users can create multi-step solutions leveraging a basic Solver and fund them through an on-chain proposal system._
 
 2. UI + Safe App for composing solutions, creating proposals and administering active solutions – _Q1 2021_ - est. **$12,500**
+_Opens up access to non-developers to create solutions from existing Solvers and employ them in DAO (or other) operations._
 
 3. Safe-friendly smart contracts/UI supporting atomic revisions to proposed solutions – _Q1 2021_ - est. **$10,000**
+_Improves the flow for DAOs to internally create and approve projects._
 
 4. Support for deploying new Gnosis Safes as part of a Solution's configuration - *Q1 202*2 - est. **$15,000**
+_Greatly reduces the friction for adopting bespoke Keeper/Arbitration solutions by allowing appropriate Safes to be deployed just-in-time._
 
 5. A general-purpose Solver implementing a prediction market for making a selection from a set of candidate options - _Q1 2022_ - est. **$20,000**
+_Introduces the power of futarchy to use cases such as selecting vendors, preferred designs and competition winners. Can also be used to select Solvers for other projects; How meta!_
 
 6. A prudent security audit for our integrated Gnosis Safe deployment and prediction market Solver - _Q1 2022_ - est. **$7,000**
+_Safety first._
 
 7. The fee-taking and curative staking system + UIs to drive development and adoption of a solutions marketplace - _Q2 2022_ - est. **$25,000**
+_We intend for this flywheel to allow us to decentralize as CambrianDAO and create a community-driven initiative towards web3 market adoption._
 
 ## Others
 
