@@ -1,3 +1,5 @@
+:bangbang:**_UPDATE: The Gnosis Ecosystem Fund was discontinued._**  Projects can now directly apply for funding through the [GnosisDAO](https://forum.gnosis.io/t/readme-gnosisdao-governance-process/736)
+
 <p align="center">
   <img width="400px" src="https://github.com/gnosis/GECO/blob/master/geco_rgb_horizontal_left_darkblue.png" />
 </p>
