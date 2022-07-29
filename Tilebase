@@ -1,0 +1,248 @@
+1, What’s your project name? *
+(Please attach its GitHub link)
+
+Name: Tilebase
+Email: tilebase.inc@gmail.com
+Github: https://github.com/Tilebase
+
+2, Describe your project? *
+(What is it about, what problem it will solve, what technology it mainly uses, etc. The more info you provide the better)
+
+TILEBASE acts as a first-party Oracle aggregator, allowing the end user to subscribe to real-time off-chain data endpoints that are connected directly to the blockchain.
+
+We provide accurate and reliable data feeds for DEX's & Dapps; directly from off-chain API providers operating as first-party Oracle nodes on the blockchain.
+
+TILEBASE is built for the end user. We make it easy for our users to be able to connect seamlessly and directly into their own Web3 projects; to integrate and gain access to thousands of decentralized data feeds, without the need of hiring additional developers to deploy functionality.
+
+3, Does your project really require the blockchain to succeed? *
+(If so, to what degree?)
+
+For this project to reach its full potential, it will need hundreds, if not thousands of first-
+party oracles so that it can easily set up new dAPIs or recompose existing ones, into a consensus aggregator, to provide decentralized priced feeds on-chain. This can only be achieved if API providers are able to get educated on how to integrate their end-points through our Web3 gateway, seamlessly onto the blockchain, to host and monetize on our platform.
+
+Any disputes against the data feeds in terms of outlier events are backed by the Kleros Courts on-chain dispute settler with our staked native asset ($TILE) placed in fixed-term insurance pools.
+
+4, What is the project’s business model ? *
+(Please describe in detail)
+
+Our goal is to provide accurate and real-time aggregated off-chain data dAPI end-points to Web3 integrated applications for new and existing blockchain developers to leverage for their DEX & Dapp projects; via a subscription/ licensing model. 
+
+Revenue Streams:
+
+1. Hosting Fees from API Providers listing their end-points on our Dapp
+2. dAPI Marketplace
+3,Live data feed subscription packages
+4.Insurance Liquidity Pool rewards
+5. Generalized Mining Initiatives
+
+TILEBASE is a multi-chain dAPI Oracle that hosts off-chain data end-points from API providers that operate first-party oracle nodes which are completely visible on-chain through our Dapp.
+
+The number of oracles serving a data feed will accurately represent how decentralized it is, as there is a one-to-one mapping between oracles and data sources.
+
+API providers supply off-chain data feeds to monetize their data onto the blockchain.
+
+2. Web3 applications can then connect with these accurate and reliable dAPI's from the off-chain data provider endpoints hosted on 'The Marketplace'; by licensing these individual data feeds
+
+AND
+
+3. Web3 applications can access and integrate real-time decentralized aggregated data feed bundles that connect seamlessly, and directly into any project, via a monthly subscription package, that can be paid using our Dapp in either crypto or visa/ mastercard.
+
+4. Holders of the native asset will stake ($TILE) against the aggregated first-party Oracle subscription pools for a fixed term on our Dapp; to collateralize and insure against our protocol and data feeds, to receive compounded yield daily.
+
+Staked tokens act as insurance to our protocol, which is backed by the Kleros Court to settle any data feed and outlier event disputes on-chain.
+
+5, What stage is your project at currently? *
+
+Litepaper / Whitepaper
+
+Is there an ongoing fundraising round for the project?
+No
+
+6, What do you want to achieve in the next 3 months and what is the general vision for the project? *
+(If there are clear roadmap and milestone you plan to achieve, please state)
+
+https://drive.google.com/file/d/1J4hd84IqkkhBW_cNdI3e58qqlrhBYTgt/view?usp=sharing
+
+Phase I: Grant Funding
+
+Deliverables: 
+
+-Build out team, design project 
+
+Time and Price Estimate (Q3 2021) $85,000 grant
+__________________________________________________________________________________________
+
+Phase II: MVP & Token Distribution
+
+Deliverables: 
+
+-Project Demo, Web3 Gateway, API Provider on-boarding, Whitepaper,  ICO
+
+Time and Price Estimate (EOY 2021) It will cost roughly $13,500/month to achieve this development team (1 CTO, 2 Back-end, 2 Front-End Developers)for 6 months.
+
+___________________________________________________________________________
+
+Phase III: Pre-Seed Funding Round
+
+Deliverables: 
+
+-Progress the project and to expand the development team
+
+Time and Price Estimate (Q1 2022) Estimated round: $2-$3 million
+
+__________________________________________________________________________
+
+Phase IV: Audit, Community Outreach, & API Provider On-boarding
+
+Deliverables: 
+
+-Audit back-end 
+
+-Approach API providers off-chain to incentivize data providers to bring their data on-chain through Web3 gateways
+
+-Create a community to educate API providers about decentralization 
+
+Time (Q2 2022) N/A
+_________________________________________________________________________
+
+Phase V: User Features & Product Integrations
+
+Deliverables: 
+
+-Increase user functionality and features for the end-consumer
+
+-Add charts to the live data feed subscription packages
+
+Time and Price Estimate (Q3 2022) N/A
+________________________________________________________________________
+
+7, How your project stands out among competitors or implements technology that doesn’t exist in the ecosystem yet? *
+(If you’ve collected some data on the specific market and vertical, please feel free to share)
+
+The main question we immediately get in almost any meeting in the defi community is, "So how does this differ from Chainlink? Can you shed some light on this? Are you trying to say Chainlink is not reliable or accurate?"
+
+In this space, there is no doubt that there is not only the Oracle problem that everybody is familiar with, but also an API bottleneck into the ecosystem. We aim to solve the onboarding of API providers onto the blockchain to aggregate and generate dAPI endpoints for blockchain developers entering this space.
+
+1. First Party Oracles v.s Third party Oracles:
+
+The main issue that we solve is that we work with the API providers directly to integrate their endpoints onto the blockchain through a CloudNode. These API providers act as first-party oracles that are operated by the API providers themselves. This means each API is served by an oracle node that is operated by the entity that owns the API, rather than a third party node. This fundamental difference increases decentralization by requiring fewer oracles, preventing over-redundant decentralization at the oracle level
+
+Transparency: in terms of the data source and the degree of decentralization. Since each API provider will operate an oracle node which will be visible on-chain—the number of oracles serving a data feed will accurately represent how decentralized it is, as there is a one-to-one mapping between oracles and data sources,
+
+Decentralization: Needs fewer oracles, and prevents over-redundant decentralization at the oracle level. Eliminates the issue of a 51% oracle colusion to manipulate data feeds on-chain.
+
+Cost: 50% more efficient in terms of gas costs compared to employing middlemen (third party); as one needs to pay middlemen both for their services and to incentivize them manipulating the data feed (referred to as the middleman tax).
+
+2. Interobibility: 
+
+We also believe that staking the native asset to compile data on-chain is not only costly but holds up the native liquidity into the protocol. We aim to provide decentralized price feeds paid when connected with your metamask through a monthly subscription or licensing agreements for DEX's & Dapps projects on-chain.
+
+3. Insurance:
+
+Staked tokens act as insurance to our protocol, which is backed by the Kleros Court to settle any data feed and outlier event disputes on-chain. This level of security adds a layer of trustlessness to our protocol for our end-user.
+
+8, Do you have a written plan for GTM (go to market)? How will you do the user growth? *
+(You can also direct the answer to a google doc and share the link)
+
+https://drive.google.com/file/d/1c9digjWVscLHRvj2t4AHxuBuURcss3dI/view?usp=sharing
+
+9, Please tell us about your team, any relevant experience do they have? *
+(Please list their name, role, base, excellence, full/part-time on this project, LinkedIn profiles, Github, etc, the more information you provide, the better.)
+
+https://drive.google.com/file/d/1o4Aax_TZKTC1rb1U_Xd_WZ-LTkrOFENp/view?usp=sharing
+
+Tyler Doiron, Founder CEO of Tilebase Inc. 
+
+Profile: https://www.linkedin.com/in/tyler-doiron-056744197/
+
+I specialize in building innovative and concrete marketing/ brand strategies for business professionals, as well as, UI/UX design, B2B, & lead management for project development. 
+
+Experience:
+
+-Defi innovator 
+-Yield Strategist
+-Entrepreneur
+-4+ years of Graphic Design experience
+_________________________________________________________________________
+
+Gabriel Kent, Advisor
+
+Profile: https://www.linkedin.com/in/gabrielkent/
+
+Over the last 5 years, Gabriel has developed and led products that have gone on to generate ~$500M USD in revenue from 150k SMBs and 20+ large enterprises throughout the US & LatAm.
+
+Experience:
+
+Co-Founder & Member of the Board at Adext AI
+
+-Experienced founder & CTO with a developer's background. 
+-Expert in the entire software product development cycle.
+_________________________________________________________________________
+
+Jason Min, Lead Developer
+
+Profile: linkedin.com/in/jason-min-93a868207
+
+Senior full-stack engineer with 7+ years of experience in software development as well as blockchain projects.
+
+Participated in the complete product development lifecycle of successfully launched applications based on AI and blockchain technology.
+
+Experience:
+
+Senior  Blockchain Engineer at Bird.Money
+
+-Built an oracle system for bird analytics platform.
+-Smart Contract for on-chain oracle
+-Off-chain oracle nodes using Node.js
+-Platform UI using React and Web3.js
+_________________________________________________________________________
+
+10, How much grant you are applying for and what’s the plan to spend the grant? *
+(Please also illustrate how much will be spent roughly for each milestone)
+$85,000 Grant
+
+$13,500/ Month for development (1 CTO, 2 Back-end, 2 Front-end)
+
+-Smart Contracts
+
+-Tech Integration
+
+-Dapp
+
+-Audit
+
+
+$1,000 for Website & Node Deployment
+
+-Website Design
+
+-Domain Hosting
+11, Have you applied or are you planning to apply for other grants? *
+(If you also applied for other grants, please share who they are in Question 12)
+A: Yes, we want to try multiple opportunities
+B: No, we don’t need that much money at this stage
+C: Not yet, but might give a shot
+12, Any additional information that you think is relevant to this application? (Telegram/WeChat ID will help us find you easily :)
+(Apart fromTelegram/WeChat ID, if you think it will help us understand more about the context, please feel free to share anything about your project if you want)
+^ We had one meeting with Marek and Sami from the OpenDefi DAO on 09/07/21, for a potential grant funding opportunity, which I met through the Toronto Defi community.  
+
+Additional Information:
+
+Generalized Mining:
+
+https://drive.google.com/file/d/1s3QDQxYNq7L9wFcO8NicMytMp9JktIlD/view?usp=sharing
+
+We also plan to actively contribute to blockchain networks through 'generalized mining' initiatives by providing accurate and reliable data feeds to these decentralized protocols.
+
+Decentralized networks typically require hardware, software, or manual services in order to function. However, they cannot provide such services themselves (for reasons of both economics and decentralization) and therefore rely on users and other third-parties for service provision.
+
+Generalized mining has the potential to benefit all actors on a network, including providing better network operation to end users (the demand side) and earning incentives in the form of native rewards from the network for Signal Providers (the supply side).
+
+Our 1st 'generalized mining' initiative is to become a Signal Provider for the Flare Time Series Oracle (FTSO); to supply accurate price feeds for Dapps built on the Flare Network:
+
+The FTSO is an incentivized system that offers rewards in Spark (FLR), based on the accuracy of the data provided, to active network participants & Signal Providers who contribute to the network.
+
+This data in turn gets used by applications on the network to do things like trade tokens, or participate in liquidity pools.
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Thank you!
