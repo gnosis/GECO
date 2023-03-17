@@ -1,4 +1,5 @@
-# Proposal Guideline 
+# Lepton-Proposal-For_Gnosis-Fund
+
 _This is a guideline on how to best structure your proposal._
 
 ## Project Overview
